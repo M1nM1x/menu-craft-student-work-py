@@ -1,0 +1,715 @@
+{
+  "Categories": [
+    { "category_id": 1, "category_name": "Супы" },
+    { "category_id": 2, "category_name": "Салаты" },
+    { "category_id": 3, "category_name": "Основные блюда" },
+    { "category_id": 4, "category_name": "Десерты" },
+    { "category_id": 5, "category_name": "Закуски" },
+    { "category_id": 6, "category_name": "Выпечка" },
+    { "category_id": 7, "category_name": "Напитки" },
+    { "category_id": 8, "category_name": "Гарниры" },
+    { "category_id": 9, "category_name": "Соусы" },
+    { "category_id": 10, "category_name": "Завтраки" }
+  ],
+  "Units": [
+    { "unit_id": 1, "unit_name": "Супы" },
+    { "unit_id": 2, "unit_name": "Салаты" },
+    { "unit_id": 3, "unit_name": "Основные блюда" },
+    { "unit_id": 4, "unit_name": "Десерты" },
+    { "unit_id": 5, "unit_name": "Закуски" }
+  ],
+  "Ingredients": [
+    { "ingredient_id": 1, "ingredient_name": "Мука" },
+    { "ingredient_id": 2, "ingredient_name": "Сахар" },
+    { "ingredient_id": 3, "ingredient_name": "Соль" },
+    { "ingredient_id": 4, "ingredient_name": "Масло сливочное" },
+    { "ingredient_id": 5, "ingredient_name": "Масло растительное" },
+    { "ingredient_id": 6, "ingredient_name": "Яйца" },
+    { "ingredient_id": 7, "ingredient_name": "Молоко" },
+    { "ingredient_id": 8, "ingredient_name": "Свекла" },
+    { "ingredient_id": 9, "ingredient_name": "Капуста" },
+    { "ingredient_id": 10, "ingredient_name": "Картофель" },
+    { "ingredient_id": 11, "ingredient_name": "Морковь" },
+    { "ingredient_id": 12, "ingredient_name": "Лук" },
+    { "ingredient_id": 13, "ingredient_name": "Чеснок" },
+    { "ingredient_id": 14, "ingredient_name": "Томаты" },
+    { "ingredient_id": 15, "ingredient_name": "Говядина" },
+    { "ingredient_id": 16, "ingredient_name": "Курица" },
+    { "ingredient_id": 17, "ingredient_name": "Рыба" },
+    { "ingredient_id": 18, "ingredient_name": "Свинина" },
+    { "ingredient_id": 19, "ingredient_name": "Рис" },
+    { "ingredient_id": 20, "ingredient_name": "Паста" },
+    { "ingredient_id": 21, "ingredient_name": "Сыр" },
+    { "ingredient_id": 22, "ingredient_name": "Сметана" },
+    { "ingredient_id": 23, "ingredient_name": "Майонез" },
+    { "ingredient_id": 24, "ingredient_name": "Уксус" },
+    { "ingredient_id": 25, "ingredient_name": "Мед" },
+    { "ingredient_id": 26, "ingredient_name": "Лимон" },
+    { "ingredient_id": 27, "ingredient_name": "Зелень" },
+    { "ingredient_id": 28, "ingredient_name": "Огурцы" },
+    { "ingredient_id": 29, "ingredient_name": "Помидоры" },
+    { "ingredient_id": 30, "ingredient_name": "Листья салата" },
+    { "ingredient_id": 31, "ingredient_name": "Креветки" },
+    { "ingredient_id": 32, "ingredient_name": "Авокадо" },
+    { "ingredient_id": 33, "ingredient_name": "Бекон" },
+    { "ingredient_id": 34, "ingredient_name": "Пармезан" },
+    { "ingredient_id": 35, "ingredient_name": "Крутоны" },
+    { "ingredient_id": 36, "ingredient_name": "Маскарпоне" },
+    { "ingredient_id": 37, "ingredient_name": "Кофе" },
+    { "ingredient_id": 38, "ingredient_name": "Печенье савоярди" },
+    { "ingredient_id": 39, "ingredient_name": "Какао" },
+    { "ingredient_id": 40, "ingredient_name": "Сливки" },
+    { "ingredient_id": 41, "ingredient_name": "Грибы" },
+    { "ingredient_id": 42, "ingredient_name": "Перец" },
+    { "ingredient_id": 43, "ingredient_name": "Базилик" },
+    { "ingredient_id": 44, "ingredient_name": "Орегано" },
+    { "ingredient_id": 45, "ingredient_name": "Тесто" },
+    { "ingredient_id": 46, "ingredient_name": "Дрожжи" },
+    { "ingredient_id": 47, "ingredient_name": "Яблоки" },
+    { "ingredient_id": 48, "ingredient_name": "Шоколад" },
+    { "ingredient_id": 49, "ingredient_name": "Ваниль" },
+    { "ingredient_id": 50, "ingredient_name": "Корица" }
+  ],
+  "Dishes": [
+    {
+      "dish_id": 1,
+      "dish_name": "Борщ",
+      "description": "Традиционный украинский суп с говядиной и свеклой",
+      "recipe": "Сварить бульон из говядины, добавить нарезанные свеклу, капусту, картофель, морковь, лук. Тушить томаты с чесноком, добавить в суп. Варить 40 минут, подавать со сметаной.",
+      "calories": 250,
+      "cooking_time": 60,
+      "difficulty": "Средне",
+      "category_id": 1,
+      "ingredients": [
+        { "ingredient_id": 8, "quantity": 300, "unit_id": 1 },
+        { "ingredient_id": 8, "quantity": 300, "unit_id": 1 },
+        { "ingredient_id": 8, "quantity": 300, "unit_id": 1 },
+        { "ingredient_id": 8, "quantity": 300, "unit_id": 1 }
+      ]
+    },
+    {
+      "dish_id": 1,
+      "dish_name": "Борщ",
+      "description": "Традиционный украинский суп с говядиной и свеклой",
+      "recipe": "Сварить бульон из говядины, добавить нарезанные свеклу, капусту, картофель, морковь, лук. Тушить томаты с чесноком, добавить в суп. Варить 40 минут, подавать со сметаной.",
+      "calories": 250,
+      "cooking_time": 60,
+      "difficulty": "Средне",
+      "category_id": 1,
+      "ingredients": [
+        { "ingredient_id": 9, "quantity": 200, "unit_id": 1 },
+        { "ingredient_id": 9, "quantity": 200, "unit_id": 1 },
+        { "ingredient_id": 9, "quantity": 200, "unit_id": 1 },
+        { "ingredient_id": 9, "quantity": 200, "unit_id": 1 }
+      ]
+    },
+    {
+      "dish_id": 1,
+      "dish_name": "Борщ",
+      "description": "Традиционный украинский суп с говядиной и свеклой",
+      "recipe": "Сварить бульон из говядины, добавить нарезанные свеклу, капусту, картофель, морковь, лук. Тушить томаты с чесноком, добавить в суп. Варить 40 минут, подавать со сметаной.",
+      "calories": 250,
+      "cooking_time": 60,
+      "difficulty": "Средне",
+      "category_id": 1,
+      "ingredients": [
+        { "ingredient_id": 10, "quantity": 400, "unit_id": 1 },
+        { "ingredient_id": 10, "quantity": 400, "unit_id": 1 },
+        { "ingredient_id": 10, "quantity": 400, "unit_id": 1 },
+        { "ingredient_id": 10, "quantity": 400, "unit_id": 1 }
+      ]
+    },
+    {
+      "dish_id": 1,
+      "dish_name": "Борщ",
+      "description": "Традиционный украинский суп с говядиной и свеклой",
+      "recipe": "Сварить бульон из говядины, добавить нарезанные свеклу, капусту, картофель, морковь, лук. Тушить томаты с чесноком, добавить в суп. Варить 40 минут, подавать со сметаной.",
+      "calories": 250,
+      "cooking_time": 60,
+      "difficulty": "Средне",
+      "category_id": 1,
+      "ingredients": [
+        { "ingredient_id": 15, "quantity": 200, "unit_id": 1 },
+        { "ingredient_id": 15, "quantity": 200, "unit_id": 1 },
+        { "ingredient_id": 15, "quantity": 200, "unit_id": 1 },
+        { "ingredient_id": 15, "quantity": 200, "unit_id": 1 }
+      ]
+    },
+    {
+      "dish_id": 2,
+      "dish_name": "Салат Цезарь",
+      "description": "Классический салат с курицей и крутонами",
+      "recipe": "Обжарить курицу, нарезать листья салата, добавить крутоны, пармезан. Смешать соус из майонеза, чеснока, лимона, анчоусов. Заправить салат.",
+      "calories": 350,
+      "cooking_time": 20,
+      "difficulty": "Легко",
+      "category_id": 2,
+      "ingredients": [
+        { "ingredient_id": 30, "quantity": 100, "unit_id": 1 },
+        { "ingredient_id": 30, "quantity": 100, "unit_id": 1 },
+        { "ingredient_id": 30, "quantity": 100, "unit_id": 1 },
+        { "ingredient_id": 30, "quantity": 100, "unit_id": 1 }
+      ]
+    },
+    {
+      "dish_id": 2,
+      "dish_name": "Салат Цезарь",
+      "description": "Классический салат с курицей и крутонами",
+      "recipe": "Обжарить курицу, нарезать листья салата, добавить крутоны, пармезан. Смешать соус из майонеза, чеснока, лимона, анчоусов. Заправить салат.",
+      "calories": 350,
+      "cooking_time": 20,
+      "difficulty": "Легко",
+      "category_id": 2,
+      "ingredients": [
+        { "ingredient_id": 16, "quantity": 200, "unit_id": 1 },
+        { "ingredient_id": 16, "quantity": 200, "unit_id": 1 },
+        { "ingredient_id": 16, "quantity": 200, "unit_id": 1 },
+        { "ingredient_id": 16, "quantity": 200, "unit_id": 1 }
+      ]
+    },
+    {
+      "dish_id": 2,
+      "dish_name": "Салат Цезарь",
+      "description": "Классический салат с курицей и крутонами",
+      "recipe": "Обжарить курицу, нарезать листья салата, добавить крутоны, пармезан. Смешать соус из майонеза, чеснока, лимона, анчоусов. Заправить салат.",
+      "calories": 350,
+      "cooking_time": 20,
+      "difficulty": "Легко",
+      "category_id": 2,
+      "ingredients": [
+        { "ingredient_id": 35, "quantity": 50, "unit_id": 1 },
+        { "ingredient_id": 35, "quantity": 50, "unit_id": 1 },
+        { "ingredient_id": 35, "quantity": 50, "unit_id": 1 },
+        { "ingredient_id": 35, "quantity": 50, "unit_id": 1 }
+      ]
+    },
+    {
+      "dish_id": 2,
+      "dish_name": "Салат Цезарь",
+      "description": "Классический салат с курицей и крутонами",
+      "recipe": "Обжарить курицу, нарезать листья салата, добавить крутоны, пармезан. Смешать соус из майонеза, чеснока, лимона, анчоусов. Заправить салат.",
+      "calories": 350,
+      "cooking_time": 20,
+      "difficulty": "Легко",
+      "category_id": 2,
+      "ingredients": [
+        { "ingredient_id": 34, "quantity": 30, "unit_id": 1 },
+        { "ingredient_id": 34, "quantity": 30, "unit_id": 1 },
+        { "ingredient_id": 34, "quantity": 30, "unit_id": 1 },
+        { "ingredient_id": 34, "quantity": 30, "unit_id": 1 }
+      ]
+    },
+    {
+      "dish_id": 3,
+      "dish_name": "Спагетти карбонара",
+      "description": "Итальянская паста с беконом и сыром",
+      "recipe": "Сварить спагетти. Обжарить бекон, смешать с яйцами и пармезаном. Добавить пасту, перемешать, подавать сразу.",
+      "calories": 600,
+      "cooking_time": 15,
+      "difficulty": "Средне",
+      "category_id": 3,
+      "ingredients": [
+        { "ingredient_id": 20, "quantity": 200, "unit_id": 1 },
+        { "ingredient_id": 20, "quantity": 200, "unit_id": 1 },
+        { "ingredient_id": 20, "quantity": 200, "unit_id": 1 },
+        { "ingredient_id": 20, "quantity": 200, "unit_id": 1 }
+      ]
+    },
+    {
+      "dish_id": 3,
+      "dish_name": "Спагетти карбонара",
+      "description": "Итальянская паста с беконом и сыром",
+      "recipe": "Сварить спагетти. Обжарить бекон, смешать с яйцами и пармезаном. Добавить пасту, перемешать, подавать сразу.",
+      "calories": 600,
+      "cooking_time": 15,
+      "difficulty": "Средне",
+      "category_id": 3,
+      "ingredients": [
+        { "ingredient_id": 33, "quantity": 100, "unit_id": 1 },
+        { "ingredient_id": 33, "quantity": 100, "unit_id": 1 },
+        { "ingredient_id": 33, "quantity": 100, "unit_id": 1 },
+        { "ingredient_id": 33, "quantity": 100, "unit_id": 1 }
+      ]
+    },
+    {
+      "dish_id": 3,
+      "dish_name": "Спагетти карбонара",
+      "description": "Итальянская паста с беконом и сыром",
+      "recipe": "Сварить спагетти. Обжарить бекон, смешать с яйцами и пармезаном. Добавить пасту, перемешать, подавать сразу.",
+      "calories": 600,
+      "cooking_time": 15,
+      "difficulty": "Средне",
+      "category_id": 3,
+      "ingredients": [
+        { "ingredient_id": 34, "quantity": 50, "unit_id": 1 },
+        { "ingredient_id": 34, "quantity": 50, "unit_id": 1 },
+        { "ingredient_id": 34, "quantity": 50, "unit_id": 1 },
+        { "ingredient_id": 34, "quantity": 50, "unit_id": 1 }
+      ]
+    },
+    {
+      "dish_id": 3,
+      "dish_name": "Спагетти карбонара",
+      "description": "Итальянская паста с беконом и сыром",
+      "recipe": "Сварить спагетти. Обжарить бекон, смешать с яйцами и пармезаном. Добавить пасту, перемешать, подавать сразу.",
+      "calories": 600,
+      "cooking_time": 15,
+      "difficulty": "Средне",
+      "category_id": 3,
+      "ingredients": [
+        { "ingredient_id": 6, "quantity": 2, "unit_id": 1 },
+        { "ingredient_id": 6, "quantity": 2, "unit_id": 1 },
+        { "ingredient_id": 6, "quantity": 2, "unit_id": 1 },
+        { "ingredient_id": 6, "quantity": 2, "unit_id": 1 }
+      ]
+    },
+    {
+      "dish_id": 4,
+      "dish_name": "Тирамису",
+      "description": "Итальянский десерт с маскарпоне и кофе",
+      "recipe": "Смешать маскарпоне с сахаром и сливками. Обмакнуть печенье савоярди в кофе, выложить слоями с кремом. Посыпать какао, охладить 4 часа.",
+      "calories": 400,
+      "cooking_time": 30,
+      "difficulty": "Средне",
+      "category_id": 4,
+      "ingredients": [
+        { "ingredient_id": 36, "quantity": 250, "unit_id": 1 },
+        { "ingredient_id": 36, "quantity": 250, "unit_id": 1 },
+        { "ingredient_id": 36, "quantity": 250, "unit_id": 1 },
+        { "ingredient_id": 36, "quantity": 250, "unit_id": 1 }
+      ]
+    },
+    {
+      "dish_id": 4,
+      "dish_name": "Тирамису",
+      "description": "Итальянский десерт с маскарпоне и кофе",
+      "recipe": "Смешать маскарпоне с сахаром и сливками. Обмакнуть печенье савоярди в кофе, выложить слоями с кремом. Посыпать какао, охладить 4 часа.",
+      "calories": 400,
+      "cooking_time": 30,
+      "difficulty": "Средне",
+      "category_id": 4,
+      "ingredients": [
+        { "ingredient_id": 37, "quantity": 100, "unit_id": 1 },
+        { "ingredient_id": 37, "quantity": 100, "unit_id": 1 },
+        { "ingredient_id": 37, "quantity": 100, "unit_id": 1 },
+        { "ingredient_id": 37, "quantity": 100, "unit_id": 1 }
+      ]
+    },
+    {
+      "dish_id": 4,
+      "dish_name": "Тирамису",
+      "description": "Итальянский десерт с маскарпоне и кофе",
+      "recipe": "Смешать маскарпоне с сахаром и сливками. Обмакнуть печенье савоярди в кофе, выложить слоями с кремом. Посыпать какао, охладить 4 часа.",
+      "calories": 400,
+      "cooking_time": 30,
+      "difficulty": "Средне",
+      "category_id": 4,
+      "ingredients": [
+        { "ingredient_id": 38, "quantity": 200, "unit_id": 1 },
+        { "ingredient_id": 38, "quantity": 200, "unit_id": 1 },
+        { "ingredient_id": 38, "quantity": 200, "unit_id": 1 },
+        { "ingredient_id": 38, "quantity": 200, "unit_id": 1 }
+      ]
+    },
+    {
+      "dish_id": 4,
+      "dish_name": "Тирамису",
+      "description": "Итальянский десерт с маскарпоне и кофе",
+      "recipe": "Смешать маскарпоне с сахаром и сливками. Обмакнуть печенье савоярди в кофе, выложить слоями с кремом. Посыпать какао, охладить 4 часа.",
+      "calories": 400,
+      "cooking_time": 30,
+      "difficulty": "Средне",
+      "category_id": 4,
+      "ingredients": [
+        { "ingredient_id": 39, "quantity": 20, "unit_id": 1 },
+        { "ingredient_id": 39, "quantity": 20, "unit_id": 1 },
+        { "ingredient_id": 39, "quantity": 20, "unit_id": 1 },
+        { "ingredient_id": 39, "quantity": 20, "unit_id": 1 }
+      ]
+    },
+    {
+      "dish_id": 5,
+      "dish_name": "Оливье",
+      "description": "Русский салат с картофелем и майонезом",
+      "recipe": "Отварить картофель, морковь, яйца, нарезать кубиками. Добавить огурцы, горошек, колбасу, заправить майонезом.",
+      "calories": 300,
+      "cooking_time": 25,
+      "difficulty": "Легко",
+      "category_id": 2,
+      "ingredients": [
+        { "ingredient_id": 10, "quantity": 300, "unit_id": 1 },
+        { "ingredient_id": 10, "quantity": 300, "unit_id": 1 },
+        { "ingredient_id": 10, "quantity": 300, "unit_id": 1 },
+        { "ingredient_id": 10, "quantity": 300, "unit_id": 1 }
+      ]
+    },
+    {
+      "dish_id": 5,
+      "dish_name": "Оливье",
+      "description": "Русский салат с картофелем и майонезом",
+      "recipe": "Отварить картофель, морковь, яйца, нарезать кубиками. Добавить огурцы, горошек, колбасу, заправить майонезом.",
+      "calories": 300,
+      "cooking_time": 25,
+      "difficulty": "Легко",
+      "category_id": 2,
+      "ingredients": [
+        { "ingredient_id": 23, "quantity": 100, "unit_id": 1 },
+        { "ingredient_id": 23, "quantity": 100, "unit_id": 1 },
+        { "ingredient_id": 23, "quantity": 100, "unit_id": 1 },
+        { "ingredient_id": 23, "quantity": 100, "unit_id": 1 }
+      ]
+    },
+    {
+      "dish_id": 5,
+      "dish_name": "Оливье",
+      "description": "Русский салат с картофелем и майонезом",
+      "recipe": "Отварить картофель, морковь, яйца, нарезать кубиками. Добавить огурцы, горошек, колбасу, заправить майонезом.",
+      "calories": 300,
+      "cooking_time": 25,
+      "difficulty": "Легко",
+      "category_id": 2,
+      "ingredients": [
+        { "ingredient_id": 28, "quantity": 150, "unit_id": 1 },
+        { "ingredient_id": 28, "quantity": 150, "unit_id": 1 },
+        { "ingredient_id": 28, "quantity": 150, "unit_id": 1 },
+        { "ingredient_id": 28, "quantity": 150, "unit_id": 1 }
+      ]
+    },
+    {
+      "dish_id": 5,
+      "dish_name": "Оливье",
+      "description": "Русский салат с картофелем и майонезом",
+      "recipe": "Отварить картофель, морковь, яйца, нарезать кубиками. Добавить огурцы, горошек, колбасу, заправить майонезом.",
+      "calories": 300,
+      "cooking_time": 25,
+      "difficulty": "Легко",
+      "category_id": 2,
+      "ingredients": [
+        { "ingredient_id": 29, "quantity": 150, "unit_id": 1 },
+        { "ingredient_id": 29, "quantity": 150, "unit_id": 1 },
+        { "ingredient_id": 29, "quantity": 150, "unit_id": 1 },
+        { "ingredient_id": 29, "quantity": 150, "unit_id": 1 }
+      ]
+    },
+    {
+      "dish_id": 6,
+      "dish_name": "Грибной суп",
+      "description": "Суп с шампиньонами и сливками",
+      "recipe": "Обжарить грибы с луком, добавить картофель и воду, варить 20 минут. Влить сливки, посолить, подавать с зеленью.",
+      "calories": 200,
+      "cooking_time": 30,
+      "difficulty": "Легко",
+      "category_id": 1,
+      "ingredients": [
+        { "ingredient_id": 41, "quantity": 200, "unit_id": 1 },
+        { "ingredient_id": 41, "quantity": 200, "unit_id": 1 },
+        { "ingredient_id": 41, "quantity": 200, "unit_id": 1 },
+        { "ingredient_id": 41, "quantity": 200, "unit_id": 1 }
+      ]
+    },
+    {
+      "dish_id": 6,
+      "dish_name": "Грибной суп",
+      "description": "Суп с шампиньонами и сливками",
+      "recipe": "Обжарить грибы с луком, добавить картофель и воду, варить 20 минут. Влить сливки, посолить, подавать с зеленью.",
+      "calories": 200,
+      "cooking_time": 30,
+      "difficulty": "Легко",
+      "category_id": 1,
+      "ingredients": [
+        { "ingredient_id": 40, "quantity": 100, "unit_id": 1 },
+        { "ingredient_id": 40, "quantity": 100, "unit_id": 1 },
+        { "ingredient_id": 40, "quantity": 100, "unit_id": 1 },
+        { "ingredient_id": 40, "quantity": 100, "unit_id": 1 }
+      ]
+    },
+    {
+      "dish_id": 6,
+      "dish_name": "Грибной суп",
+      "description": "Суп с шампиньонами и сливками",
+      "recipe": "Обжарить грибы с луком, добавить картофель и воду, варить 20 минут. Влить сливки, посолить, подавать с зеленью.",
+      "calories": 200,
+      "cooking_time": 30,
+      "difficulty": "Легко",
+      "category_id": 1,
+      "ingredients": [
+        { "ingredient_id": 12, "quantity": 50, "unit_id": 1 },
+        { "ingredient_id": 12, "quantity": 50, "unit_id": 1 },
+        { "ingredient_id": 12, "quantity": 50, "unit_id": 1 },
+        { "ingredient_id": 12, "quantity": 50, "unit_id": 1 }
+      ]
+    },
+    {
+      "dish_id": 6,
+      "dish_name": "Грибной суп",
+      "description": "Суп с шампиньонами и сливками",
+      "recipe": "Обжарить грибы с луком, добавить картофель и воду, варить 20 минут. Влить сливки, посолить, подавать с зеленью.",
+      "calories": 200,
+      "cooking_time": 30,
+      "difficulty": "Легко",
+      "category_id": 1,
+      "ingredients": [
+        { "ingredient_id": 3, "quantity": 5, "unit_id": 1 },
+        { "ingredient_id": 3, "quantity": 5, "unit_id": 1 },
+        { "ingredient_id": 3, "quantity": 5, "unit_id": 1 },
+        { "ingredient_id": 3, "quantity": 5, "unit_id": 1 }
+      ]
+    },
+    {
+      "dish_id": 7,
+      "dish_name": "Пельмени",
+      "description": "Сибирские пельмени с мясом",
+      "recipe": "Замесить тесто, приготовить фарш из говядины и лука. Сформировать пельмени, варить 7 минут. Подавать со сметаной.",
+      "calories": 450,
+      "cooking_time": 40,
+      "difficulty": "Средне",
+      "category_id": 3,
+      "ingredients": [
+        { "ingredient_id": 45, "quantity": 300, "unit_id": 1 },
+        { "ingredient_id": 45, "quantity": 300, "unit_id": 1 },
+        { "ingredient_id": 45, "quantity": 300, "unit_id": 1 },
+        { "ingredient_id": 45, "quantity": 300, "unit_id": 1 }
+      ]
+    },
+    {
+      "dish_id": 7,
+      "dish_name": "Пельмени",
+      "description": "Сибирские пельмени с мясом",
+      "recipe": "Замесить тесто, приготовить фарш из говядины и лука. Сформировать пельмени, варить 7 минут. Подавать со сметаной.",
+      "calories": 450,
+      "cooking_time": 40,
+      "difficulty": "Средне",
+      "category_id": 3,
+      "ingredients": [
+        { "ingredient_id": 15, "quantity": 200, "unit_id": 1 },
+        { "ingredient_id": 15, "quantity": 200, "unit_id": 1 },
+        { "ingredient_id": 15, "quantity": 200, "unit_id": 1 },
+        { "ingredient_id": 15, "quantity": 200, "unit_id": 1 }
+      ]
+    },
+    {
+      "dish_id": 7,
+      "dish_name": "Пельмени",
+      "description": "Сибирские пельмени с мясом",
+      "recipe": "Замесить тесто, приготовить фарш из говядины и лука. Сформировать пельмени, варить 7 минут. Подавать со сметаной.",
+      "calories": 450,
+      "cooking_time": 40,
+      "difficulty": "Средне",
+      "category_id": 3,
+      "ingredients": [
+        { "ingredient_id": 3, "quantity": 5, "unit_id": 1 },
+        { "ingredient_id": 3, "quantity": 5, "unit_id": 1 },
+        { "ingredient_id": 3, "quantity": 5, "unit_id": 1 },
+        { "ingredient_id": 3, "quantity": 5, "unit_id": 1 }
+      ]
+    },
+    {
+      "dish_id": 7,
+      "dish_name": "Пельмени",
+      "description": "Сибирские пельмени с мясом",
+      "recipe": "Замесить тесто, приготовить фарш из говядины и лука. Сформировать пельмени, варить 7 минут. Подавать со сметаной.",
+      "calories": 450,
+      "cooking_time": 40,
+      "difficulty": "Средне",
+      "category_id": 3,
+      "ingredients": [
+        { "ingredient_id": 12, "quantity": 50, "unit_id": 1 },
+        { "ingredient_id": 12, "quantity": 50, "unit_id": 1 },
+        { "ingredient_id": 12, "quantity": 50, "unit_id": 1 },
+        { "ingredient_id": 12, "quantity": 50, "unit_id": 1 }
+      ]
+    },
+    {
+      "dish_id": 8,
+      "dish_name": "Чизкейк",
+      "description": "Десерт с сырным кремом и печеньем",
+      "recipe": "Измельчить печенье, смешать с маслом для основы. Смешать маскарпоне, сахар, яйца, вылить на основу. Выпекать 50 минут, охладить.",
+      "calories": 500,
+      "cooking_time": 60,
+      "difficulty": "Средне",
+      "category_id": 4,
+      "ingredients": [
+        { "ingredient_id": 36, "quantity": 200, "unit_id": 1 },
+        { "ingredient_id": 36, "quantity": 200, "unit_id": 1 },
+        { "ingredient_id": 36, "quantity": 200, "unit_id": 1 },
+        { "ingredient_id": 36, "quantity": 200, "unit_id": 1 }
+      ]
+    },
+    {
+      "dish_id": 8,
+      "dish_name": "Чизкейк",
+      "description": "Десерт с сырным кремом и печеньем",
+      "recipe": "Измельчить печенье, смешать с маслом для основы. Смешать маскарпоне, сахар, яйца, вылить на основу. Выпекать 50 минут, охладить.",
+      "calories": 500,
+      "cooking_time": 60,
+      "difficulty": "Средне",
+      "category_id": 4,
+      "ingredients": [
+        { "ingredient_id": 4, "quantity": 100, "unit_id": 1 },
+        { "ingredient_id": 4, "quantity": 100, "unit_id": 1 },
+        { "ingredient_id": 4, "quantity": 100, "unit_id": 1 },
+        { "ingredient_id": 4, "quantity": 100, "unit_id": 1 }
+      ]
+    },
+    {
+      "dish_id": 8,
+      "dish_name": "Чизкейк",
+      "description": "Десерт с сырным кремом и печеньем",
+      "recipe": "Измельчить печенье, смешать с маслом для основы. Смешать маскарпоне, сахар, яйца, вылить на основу. Выпекать 50 минут, охладить.",
+      "calories": 500,
+      "cooking_time": 60,
+      "difficulty": "Средне",
+      "category_id": 4,
+      "ingredients": [
+        { "ingredient_id": 2, "quantity": 100, "unit_id": 1 },
+        { "ingredient_id": 2, "quantity": 100, "unit_id": 1 },
+        { "ingredient_id": 2, "quantity": 100, "unit_id": 1 },
+        { "ingredient_id": 2, "quantity": 100, "unit_id": 1 }
+      ]
+    },
+    {
+      "dish_id": 8,
+      "dish_name": "Чизкейк",
+      "description": "Десерт с сырным кремом и печеньем",
+      "recipe": "Измельчить печенье, смешать с маслом для основы. Смешать маскарпоне, сахар, яйца, вылить на основу. Выпекать 50 минут, охладить.",
+      "calories": 500,
+      "cooking_time": 60,
+      "difficulty": "Средне",
+      "category_id": 4,
+      "ingredients": [
+        { "ingredient_id": 6, "quantity": 2, "unit_id": 1 },
+        { "ingredient_id": 6, "quantity": 2, "unit_id": 1 },
+        { "ingredient_id": 6, "quantity": 2, "unit_id": 1 },
+        { "ingredient_id": 6, "quantity": 2, "unit_id": 1 }
+      ]
+    },
+    {
+      "dish_id": 9,
+      "dish_name": "Греческий салат",
+      "description": "Салат с огурцами, помидорами и фетой",
+      "recipe": "Нарезать огурцы, помидоры, лук, добавить оливки, фету. Заправить оливковым маслом, лимоном, орегано.",
+      "calories": 200,
+      "cooking_time": 15,
+      "difficulty": "Легко",
+      "category_id": 2,
+      "ingredients": [
+        { "ingredient_id": 28, "quantity": 150, "unit_id": 1 },
+        { "ingredient_id": 28, "quantity": 150, "unit_id": 1 },
+        { "ingredient_id": 28, "quantity": 150, "unit_id": 1 },
+        { "ingredient_id": 28, "quantity": 150, "unit_id": 1 }
+      ]
+    },
+    {
+      "dish_id": 9,
+      "dish_name": "Греческий салат",
+      "description": "Салат с огурцами, помидорами и фетой",
+      "recipe": "Нарезать огурцы, помидоры, лук, добавить оливки, фету. Заправить оливковым маслом, лимоном, орегано.",
+      "calories": 200,
+      "cooking_time": 15,
+      "difficulty": "Легко",
+      "category_id": 2,
+      "ingredients": [
+        { "ingredient_id": 29, "quantity": 150, "unit_id": 1 },
+        { "ingredient_id": 29, "quantity": 150, "unit_id": 1 },
+        { "ingredient_id": 29, "quantity": 150, "unit_id": 1 },
+        { "ingredient_id": 29, "quantity": 150, "unit_id": 1 }
+      ]
+    },
+    {
+      "dish_id": 9,
+      "dish_name": "Греческий салат",
+      "description": "Салат с огурцами, помидорами и фетой",
+      "recipe": "Нарезать огурцы, помидоры, лук, добавить оливки, фету. Заправить оливковым маслом, лимоном, орегано.",
+      "calories": 200,
+      "cooking_time": 15,
+      "difficulty": "Легко",
+      "category_id": 2,
+      "ingredients": [
+        { "ingredient_id": 21, "quantity": 100, "unit_id": 1 },
+        { "ingredient_id": 21, "quantity": 100, "unit_id": 1 },
+        { "ingredient_id": 21, "quantity": 100, "unit_id": 1 },
+        { "ingredient_id": 21, "quantity": 100, "unit_id": 1 }
+      ]
+    },
+    {
+      "dish_id": 9,
+      "dish_name": "Греческий салат",
+      "description": "Салат с огурцами, помидорами и фетой",
+      "recipe": "Нарезать огурцы, помидоры, лук, добавить оливки, фету. Заправить оливковым маслом, лимоном, орегано.",
+      "calories": 200,
+      "cooking_time": 15,
+      "difficulty": "Легко",
+      "category_id": 2,
+      "ingredients": [
+        { "ingredient_id": 27, "quantity": 50, "unit_id": 1 },
+        { "ingredient_id": 27, "quantity": 50, "unit_id": 1 },
+        { "ingredient_id": 27, "quantity": 50, "unit_id": 1 },
+        { "ingredient_id": 27, "quantity": 50, "unit_id": 1 }
+      ]
+    },
+    {
+      "dish_id": 10,
+      "dish_name": "Лазанья",
+      "description": "Итальянское блюдо с мясом и сыром",
+      "recipe": "Приготовить мясной соус из говядины, томатов, лука. Собрать слои из листов лазаньи, соуса, сыра. Выпекать 40 минут.",
+      "calories": 550,
+      "cooking_time": 60,
+      "difficulty": "Сложно",
+      "category_id": 3,
+      "ingredients": [
+        { "ingredient_id": 45, "quantity": 200, "unit_id": 1 },
+        { "ingredient_id": 45, "quantity": 200, "unit_id": 1 },
+        { "ingredient_id": 45, "quantity": 200, "unit_id": 1 },
+        { "ingredient_id": 45, "quantity": 200, "unit_id": 1 }
+      ]
+    },
+    {
+      "dish_id": 10,
+      "dish_name": "Лазанья",
+      "description": "Итальянское блюдо с мясом и сыром",
+      "recipe": "Приготовить мясной соус из говядины, томатов, лука. Собрать слои из листов лазаньи, соуса, сыра. Выпекать 40 минут.",
+      "calories": 550,
+      "cooking_time": 60,
+      "difficulty": "Сложно",
+      "category_id": 3,
+      "ingredients": [
+        { "ingredient_id": 15, "quantity": 200, "unit_id": 1 },
+        { "ingredient_id": 15, "quantity": 200, "unit_id": 1 },
+        { "ingredient_id": 15, "quantity": 200, "unit_id": 1 },
+        { "ingredient_id": 15, "quantity": 200, "unit_id": 1 }
+      ]
+    },
+    {
+      "dish_id": 10,
+      "dish_name": "Лазанья",
+      "description": "Итальянское блюдо с мясом и сыром",
+      "recipe": "Приготовить мясной соус из говядины, томатов, лука. Собрать слои из листов лазаньи, соуса, сыра. Выпекать 40 минут.",
+      "calories": 550,
+      "cooking_time": 60,
+      "difficulty": "Сложно",
+      "category_id": 3,
+      "ingredients": [
+        { "ingredient_id": 21, "quantity": 100, "unit_id": 1 },
+        { "ingredient_id": 21, "quantity": 100, "unit_id": 1 },
+        { "ingredient_id": 21, "quantity": 100, "unit_id": 1 },
+        { "ingredient_id": 21, "quantity": 100, "unit_id": 1 }
+      ]
+    },
+    {
+      "dish_id": 10,
+      "dish_name": "Лазанья",
+      "description": "Итальянское блюдо с мясом и сыром",
+      "recipe": "Приготовить мясной соус из говядины, томатов, лука. Собрать слои из листов лазаньи, соуса, сыра. Выпекать 40 минут.",
+      "calories": 550,
+      "cooking_time": 60,
+      "difficulty": "Сложно",
+      "category_id": 3,
+      "ingredients": [
+        { "ingredient_id": 14, "quantity": 100, "unit_id": 1 },
+        { "ingredient_id": 14, "quantity": 100, "unit_id": 1 },
+        { "ingredient_id": 14, "quantity": 100, "unit_id": 1 },
+        { "ingredient_id": 14, "quantity": 100, "unit_id": 1 }
+      ]
+    }
+  ]
+}

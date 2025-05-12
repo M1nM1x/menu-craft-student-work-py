@@ -1,0 +1,1641 @@
+{
+"Users":[
+ {
+  "username": "testuser",
+  "email": "test@example.com",
+  "password_hash": "hashed_password",
+  "created_at": "CURRENT_TIMESTAMP",
+  "updated_at": "CURRENT_TIMESTAMP"
+ }
+],
+"Categories":[
+ {
+  "category_name": "Супы",
+  "created_at": "CURRENT_TIMESTAMP",
+  "updated_at": "CURRENT_TIMESTAMP"
+ },
+ {
+  "category_name": "Салаты",
+  "created_at": "CURRENT_TIMESTAMP",
+  "updated_at": "CURRENT_TIMESTAMP"
+ },
+ {
+  "category_name": "Основные блюда",
+  "created_at": "CURRENT_TIMESTAMP",
+  "updated_at": "CURRENT_TIMESTAMP"
+ },
+ {
+  "category_name": "Десерты",
+  "created_at": "CURRENT_TIMESTAMP",
+  "updated_at": "CURRENT_TIMESTAMP"
+ },
+ {
+  "category_name": "Закуски",
+  "created_at": "CURRENT_TIMESTAMP",
+  "updated_at": "CURRENT_TIMESTAMP"
+ },
+ {
+  "category_name": "Выпечка",
+  "created_at": "CURRENT_TIMESTAMP",
+  "updated_at": "CURRENT_TIMESTAMP"
+ },
+ {
+  "category_name": "Напитки",
+  "created_at": "CURRENT_TIMESTAMP",
+  "updated_at": "CURRENT_TIMESTAMP"
+ },
+ {
+  "category_name": "Гарниры",
+  "created_at": "CURRENT_TIMESTAMP",
+  "updated_at": "CURRENT_TIMESTAMP"
+ },
+ {
+  "category_name": "Соусы",
+  "created_at": "CURRENT_TIMESTAMP",
+  "updated_at": "CURRENT_TIMESTAMP"
+ },
+ {
+  "category_name": "Завтраки",
+  "created_at": "CURRENT_TIMESTAMP",
+  "updated_at": "CURRENT_TIMESTAMP"
+ }
+],
+"Units":[
+ {
+  "unit_name": "грамм"
+ },
+ {
+  "unit_name": "стакан"
+ },
+ {
+  "unit_name": "ложка"
+ },
+ {
+  "unit_name": "килограмм"
+ },
+ {
+  "unit_name": "литр"
+ }
+],
+"Ingredients":[
+ {
+  "ingredient_name": "Мука",
+  "created_at": "CURRENT_TIMESTAMP",
+  "updated_at": "CURRENT_TIMESTAMP"
+ },
+ {
+  "ingredient_name": "Сахар",
+  "created_at": "CURRENT_TIMESTAMP",
+  "updated_at": "CURRENT_TIMESTAMP"
+ },
+ {
+  "ingredient_name": "Соль",
+  "created_at": "CURRENT_TIMESTAMP",
+  "updated_at": "CURRENT_TIMESTAMP"
+ },
+ {
+  "ingredient_name": "Масло сливочное",
+  "created_at": "CURRENT_TIMESTAMP",
+  "updated_at": "CURRENT_TIMESTAMP"
+ },
+ {
+  "ingredient_name": "Масло растительное",
+  "created_at": "CURRENT_TIMESTAMP",
+  "updated_at": "CURRENT_TIMESTAMP"
+ },
+ {
+  "ingredient_name": "Яйца",
+  "created_at": "CURRENT_TIMESTAMP",
+  "updated_at": "CURRENT_TIMESTAMP"
+ },
+ {
+  "ingredient_name": "Молоко",
+  "created_at": "CURRENT_TIMESTAMP",
+  "updated_at": "CURRENT_TIMESTAMP"
+ },
+ {
+  "ingredient_name": "Свекла",
+  "created_at": "CURRENT_TIMESTAMP",
+  "updated_at": "CURRENT_TIMESTAMP"
+ },
+ {
+  "ingredient_name": "Капуста",
+  "created_at": "CURRENT_TIMESTAMP",
+  "updated_at": "CURRENT_TIMESTAMP"
+ },
+ {
+  "ingredient_name": "Картофель",
+  "created_at": "CURRENT_TIMESTAMP",
+  "updated_at": "CURRENT_TIMESTAMP"
+ },
+ {
+  "ingredient_name": "Морковь",
+  "created_at": "CURRENT_TIMESTAMP",
+  "updated_at": "CURRENT_TIMESTAMP"
+ },
+ {
+  "ingredient_name": "Лук",
+  "created_at": "CURRENT_TIMESTAMP",
+  "updated_at": "CURRENT_TIMESTAMP"
+ },
+ {
+  "ingredient_name": "Чеснок",
+  "created_at": "CURRENT_TIMESTAMP",
+  "updated_at": "CURRENT_TIMESTAMP"
+ },
+ {
+  "ingredient_name": "Томаты",
+  "created_at": "CURRENT_TIMESTAMP",
+  "updated_at": "CURRENT_TIMESTAMP"
+ },
+ {
+  "ingredient_name": "Говядина",
+  "created_at": "CURRENT_TIMESTAMP",
+  "updated_at": "CURRENT_TIMESTAMP"
+ },
+ {
+  "ingredient_name": "Курица",
+  "created_at": "CURRENT_TIMESTAMP",
+  "updated_at": "CURRENT_TIMESTAMP"
+ },
+ {
+  "ingredient_name": "Рыба",
+  "created_at": "CURRENT_TIMESTAMP",
+  "updated_at": "CURRENT_TIMESTAMP"
+ },
+ {
+  "ingredient_name": "Свинина",
+  "created_at": "CURRENT_TIMESTAMP",
+  "updated_at": "CURRENT_TIMESTAMP"
+ },
+ {
+  "ingredient_name": "Рис",
+  "created_at": "CURRENT_TIMESTAMP",
+  "updated_at": "CURRENT_TIMESTAMP"
+ },
+ {
+  "ingredient_name": "Паста",
+  "created_at": "CURRENT_TIMESTAMP",
+  "updated_at": "CURRENT_TIMESTAMP"
+ },
+ {
+  "ingredient_name": "Сыр",
+  "created_at": "CURRENT_TIMESTAMP",
+  "updated_at": "CURRENT_TIMESTAMP"
+ },
+ {
+  "ingredient_name": "Сметана",
+  "created_at": "CURRENT_TIMESTAMP",
+  "updated_at": "CURRENT_TIMESTAMP"
+ },
+ {
+  "ingredient_name": "Майонез",
+  "created_at": "CURRENT_TIMESTAMP",
+  "updated_at": "CURRENT_TIMESTAMP"
+ },
+ {
+  "ingredient_name": "Уксус",
+  "created_at": "CURRENT_TIMESTAMP",
+  "updated_at": "CURRENT_TIMESTAMP"
+ },
+ {
+  "ingredient_name": "Мед",
+  "created_at": "CURRENT_TIMESTAMP",
+  "updated_at": "CURRENT_TIMESTAMP"
+ },
+ {
+  "ingredient_name": "Лимон",
+  "created_at": "CURRENT_TIMESTAMP",
+  "updated_at": "CURRENT_TIMESTAMP"
+ },
+ {
+  "ingredient_name": "Зелень",
+  "created_at": "CURRENT_TIMESTAMP",
+  "updated_at": "CURRENT_TIMESTAMP"
+ },
+ {
+  "ingredient_name": "Огурцы",
+  "created_at": "CURRENT_TIMESTAMP",
+  "updated_at": "CURRENT_TIMESTAMP"
+ },
+ {
+  "ingredient_name": "Помидоры",
+  "created_at": "CURRENT_TIMESTAMP",
+  "updated_at": "CURRENT_TIMESTAMP"
+ },
+ {
+  "ingredient_name": "Листья салата",
+  "created_at": "CURRENT_TIMESTAMP",
+  "updated_at": "CURRENT_TIMESTAMP"
+ },
+ {
+  "ingredient_name": "Креветки",
+  "created_at": "CURRENT_TIMESTAMP",
+  "updated_at": "CURRENT_TIMESTAMP"
+ },
+ {
+  "ingredient_name": "Авокадо",
+  "created_at": "CURRENT_TIMESTAMP",
+  "updated_at": "CURRENT_TIMESTAMP"
+ },
+ {
+  "ingredient_name": "Бекон",
+  "created_at": "CURRENT_TIMESTAMP",
+  "updated_at": "CURRENT_TIMESTAMP"
+ },
+ {
+  "ingredient_name": "Пармезан",
+  "created_at": "CURRENT_TIMESTAMP",
+  "updated_at": "CURRENT_TIMESTAMP"
+ },
+ {
+  "ingredient_name": "Крутоны",
+  "created_at": "CURRENT_TIMESTAMP",
+  "updated_at": "CURRENT_TIMESTAMP"
+ },
+ {
+  "ingredient_name": "Маскарпоне",
+  "created_at": "CURRENT_TIMESTAMP",
+  "updated_at": "CURRENT_TIMESTAMP"
+ },
+ {
+  "ingredient_name": "Кофе",
+  "created_at": "CURRENT_TIMESTAMP",
+  "updated_at": "CURRENT_TIMESTAMP"
+ },
+ {
+  "ingredient_name": "Печенье савоярди",
+  "created_at": "CURRENT_TIMESTAMP",
+  "updated_at": "CURRENT_TIMESTAMP"
+ },
+ {
+  "ingredient_name": "Какао",
+  "created_at": "CURRENT_TIMESTAMP",
+  "updated_at": "CURRENT_TIMESTAMP"
+ },
+ {
+  "ingredient_name": "Сливки",
+  "created_at": "CURRENT_TIMESTAMP",
+  "updated_at": "CURRENT_TIMESTAMP"
+ },
+ {
+  "ingredient_name": "Грибы",
+  "created_at": "CURRENT_TIMESTAMP",
+  "updated_at": "CURRENT_TIMESTAMP"
+ },
+ {
+  "ingredient_name": "Перец",
+  "created_at": "CURRENT_TIMESTAMP",
+  "updated_at": "CURRENT_TIMESTAMP"
+ },
+ {
+  "ingredient_name": "Базилик",
+  "created_at": "CURRENT_TIMESTAMP",
+  "updated_at": "CURRENT_TIMESTAMP"
+ },
+ {
+  "ingredient_name": "Орегано",
+  "created_at": "CURRENT_TIMESTAMP",
+  "updated_at": "CURRENT_TIMESTAMP"
+ },
+ {
+  "ingredient_name": "Тесто",
+  "created_at": "CURRENT_TIMESTAMP",
+  "updated_at": "CURRENT_TIMESTAMP"
+ },
+ {
+  "ingredient_name": "Дрожжи",
+  "created_at": "CURRENT_TIMESTAMP",
+  "updated_at": "CURRENT_TIMESTAMP"
+ },
+ {
+  "ingredient_name": "Яблоки",
+  "created_at": "CURRENT_TIMESTAMP",
+  "updated_at": "CURRENT_TIMESTAMP"
+ },
+ {
+  "ingredient_name": "Шоколад",
+  "created_at": "CURRENT_TIMESTAMP",
+  "updated_at": "CURRENT_TIMESTAMP"
+ },
+ {
+  "ingredient_name": "Ваниль",
+  "created_at": "CURRENT_TIMESTAMP",
+  "updated_at": "CURRENT_TIMESTAMP"
+ },
+ {
+  "ingredient_name": "Корица",
+  "created_at": "CURRENT_TIMESTAMP",
+  "updated_at": "CURRENT_TIMESTAMP"
+ }
+],
+"Dishes":[
+ {
+  "user_id": 1,
+  "dish_name": "Борщ",
+  "description": "Традиционный украинский суп с говядиной и свеклой",
+  "recipe": "Сварить бульон из говядины, добавить нарезанные свеклу, капусту, картофель, морковь, лук. Тушить томаты с чесноком, добавить в суп. Варить 40 минут, подавать со сметаной.",
+  "calories": 250,
+  "cooking_time": 60,
+  "difficulty": "Средне",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Салат Цезарь",
+  "description": "Классический салат с курицей и крутонами",
+  "recipe": "Обжарить курицу, нарезать листья салата, добавить крутоны, пармезан. Смешать соус из майонеза, чеснока, лимона, анчоусов. Заправить салат.",
+  "calories": 350,
+  "cooking_time": 20,
+  "difficulty": "Легко",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Спагетти карбонара",
+  "description": "Итальянская паста с беконом и сыром",
+  "recipe": "Сварить спагетти. Обжарить бекон, смешать с яйцами и пармезаном. Добавить пасту, перемешать, подавать сразу.",
+  "calories": 600,
+  "cooking_time": 15,
+  "difficulty": "Средне",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Тирамису",
+  "description": "Итальянский десерт с маскарпоне и кофе",
+  "recipe": "Смешать маскарпоне с сахаром и сливками. Обмакнуть печенье савоярди в кофе, выложить слоями с кремом. Посыпать какао, охладить 4 часа.",
+  "calories": 400,
+  "cooking_time": 30,
+  "difficulty": "Средне",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Оливье",
+  "description": "Русский салат с картофелем и майонезом",
+  "recipe": "Отварить картофель, морковь, яйца, нарезать кубиками. Добавить огурцы, горошек, колбасу, заправить майонезом.",
+  "calories": 300,
+  "cooking_time": 25,
+  "difficulty": "Легко",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Грибной суп",
+  "description": "Суп с шампиньонами и сливками",
+  "recipe": "Обжарить грибы с луком, добавить картофель и воду, варить 20 минут. Влить сливки, посолить, подавать с зеленью.",
+  "calories": 200,
+  "cooking_time": 30,
+  "difficulty": "Легко",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Пельмени",
+  "description": "Сибирские пельмени с мясом",
+  "recipe": "Замесить тесто, приготовить фарш из говядины и лука. Сформировать пельмени, варить 7 минут. Подавать со сметаной.",
+  "calories": 450,
+  "cooking_time": 40,
+  "difficulty": "Средне",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Чизкейк",
+  "description": "Десерт с сырным кремом и печеньем",
+  "recipe": "Измельчить печенье, смешать с маслом для основы. Смешать маскарпоне, сахар, яйца, вылить на основу. Выпекать 50 минут, охладить.",
+  "calories": 500,
+  "cooking_time": 60,
+  "difficulty": "Средне",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Греческий салат",
+  "description": "Салат с огурцами, помидорами и фетой",
+  "recipe": "Нарезать огурцы, помидоры, лук, добавить оливки, фету. Заправить оливковым маслом, лимоном, орегано.",
+  "calories": 200,
+  "cooking_time": 15,
+  "difficulty": "Легко",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Лазанья",
+  "description": "Итальянское блюдо с мясом и сыром",
+  "recipe": "Приготовить мясной соус из говядины, томатов, лука. Собрать слои из листов лазаньи, соуса, сыра. Выпекать 40 минут.",
+  "calories": 550,
+  "cooking_time": 60,
+  "difficulty": "Сложно",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Щи",
+  "description": "Русский капустный суп",
+  "recipe": "Сварить бульон, добавить капусту, картофель, морковь, лук. Варить 30 минут, подавать со сметаной.",
+  "calories": 180,
+  "cooking_time": 40,
+  "difficulty": "Легко",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Котлеты",
+  "description": "Жареные мясные котлеты",
+  "recipe": "Смешать фарш, лук, яйцо, хлебные крошки. Сформировать котлеты, обжарить на масле 10 минут.",
+  "calories": 400,
+  "cooking_time": 20,
+  "difficulty": "Средне",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Панкейки",
+  "description": "Американские блинчики с сиропом",
+  "recipe": "Смешать муку, молоко, яйца, сахар. Жарить на сковороде по 2 минуты с каждой стороны. Подавать с сиропом.",
+  "calories": 300,
+  "cooking_time": 15,
+  "difficulty": "Легко",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Шарлотка",
+  "description": "Яблочный пирог",
+  "recipe": "Смешать муку, сахар, яйца. Нарезать яблоки, выложить в форму, залить тестом. Выпекать 40 минут.",
+  "calories": 250,
+  "cooking_time": 50,
+  "difficulty": "Легко",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Рататуй",
+  "description": "Овощное рагу из Франции",
+  "recipe": "Нарезать баклажаны, кабачки, томаты. Выложить в форму, полить соусом из томатов и перца. Запекать 40 минут.",
+  "calories": 150,
+  "cooking_time": 50,
+  "difficulty": "Средне",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Суши",
+  "description": "Японские роллы с рыбой",
+  "recipe": "Сварить рис, смешать с уксусом. Завернуть рис, рыбу, огурец в нори. Нарезать роллы, подавать с соевым соусом.",
+  "calories": 200,
+  "cooking_time": 30,
+  "difficulty": "Сложно",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Том Ям",
+  "description": "Тайский острый суп с креветками",
+  "recipe": "Сварить бульон, добавить пасту чили, лемонграсс, креветки, грибы. Варить 10 минут, добавить кокосовое молоко.",
+  "calories": 250,
+  "cooking_time": 20,
+  "difficulty": "Средне",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Блины",
+  "description": "Тонкие русские блинчики",
+  "recipe": "Смешать муку, молоко, яйца, сахар. Жарить тонкие блины на сковороде. Подавать с медом или вареньем.",
+  "calories": 200,
+  "cooking_time": 20,
+  "difficulty": "Легко",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Пицца Маргарита",
+  "description": "Классическая пицца с томатами и базиликом",
+  "recipe": "Замесить тесто, раскатать. Смазать томатным соусом, добавить моцареллу, базилик. Выпекать 15 минут.",
+  "calories": 400,
+  "cooking_time": 30,
+  "difficulty": "Средне",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Картошка фри",
+  "description": "Жареный картофель",
+  "recipe": "Нарезать картофель брусками, обжарить во фритюре 5 минут. Посолить, подавать с соусом.",
+  "calories": 300,
+  "cooking_time": 15,
+  "difficulty": "Легко",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Бефстроганов",
+  "description": "Говядина в сливочном соусе",
+  "recipe": "Нарезать говядину, обжарить с луком. Добавить сметану, горчицу, тушить 20 минут. Подавать с рисом.",
+  "calories": 450,
+  "cooking_time": 30,
+  "difficulty": "Средне",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Эклеры",
+  "description": "Французские пирожные с кремом",
+  "recipe": "Сварить заварное тесто, выпечь эклеры. Наполнить кремом из сливок и ванили, покрыть шоколадом.",
+  "calories": 350,
+  "cooking_time": 60,
+  "difficulty": "Сложно",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Салат с тунцом",
+  "description": "Салат с консервированным тунцом",
+  "recipe": "Смешать тунец, листья салата, огурцы, помидоры. Заправить оливковым маслом и лимоном.",
+  "calories": 200,
+  "cooking_time": 10,
+  "difficulty": "Легко",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Гуляш",
+  "description": "Венгерское мясное рагу",
+  "recipe": "Обжарить говядину с луком, добавить паприку, томаты, тушить 1 час. Подавать с картофелем.",
+  "calories": 400,
+  "cooking_time": 70,
+  "difficulty": "Средне",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Крем-брюле",
+  "description": "Французский десерт с карамельной корочкой",
+  "recipe": "Смешать сливки, сахар, ваниль, яйца. Запечь, посыпать сахаром, карамелизировать горелкой.",
+  "calories": 300,
+  "cooking_time": 50,
+  "difficulty": "Сложно",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Окрошка",
+  "description": "Холодный суп на квасе",
+  "recipe": "Нарезать картофель, яйца, огурцы, колбасу. Смешать с квасом, сметаной, зеленью.",
+  "calories": 150,
+  "cooking_time": 20,
+  "difficulty": "Легко",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Ризотто",
+  "description": "Итальянское блюдо с рисом и грибами",
+  "recipe": "Обжарить рис с луком, постепенно добавлять бульон. Добавить грибы, пармезан, перемешать.",
+  "calories": 350,
+  "cooking_time": 30,
+  "difficulty": "Средне",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Тартар",
+  "description": "Сырое мясо с приправами",
+  "recipe": "Измельчить говядину, смешать с луком, каперсами, горчицей, яйцом. Подавать с тостами.",
+  "calories": 250,
+  "cooking_time": 15,
+  "difficulty": "Сложно",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Мусс шоколадный",
+  "description": "Воздушный шоколадный десерт",
+  "recipe": "Растопить шоколад, смешать со взбитыми сливками. Охладить 2 часа, подавать с ягодами.",
+  "calories": 300,
+  "cooking_time": 20,
+  "difficulty": "Средне",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Куриный суп",
+  "description": "Легкий суп с лапшой",
+  "recipe": "Сварить бульон из курицы, добавить лапшу, морковь, лук. Варить 20 минут, посыпать зеленью.",
+  "calories": 150,
+  "cooking_time": 30,
+  "difficulty": "Легко",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Брауни",
+  "description": "Шоколадный пирог",
+  "recipe": "Смешать муку, сахар, яйца, шоколад, масло. Выпекать 25 минут, нарезать квадратами.",
+  "calories": 400,
+  "cooking_time": 40,
+  "difficulty": "Легко",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Салат с авокадо",
+  "description": "Салат с креветками и авокадо",
+  "recipe": "Нарезать авокадо, креветки, листья салата. Заправить лимоном, оливковым маслом.",
+  "calories": 250,
+  "cooking_time": 15,
+  "difficulty": "Легко",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Паэлья",
+  "description": "Испанское блюдо с рисом и морепродуктами",
+  "recipe": "Обжарить рис, креветки, мидии, курицу с перцем. Добавить шафран, бульон, тушить 20 минут.",
+  "calories": 450,
+  "cooking_time": 40,
+  "difficulty": "Сложно",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Сырники",
+  "description": "Творожные оладьи",
+  "recipe": "Смешать творог, яйца, муку, сахар. Сформировать сырники, обжарить по 3 минуты с каждой стороны.",
+  "calories": 300,
+  "cooking_time": 20,
+  "difficulty": "Легко",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Гаспачо",
+  "description": "Холодный томатный суп",
+  "recipe": "Измельчить томаты, огурцы, перец, лук, чеснок. Смешать с оливковым маслом, уксусом, охладить.",
+  "calories": 100,
+  "cooking_time": 15,
+  "difficulty": "Легко",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Киш",
+  "description": "Французский пирог с начинкой",
+  "recipe": "Замесить тесто, выложить в форму. Смешать яйца, сливки, бекон, сыр, запечь 40 минут.",
+  "calories": 400,
+  "cooking_time": 50,
+  "difficulty": "Средне",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Фалафель",
+  "description": "Жареные шарики из нута",
+  "recipe": "Измельчить нут, лук, зелень, специи. Сформировать шарики, обжарить во фритюре 5 минут.",
+  "calories": 300,
+  "cooking_time": 20,
+  "difficulty": "Средне",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Торт Наполеон",
+  "description": "Слоеный торт с кремом",
+  "recipe": "Выпечь слоеные коржи, смазать заварным кремом. Охладить 4 часа, нарезать.",
+  "calories": 500,
+  "cooking_time": 90,
+  "difficulty": "Сложно",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Жульен",
+  "description": "Грибная закуска с сыром",
+  "recipe": "Обжарить грибы с луком, добавить сливки, сыр. Запечь в кокотницах 10 минут.",
+  "calories": 350,
+  "cooking_time": 20,
+  "difficulty": "Средне",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Капрезе",
+  "description": "Итальянский салат с томатами и моцареллой",
+  "recipe": "Нарезать томаты, моцареллу, базилик. Полить оливковым маслом, бальзамиком.",
+  "calories": 200,
+  "cooking_time": 10,
+  "difficulty": "Легко",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Хумус",
+  "description": "Паста из нута с тахини",
+  "recipe": "Измельчить нут, тахини, чеснок, лимон, оливковое масло. Подавать с питой.",
+  "calories": 250,
+  "cooking_time": 15,
+  "difficulty": "Легко",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Борщ зеленый",
+  "description": "Суп со щавелем",
+  "recipe": "Сварить бульон, добавить щавель, картофель, яйца. Варить 20 минут, подавать со сметаной.",
+  "calories": 150,
+  "cooking_time": 30,
+  "difficulty": "Легко",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Омлет",
+  "description": "Яичное блюдо с начинкой",
+  "recipe": "Взбить яйца, добавить сыр, помидоры. Жарить на сковороде 5 минут.",
+  "calories": 200,
+  "cooking_time": 10,
+  "difficulty": "Легко",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Кекс",
+  "description": "Простой ванильный кекс",
+  "recipe": "Смешать муку, сахар, яйца, масло, ваниль. Выпекать 40 минут.",
+  "calories": 350,
+  "cooking_time": 50,
+  "difficulty": "Легко",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Рагу",
+  "description": "Овощное блюдо с мясом",
+  "recipe": "Обжарить говядину, добавить картофель, морковь, томаты. Тушить 1 час.",
+  "calories": 400,
+  "cooking_time": 70,
+  "difficulty": "Средне",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Макароны по-флотски",
+  "description": "Паста с мясом",
+  "recipe": "Сварить макароны, обжарить фарш с луком. Смешать, подавать с сыром.",
+  "calories": 450,
+  "cooking_time": 20,
+  "difficulty": "Легко",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Пудинг",
+  "description": "Молочный десерт",
+  "recipe": "Смешать молоко, сахар, крахмал, ваниль. Варить до загустения, охладить.",
+  "calories": 250,
+  "cooking_time": 20,
+  "difficulty": "Легко",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Салат с кальмарами",
+  "description": "Морской салат",
+  "recipe": "Отварить кальмары, нарезать с огурцами, яйцами. Заправить майонезом.",
+  "calories": 200,
+  "cooking_time": 15,
+  "difficulty": "Легко",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Голубцы",
+  "description": "Капуста с мясной начинкой",
+  "recipe": "Завернуть фарш с рисом в капустные листья. Тушить в томатном соусе 40 минут.",
+  "calories": 350,
+  "cooking_time": 60,
+  "difficulty": "Средне",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Пирожки",
+  "description": "Печеные пирожки с начинкой",
+  "recipe": "Замесить тесто, начинить мясом или капустой. Выпекать 20 минут.",
+  "calories": 300,
+  "cooking_time": 40,
+  "difficulty": "Средне",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Смузи",
+  "description": "Фруктовый напиток",
+  "recipe": "Измельчить банан, ягоды, йогурт в блендере. Подавать охлажденным.",
+  "calories": 150,
+  "cooking_time": 5,
+  "difficulty": "Легко",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Тефтели",
+  "description": "Мясные шарики в соусе",
+  "recipe": "Смешать фарш, рис, яйцо. Сформировать тефтели, тушить в томатном соусе 30 минут.",
+  "calories": 400,
+  "cooking_time": 40,
+  "difficulty": "Средне",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Минтай жареный",
+  "description": "Рыба в панировке",
+  "recipe": "Обвалять минтай в муке, обжарить на масле 10 минут. Подавать с лимоном.",
+  "calories": 300,
+  "cooking_time": 15,
+  "difficulty": "Легко",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Крокеты",
+  "description": "Жареные шарики с начинкой",
+  "recipe": "Смешать картофельное пюре, сыр, обвалять в панировке, обжарить 5 минут.",
+  "calories": 350,
+  "cooking_time": 20,
+  "difficulty": "Средне",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Салат с курицей",
+  "description": "Салат с жареной курицей",
+  "recipe": "Обжарить курицу, смешать с листьями салата, помидорами, заправить майонезом.",
+  "calories": 250,
+  "cooking_time": 20,
+  "difficulty": "Легко",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Медовик",
+  "description": "Торт с медовыми коржами",
+  "recipe": "Выпечь медовые коржи, смазать сметанным кремом. Охладить 4 часа.",
+  "calories": 450,
+  "cooking_time": 90,
+  "difficulty": "Сложно",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Уха",
+  "description": "Рыбный суп",
+  "recipe": "Сварить бульон из рыбы, добавить картофель, морковь, лук. Варить 20 минут.",
+  "calories": 150,
+  "cooking_time": 30,
+  "difficulty": "Легко",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Клубничный тарт",
+  "description": "Десерт с ягодами",
+  "recipe": "Выпечь песочное тесто, наполнить заварным кремом, украсить клубникой.",
+  "calories": 350,
+  "cooking_time": 60,
+  "difficulty": "Средне",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Карри",
+  "description": "Индийское блюдо с рисом",
+  "recipe": "Обжарить курицу с луком, добавить карри, кокосовое молоко. Тушить 20 минут, подавать с рисом.",
+  "calories": 400,
+  "cooking_time": 30,
+  "difficulty": "Средне",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Бутерброды",
+  "description": "Закуски с сыром и колбасой",
+  "recipe": "Намазать хлеб маслом, выложить сыр, колбасу, помидоры. Подавать сразу.",
+  "calories": 300,
+  "cooking_time": 10,
+  "difficulty": "Легко",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Плов",
+  "description": "Узбекское блюдо с рисом",
+  "recipe": "Обжарить мясо с морковью, луком, добавить рис, специи, тушить 40 минут.",
+  "calories": 450,
+  "cooking_time": 50,
+  "difficulty": "Средне",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Профитроли",
+  "description": "Пирожные с кремом",
+  "recipe": "Выпечь заварное тесто, наполнить кремом из сливок. Полить шоколадом.",
+  "calories": 350,
+  "cooking_time": 60,
+  "difficulty": "Сложно",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Салат с сыром",
+  "description": "Салат с фетой и овощами",
+  "recipe": "Нарезать огурцы, помидоры, фету, добавить оливковое масло, орегано.",
+  "calories": 200,
+  "cooking_time": 10,
+  "difficulty": "Легко",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Луковый суп",
+  "description": "Французский суп с сыром",
+  "recipe": "Карамелизировать лук, добавить бульон, варить 20 минут. Запечь с сыром.",
+  "calories": 250,
+  "cooking_time": 40,
+  "difficulty": "Средне",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Запеканка",
+  "description": "Творожное блюдо",
+  "recipe": "Смешать творог, яйца, сахар, манку. Запечь 40 минут.",
+  "calories": 300,
+  "cooking_time": 50,
+  "difficulty": "Легко",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Кебаб",
+  "description": "Жареное мясо на шампуре",
+  "recipe": "Мариновать мясо, нанизать на шампуры, жарить на гриле 15 минут.",
+  "calories": 400,
+  "cooking_time": 20,
+  "difficulty": "Средне",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Мороженое",
+  "description": "Домашнее мороженое",
+  "recipe": "Смешать сливки, сахар, ваниль, заморозить, перемешивая каждые 30 минут.",
+  "calories": 300,
+  "cooking_time": 120,
+  "difficulty": "Средне",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Салат с грибами",
+  "description": "Салат с шампиньонами",
+  "recipe": "Обжарить грибы, смешать с листьями салата, яйцами, заправить майонезом.",
+  "calories": 200,
+  "cooking_time": 15,
+  "difficulty": "Легко",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Драники",
+  "description": "Картофельные оладьи",
+  "recipe": "Натереть картофель, смешать с яйцом, мукой. Жарить по 5 минут с каждой стороны.",
+  "calories": 250,
+  "cooking_time": 20,
+  "difficulty": "Легко",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Винегрет",
+  "description": "Овощной салат с свеклой",
+  "recipe": "Отварить свеклу, картофель, морковь, нарезать с огурцами, заправить маслом.",
+  "calories": 150,
+  "cooking_time": 20,
+  "difficulty": "Легко",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Торт Прага",
+  "description": "Шоколадный торт с кремом",
+  "recipe": "Выпечь бисквит, смазать шоколадным кремом, покрыть глазурью. Охладить.",
+  "calories": 500,
+  "cooking_time": 90,
+  "difficulty": "Сложно",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Солянка",
+  "description": "Мясной суп с оливками",
+  "recipe": "Сварить бульон, добавить колбасу, огурцы, оливки, томаты. Варить 20 минут.",
+  "calories": 300,
+  "cooking_time": 40,
+  "difficulty": "Средне",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Курица терияки",
+  "description": "Курица в соусе терияки",
+  "recipe": "Обжарить курицу, добавить соус терияки, тушить 10 минут. Подавать с рисом.",
+  "calories": 350,
+  "cooking_time": 20,
+  "difficulty": "Легко",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Круассаны",
+  "description": "Французская выпечка",
+  "recipe": "Замесить слоеное тесто, сформировать круассаны, выпекать 20 минут.",
+  "calories": 400,
+  "cooking_time": 60,
+  "difficulty": "Сложно",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Салат Нисуаз",
+  "description": "Французский салат с тунцом",
+  "recipe": "Смешать тунец, яйца, фасоль, картофель, оливки. Заправить оливковым маслом.",
+  "calories": 250,
+  "cooking_time": 20,
+  "difficulty": "Легко",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Говядина Веллингтон",
+  "description": "Говядина в тесте",
+  "recipe": "Обжарить говядину, завернуть в грибы и тесто. Запечь 40 минут.",
+  "calories": 600,
+  "cooking_time": 60,
+  "difficulty": "Сложно",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Торт Медовик",
+  "description": "Торт с медовыми коржами",
+  "recipe": "Выпечь медовые коржи, смазать сметанным кремом. Охладить 4 часа.",
+  "calories": 450,
+  "cooking_time": 90,
+  "difficulty": "Сложно",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Суп Харчо",
+  "description": "Грузинский суп с рисом",
+  "recipe": "Сварить бульон, добавить рис, томаты, чеснок, специи. Варить 30 минут.",
+  "calories": 300,
+  "cooking_time": 40,
+  "difficulty": "Средне",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Фаршированный перец",
+  "description": "Перец с мясом и рисом",
+  "recipe": "Начинить перец фаршем и рисом, тушить в томатном соусе 40 минут.",
+  "calories": 350,
+  "cooking_time": 50,
+  "difficulty": "Средне",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Клафути",
+  "description": "Французский десерт с вишней",
+  "recipe": "Смешать муку, яйца, молоко, сахар. Выложить вишню, запечь 30 минут.",
+  "calories": 250,
+  "cooking_time": 40,
+  "difficulty": "Легко",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Кесадилья",
+  "description": "Мексиканская лепешка с сыром",
+  "recipe": "Выложить сыр, курицу на тортилью, обжарить 5 минут. Подавать с сальсой.",
+  "calories": 400,
+  "cooking_time": 15,
+  "difficulty": "Легко",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Баклажаны пармиджано",
+  "description": "Баклажаны с сыром и томатами",
+  "recipe": "Обжарить баклажаны, выложить слоями с томатным соусом и сыром. Запечь 30 минут.",
+  "calories": 300,
+  "cooking_time": 40,
+  "difficulty": "Средне",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Смузи ягодный",
+  "description": "Напиток с ягодами",
+  "recipe": "Измельчить ягоды, банан, йогурт в блендере. Подавать охлажденным.",
+  "calories": 150,
+  "cooking_time": 5,
+  "difficulty": "Легко",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Том Кха",
+  "description": "Тайский суп с кокосовым молоком",
+  "recipe": "Сварить бульон, добавить кокосовое молоко, курицу, грибы, лемонграсс. Варить 15 минут.",
+  "calories": 250,
+  "cooking_time": 20,
+  "difficulty": "Средне",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Пирог с рыбой",
+  "description": "Пирог с рыбной начинкой",
+  "recipe": "Замесить тесто, начинить рыбой, рисом, луком. Выпекать 40 минут.",
+  "calories": 400,
+  "cooking_time": 50,
+  "difficulty": "Средне",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Салат с печенью",
+  "description": "Салат с говяжьей печенью",
+  "recipe": "Обжарить печень, смешать с луком, морковью, заправить майонезом.",
+  "calories": 300,
+  "cooking_time": 20,
+  "difficulty": "Легко",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Котлеты рыбные",
+  "description": "Котлеты из рыбы",
+  "recipe": "Измельчить рыбу, смешать с луком, яйцом, панировкой. Обжарить 10 минут.",
+  "calories": 250,
+  "cooking_time": 20,
+  "difficulty": "Легко",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Торт Красный бархат",
+  "description": "Торт с кремом",
+  "recipe": "Выпечь красные коржи, смазать сливочным кремом. Охладить 4 часа.",
+  "calories": 500,
+  "cooking_time": 90,
+  "difficulty": "Сложно",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Суп-пюре тыквенный",
+  "description": "Кремовый суп из тыквы",
+  "recipe": "Запечь тыкву, измельчить с бульоном, сливками. Варить 10 минут.",
+  "calories": 200,
+  "cooking_time": 30,
+  "difficulty": "Легко",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Лобио",
+  "description": "Грузинское блюдо из фасоли",
+  "recipe": "Сварить фасоль, смешать с луком, чесноком, зеленью, специями.",
+  "calories": 250,
+  "cooking_time": 40,
+  "difficulty": "Легко",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Пирог с мясом",
+  "description": "Пирог с мясной начинкой",
+  "recipe": "Замесить тесто, начинить фаршем, луком. Выпекать 40 минут.",
+  "calories": 400,
+  "cooking_time": 50,
+  "difficulty": "Средне",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Салат с морепродуктами",
+  "description": "Салат с креветками и кальмарами",
+  "recipe": "Отварить морепродукты, смешать с листьями салата, заправить маслом.",
+  "calories": 200,
+  "cooking_time": 15,
+  "difficulty": "Легко",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Курица карри",
+  "description": "Курица в соусе карри",
+  "recipe": "Обжарить курицу, добавить карри, кокосовое молоко, тушить 20 минут.",
+  "calories": 350,
+  "cooking_time": 30,
+  "difficulty": "Средне",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Пирожное макарон",
+  "description": "Французское пирожное",
+  "recipe": "Выпечь миндальные коржи, наполнить кремом. Охладить 2 часа.",
+  "calories": 300,
+  "cooking_time": 60,
+  "difficulty": "Сложно",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Суп с фрикадельками",
+  "description": "Суп с мясными шариками",
+  "recipe": "Сформировать фрикадельки, сварить с картофелем, морковью. Варить 20 минут.",
+  "calories": 250,
+  "cooking_time": 30,
+  "difficulty": "Легко",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Шакшука",
+  "description": "Яичное блюдо с томатами",
+  "recipe": "Обжарить томаты, перец, лук, вбить яйца, готовить 10 минут.",
+  "calories": 200,
+  "cooking_time": 15,
+  "difficulty": "Легко",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Пирог лимонный",
+  "description": "Пирог с лимонным кремом",
+  "recipe": "Выпечь песочное тесто, наполнить лимонным кремом, запечь 30 минут.",
+  "calories": 350,
+  "cooking_time": 50,
+  "difficulty": "Средне",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Салат с рукколой",
+  "description": "Салат с пармезаном",
+  "recipe": "Смешать рукколу, пармезан, орехи, заправить оливковым маслом.",
+  "calories": 200,
+  "cooking_time": 10,
+  "difficulty": "Легко",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Говядина по-бургундски",
+  "description": "Говядина в вине",
+  "recipe": "Тушить говядину с вином, луком, грибами 2 часа. Подавать с картофелем.",
+  "calories": 500,
+  "cooking_time": 120,
+  "difficulty": "Сложно",
+  "is_public": "TRUE"
+ },
+ {
+  "user_id": 1,
+  "dish_name": "Торт Эстерхази",
+  "description": "Торт с ореховыми коржами",
+  "recipe": "Выпечь ореховые коржи, смазать кремом, покрыть глазурью. Охладить.",
+  "calories": 450,
+  "cooking_time": 90,
+  "difficulty": "Сложно",
+  "is_public": "TRUE"
+ }
+],
+"Dish_Categories":[
+ {
+  "dish_id": 1,
+  "category_id": 1
+ },
+ {
+  "dish_id": 6,
+  "category_id": 1
+ },
+ {
+  "dish_id": 11,
+  "category_id": 1
+ },
+ {
+  "dish_id": 17,
+  "category_id": 1
+ },
+ {
+  "dish_id": 26,
+  "category_id": 1
+ },
+ {
+  "dish_id": 30,
+  "category_id": 1
+ },
+ {
+  "dish_id": 35,
+  "category_id": 1
+ },
+ {
+  "dish_id": 42,
+  "category_id": 1
+ },
+ {
+  "dish_id": 57,
+  "category_id": 1
+ },
+ {
+  "dish_id": 64,
+  "category_id": 1
+ },
+ {
+  "dish_id": 70,
+  "category_id": 1
+ },
+ {
+  "dish_id": 74,
+  "category_id": 1
+ },
+ {
+  "dish_id": 79,
+  "category_id": 1
+ },
+ {
+  "dish_id": 85,
+  "category_id": 1
+ },
+ {
+  "dish_id": 92,
+  "category_id": 1
+ },
+ {
+  "dish_id": 15
+ }
+],
+"Dish_Ingredients":[
+ {
+  "dish_id": 1,
+  "ingredient_id": 8,
+  "quantity": 300,
+  "unit_id": 1
+ },
+ {
+  "dish_id": 1,
+  "ingredient_id": 9,
+  "quantity": 200,
+  "unit_id": 1
+ },
+ {
+  "dish_id": 1,
+  "ingredient_id": 10,
+  "quantity": 400,
+  "unit_id": 1
+ },
+ {
+  "dish_id": 1,
+  "ingredient_id": 15,
+  "quantity": 200,
+  "unit_id": 1
+ },
+ {
+  "dish_id": 2,
+  "ingredient_id": 30,
+  "quantity": 100,
+  "unit_id": 1
+ },
+ {
+  "dish_id": 2,
+  "ingredient_id": 16,
+  "quantity": 200,
+  "unit_id": 1
+ },
+ {
+  "dish_id": 2,
+  "ingredient_id": 35,
+  "quantity": 50,
+  "unit_id": 1
+ },
+ {
+  "dish_id": 2,
+  "ingredient_id": 34,
+  "quantity": 30,
+  "unit_id": 1
+ },
+ {
+  "dish_id": 3,
+  "ingredient_id": 20,
+  "quantity": 200,
+  "unit_id": 1
+ },
+ {
+  "dish_id": 3,
+  "ingredient_id": 33,
+  "quantity": 100,
+  "unit_id": 1
+ },
+ {
+  "dish_id": 3,
+  "ingredient_id": 34,
+  "quantity": 50,
+  "unit_id": 1
+ },
+ {
+  "dish_id": 3,
+  "ingredient_id": 6,
+  "quantity": 2,
+  "unit_id": 1
+ },
+ {
+  "dish_id": 4,
+  "ingredient_id": 36,
+  "quantity": 250,
+  "unit_id": 1
+ },
+ {
+  "dish_id": 4,
+  "ingredient_id": 37,
+  "quantity": 100,
+  "unit_id": 1
+ },
+ {
+  "dish_id": 4,
+  "ingredient_id": 38,
+  "quantity": 200,
+  "unit_id": 1
+ },
+ {
+  "dish_id": 4,
+  "ingredient_id": 39,
+  "quantity": 20,
+  "unit_id": 1
+ },
+ {
+  "dish_id": 5,
+  "ingredient_id": 10,
+  "quantity": 300,
+  "unit_id": 1
+ },
+ {
+  "dish_id": 5,
+  "ingredient_id": 23,
+  "quantity": 100,
+  "unit_id": 1
+ },
+ {
+  "dish_id": 5,
+  "ingredient_id": 28,
+  "quantity": 150,
+  "unit_id": 1
+ },
+ {
+  "dish_id": 5,
+  "ingredient_id": 29,
+  "quantity": 150,
+  "unit_id": 1
+ },
+ {
+  "dish_id": 6,
+  "ingredient_id": 41,
+  "quantity": 200,
+  "unit_id": 1
+ },
+ {
+  "dish_id": 6,
+  "ingredient_id": 40,
+  "quantity": 100,
+  "unit_id": 1
+ },
+ {
+  "dish_id": 6,
+  "ingredient_id": 12,
+  "quantity": 50,
+  "unit_id": 1
+ },
+ {
+  "dish_id": 6,
+  "ingredient_id": 3,
+  "quantity": 5,
+  "unit_id": 1
+ },
+ {
+  "dish_id": 7,
+  "ingredient_id": 45,
+  "quantity": 300,
+  "unit_id": 1
+ },
+ {
+  "dish_id": 7,
+  "ingredient_id": 15,
+  "quantity": 200,
+  "unit_id": 1
+ },
+ {
+  "dish_id": 7,
+  "ingredient_id": 3,
+  "quantity": 5,
+  "unit_id": 1
+ },
+ {
+  "dish_id": 7,
+  "ingredient_id": 12,
+  "quantity": 50,
+  "unit_id": 1
+ },
+ {
+  "dish_id": 8,
+  "ingredient_id": 36,
+  "quantity": 200,
+  "unit_id": 1
+ },
+ {
+  "dish_id": 8,
+  "ingredient_id": 4,
+  "quantity": 100,
+  "unit_id": 1
+ },
+ {
+  "dish_id": 8,
+  "ingredient_id": 2,
+  "quantity": 100,
+  "unit_id": 1
+ },
+ {
+  "dish_id": 8,
+  "ingredient_id": 6,
+  "quantity": 2,
+  "unit_id": 1
+ },
+ {
+  "dish_id": 9,
+  "ingredient_id": 28,
+  "quantity": 150,
+  "unit_id": 1
+ },
+ {
+  "dish_id": 9,
+  "ingredient_id": 29,
+  "quantity": 150,
+  "unit_id": 1
+ },
+ {
+  "dish_id": 9,
+  "ingredient_id": 21,
+  "quantity": 100,
+  "unit_id": 1
+ },
+ {
+  "dish_id": 9,
+  "ingredient_id": 27,
+  "quantity": 50,
+  "unit_id": 1
+ },
+ {
+  "dish_id": 10,
+  "ingredient_id": 45,
+  "quantity": 200,
+  "unit_id": 1
+ },
+ {
+  "dish_id": 10,
+  "ingredient_id": 15,
+  "quantity": 200,
+  "unit_id": 1
+ },
+ {
+  "dish_id": 10,
+  "ingredient_id": 21,
+  "quantity": 100,
+  "unit_id": 1
+ },
+ {
+  "dish_id": 10,
+  "ingredient_id": 14,
+  "quantity": 100,
+  "unit_id": 1
+ }
+]
+}
