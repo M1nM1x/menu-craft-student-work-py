@@ -16,6 +16,11 @@
             <a href="{{ url_for('settings') }}">Настройки</a>
             <a href="{{ url_for('profile') }}">Профиль</a>
         </nav>
+
+
+        <form action="{{ url_for('search') }}" method="get" class="pretty-input">
+            <input type="text" name="query" placeholder="Поиск...">
+        </form>
     </header>
     <main>
         <h1>Настройки</h1>
