@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <title>MenuCraft</title>
+</head>
+<body>
+    <header>
+        <a href="{{ url_for('main_page') }}">
+            <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Логотип" class="logo">
+        </a>
+        
+        <nav>
+            <a href="{{ url_for('main_page') }}">Главная</a>
+            <a href="{{ url_for('statistics') }}">Статистика</a>
+            <a href="{{ url_for('settings') }}">Настройки</a>
+            <a href="{{ url_for('profile') }}">Профиль</a>
+        </nav>
+
+        <form action="{{ url_for('search') }}" method="get" class="pretty-input">
+            <input type="text" name="query" placeholder="Поиск...">
+        </form>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="recipe_view_field">
+                <img src="{{ url_for('static', filename='images/Блюда/Панкейки.jpg') }}" alt="Панкейки" class="recipe_view_field_image">
+                <div class="content">
+                    <h1 class="recipe_view_field_title">Заряд энергии каждый день</h1>
+                    <br />
+                    <p class="recipe_view_field_text">Посмотри рецепты 100 различных блюд которые можно приготовить </p>
+                    <br />
+                    <form action="{{ url_for('all') }}" method="get">
+                        <button class="recipe_view_field_btn" type="submit">Посмотреть</button>
+                    </form>
+                </div>
+            </div>
+
+
+            <div class="catalog_container">
+                <table class="catalog">
+                    <tr>
+                        <td>
+                            <a href="{{ url_for('soups') }}" class="catalog_element_link">
+                                <div class="catalog_element">
+                                    <img src="{{ url_for('static', filename='images/Блюда/Борщ.jpg') }}" class="catalog_element_img">
+                                    <p class="catalog_element_title">Супы</p>
+                                </div>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="{{ url_for('salads') }}" class="catalog_element_link">
+                                <div class="catalog_element">
+                                    <img src="{{ url_for('static', filename='images/Блюда/Салат Цезарь.jpg') }}" class="catalog_element_img">
+                                    <p class="catalog_element_title">Салаты</p>
+                                </div>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="{{ url_for('main_courses') }}" class="catalog_element_link">
+                                <div class="catalog_element">
+                                    <img src="{{ url_for('static', filename='images/Блюда/Говядина по-бургундски.jpg') }}" class="catalog_element_img">
+                                    <p class="catalog_element_title">Основные блюда</p>
+                                </div>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="{{ url_for('desserts') }}" class="catalog_element_link">
+                                <div class="catalog_element">
+                                    <img src="{{ url_for('static', filename='images/Блюда/Медовик.jpg') }}" class="catalog_element_img">
+                                    <p class="catalog_element_title">Десерты</p>
+                                </div>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="{{ url_for('snacks') }}" class="catalog_element_link">
+                                <div class="catalog_element">
+                                    <img src="{{ url_for('static', filename='images/Блюда/Тартар.jpg') }}" class="catalog_element_img">
+                                    <p class="catalog_element_title">Закуски</p>
+                                </div>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="{{ url_for('bakery') }}" class="catalog_element_link">
+                                <div class="catalog_element">
+                                    <img src="{{ url_for('static', filename='images/Блюда/Круассаны.jpg') }}" class="catalog_element_img">
+                                    <p class="catalog_element_title">Выпечка</p>
+                                </div>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="{{ url_for('drinks') }}" class="catalog_element_link">
+                                <div class="catalog_element">
+                                    <img src="{{ url_for('static', filename='images/Блюда/Смузи ягодный.jpg') }}" class="catalog_element_img">
+                                    <p class="catalog_element_title">Напитки</p>
+                                </div>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="{{ url_for('side_dishes') }}" class="catalog_element_link">
+                                <div class="catalog_element">
+                                    <img src="{{ url_for('static', filename='images/Блюда/Рагу.jpg') }}" class="catalog_element_img">
+                                    <p class="catalog_element_title">Гарниры</p>
+                                </div>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="{{ url_for('sauces') }}" class="catalog_element_link">
+                                <div class="catalog_element">
+                                    <img src="{{ url_for('static', filename='images/Блюда/Хумус.jpg') }}" class="catalog_element_img">
+                                    <p class="catalog_element_title">Соусы</p>
+                                </div>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="{{ url_for('breakfast') }}" class="catalog_element_link">
+                                <div class="catalog_element">
+                                    <img src="{{ url_for('static', filename='images/Блюда/Блины.jpg') }}" class="catalog_element_img">
+                                    <p class="catalog_element_title">Завтраки</p>
+                                </div>
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        
+        </div>
+    </main>
+
+
+    <footer>
+        <h1>Контактная информация</h1>
+        <p>Телефон: +7 (928) 123-45-67</p>
+        <p>Почта: menucraft@gmail.com</p>
+    </footer>
+</body>
+</html>

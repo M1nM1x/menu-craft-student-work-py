@@ -1,0 +1,130 @@
+[
+    {
+        "dish_id": 39,
+        "dish_name": "Жульен",
+        "description": "Грибная закуска с сыром",
+        "recipe": "Обжарить грибы с луком, добавить сливки, сыр. Запечь в кокотницах 10 минут.",
+        "calories": 350,
+        "cooking_time": 20,
+        "difficulty": "Средне",
+        "category_id": 5,
+        "ingredients": [
+            {
+                "ingredient": "Грибы",
+                "quantity": 200,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Лук",
+                "quantity": 50,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Сливки",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Сыр",
+                "quantity": 50,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 40,
+        "dish_name": "Капрезе",
+        "description": "Итальянский салат с томатами и моцареллой",
+        "recipe": "Нарезать томаты, моцареллу, базилик. Полить оливковым маслом, бальзамиком.",
+        "calories": 200,
+        "cooking_time": 10,
+        "difficulty": "Легко",
+        "category_id": 5,
+        "ingredients": [
+            {
+                "ingredient": "Томаты",
+                "quantity": 150,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Сыр",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Базилик",
+                "quantity": 20,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Масло растительное",
+                "quantity": 20,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 41,
+        "dish_name": "Хумус",
+        "description": "Паста из нута с тахини",
+        "recipe": "Измельчить нут, тахини, чеснок, лимон, оливковое масло. Подавать с питой.",
+        "calories": 250,
+        "cooking_time": 15,
+        "difficulty": "Легко",
+        "category_id": 5,
+        "ingredients": [
+            {
+                "ingredient": "Чеснок",
+                "quantity": 10,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Лимон",
+                "quantity": 10,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Масло растительное",
+                "quantity": 20,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 60,
+        "dish_name": "Бутерброды",
+        "description": "Закуски с сыром и колбасой",
+        "recipe": "Намазать хлеб маслом, выложить сыр, колбасу, помидоры. Подавать сразу.",
+        "calories": 300,
+        "cooking_time": 10,
+        "difficulty": "Легко",
+        "category_id": 5,
+        "ingredients": [
+            {
+                "ingredient": "Тесто",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Сыр",
+                "quantity": 50,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Свинина",
+                "quantity": 50,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Помидоры",
+                "quantity": 50,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Масло сливочное",
+                "quantity": 20,
+                "unit": "грамм"
+            }
+        ]
+    }
+]

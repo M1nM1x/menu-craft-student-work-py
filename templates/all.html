@@ -1,0 +1,3453 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <title>Все блюда</title>
+</head>
+<body>
+    <header>
+        <a href="{{ url_for('main_page') }}">
+            <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Логотип" class="logo">
+        </a>
+        
+        <nav>
+            <a href="{{ url_for('main_page') }}">Главная</a>
+            <a href="{{ url_for('statistics') }}">Статистика</a>
+            <a href="{{ url_for('settings') }}">Настройки</a>
+            <a href="{{ url_for('profile') }}">Профиль</a>
+        </nav>
+
+        <form action="{{ url_for('search') }}" method="get" class="pretty-input">
+            <input type="text" name="query" placeholder="Поиск...">
+        </form>
+    </header>
+    <main>
+        <div class="container">
+            <div class="dishes">
+
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Борщ.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 250</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 60</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Средне</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Борщ</h1>
+                            <p class="description">Традиционный украинский суп с говядиной и свеклой</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Свекла 300 грамм</li>
+                <li>Капуста 200 грамм</li>
+                <li>Картофель 400 грамм</li>
+                <li>Говядина 200 грамм</li>
+                <li>Морковь 100 грамм</li>
+                <li>Лук 50 грамм</li>
+                <li>Томаты 100 грамм</li>
+                <li>Чеснок 10 грамм</li>
+                <li>Сметана 50 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Сварить бульон из говядины, добавить нарезанные свеклу, капусту, картофель, морковь, лук. Тушить томаты с чесноком, добавить в суп. Варить 40 минут, подавать со сметаной.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Салат Цезарь.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 350</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 20</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Салат Цезарь</h1>
+                            <p class="description">Классический салат с курицей и крутонами</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Листья салата 100 грамм</li>
+                <li>Курица 200 грамм</li>
+                <li>Крутоны 50 грамм</li>
+                <li>Пармезан 30 грамм</li>
+                <li>Майонез 30 грамм</li>
+                <li>Чеснок 5 грамм</li>
+                <li>Лимон 10 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Обжарить курицу, нарезать листья салата, добавить крутоны, пармезан. Смешать соус из майонеза, чеснока, лимона, анчоусов. Заправить салат.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Спагетти карбонара.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 600</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 15</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Средне</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Спагетти карбонара</h1>
+                            <p class="description">Итальянская паста с беконом и сыром</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Паста 200 грамм</li>
+                <li>Бекон 100 грамм</li>
+                <li>Пармезан 50 грамм</li>
+                <li>Яйца 2 грамм</li>
+                <li>Соль 5 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Сварить спагетти. Обжарить бекон, смешать с яйцами и пармезаном. Добавить пасту, перемешать, подавать сразу.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Тирамису.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 400</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 30</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Средне</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Тирамису</h1>
+                            <p class="description">Итальянский десерт с маскарпоне и кофе</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Маскарпоне 250 грамм</li>
+                <li>Кофе 100 грамм</li>
+                <li>Печенье савоярди 200 грамм</li>
+                <li>Какао 20 грамм</li>
+                <li>Сахар 50 грамм</li>
+                <li>Сливки 100 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Смешать маскарпоне с сахаром и сливками. Обмакнуть печенье савоярди в кофе, выложить слоями с кремом. Посыпать какао, охладить 4 часа.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Оливье.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 300</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 25</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Оливье</h1>
+                            <p class="description">Русский салат с картофелем и майонезом</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Картофель 300 грамм</li>
+                <li>Морковь 100 грамм</li>
+                <li>Яйца 3 грамм</li>
+                <li>Огурцы 150 грамм</li>
+                <li>Майонез 100 грамм</li>
+                <li>Свинина 150 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Отварить картофель, морковь, яйца, нарезать кубиками. Добавить огурцы, горошек, колбасу, заправить майонезом.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Грибной суп.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 200</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 30</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Грибной суп</h1>
+                            <p class="description">Суп с шампиньонами и сливками</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Грибы 200 грамм</li>
+                <li>Сливки 100 грамм</li>
+                <li>Лук 50 грамм</li>
+                <li>Картофель 200 грамм</li>
+                <li>Соль 5 грамм</li>
+                <li>Зелень 20 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Обжарить грибы с луком, добавить картофель и воду, варить 20 минут. Влить сливки, посолить, подавать с зеленью.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Пельмени.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 450</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 40</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Средне</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Пельмени</h1>
+                            <p class="description">Сибирские пельмени с мясом</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Тесто 300 грамм</li>
+                <li>Говядина 200 грамм</li>
+                <li>Лук 50 грамм</li>
+                <li>Соль 5 грамм</li>
+                <li>Сметана 50 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Замесить тесто, приготовить фарш из говядины и лука. Сформировать пельмени, варить 7 минут. Подавать со сметаной.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Чизкейк.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 500</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 60</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Средне</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Чизкейк</h1>
+                            <p class="description">Десерт с сырным кремом и печеньем</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Маскарпоне 200 грамм</li>
+                <li>Масло сливочное 100 грамм</li>
+                <li>Сахар 100 грамм</li>
+                <li>Яйца 2 грамм</li>
+                <li>Печенье савоярди 150 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Измельчить печенье, смешать с маслом для основы. Смешать маскарпоне, сахар, яйца, вылить на основу. Выпекать 50 минут, охладить.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Греческий салат.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 200</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 15</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Греческий салат</h1>
+                            <p class="description">Салат с огурцами, помидорами и фетой</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Огурцы 150 грамм</li>
+                <li>Помидоры 150 грамм</li>
+                <li>Сыр 100 грамм</li>
+                <li>Лук 50 грамм</li>
+                <li>Масло растительное 30 грамм</li>
+                <li>Лимон 10 грамм</li>
+                <li>Орегано 5 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Нарезать огурцы, помидоры, лук, добавить оливки, фету. Заправить оливковым маслом, лимоном, орегано.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Лазанья.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 550</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 60</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Сложно</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Лазанья</h1>
+                            <p class="description">Итальянское блюдо с мясом и сыром</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Тесто 200 грамм</li>
+                <li>Говядина 200 грамм</li>
+                <li>Сыр 100 грамм</li>
+                <li>Томаты 100 грамм</li>
+                <li>Лук 50 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Приготовить мясной соус из говядины, томатов, лука. Собрать слои из листов лазаньи, соуса, сыра. Выпекать 40 минут.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Щи.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 180</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 40</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Щи</h1>
+                            <p class="description">Русский капустный суп</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Капуста 300 грамм</li>
+                <li>Картофель 200 грамм</li>
+                <li>Морковь 100 грамм</li>
+                <li>Лук 50 грамм</li>
+                <li>Сметана 50 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Сварить бульон, добавить капусту, картофель, морковь, лук. Варить 30 минут, подавать со сметаной.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Котлеты.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 400</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 20</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Средне</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Котлеты</h1>
+                            <p class="description">Жареные мясные котлеты</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Говядина 300 грамм</li>
+                <li>Лук 50 грамм</li>
+                <li>Яйца 1 грамм</li>
+                <li>Масло растительное 30 грамм</li>
+                <li>Соль 5 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Смешать фарш, лук, яйцо, хлебные крошки. Сформировать котлеты, обжарить на масле 10 минут.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Панкейки.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 300</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 15</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Панкейки</h1>
+                            <p class="description">Американские блинчики с сиропом</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Мука 150 грамм</li>
+                <li>Молоко 200 грамм</li>
+                <li>Яйца 2 грамм</li>
+                <li>Сахар 30 грамм</li>
+                <li>Масло растительное 20 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Смешать муку, молоко, яйца, сахар. Жарить на сковороде по 2 минуты с каждой стороны. Подавать с сиропом.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Шарлотка.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 250</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 50</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Шарлотка</h1>
+                            <p class="description">Яблочный пирог</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Мука 150 грамм</li>
+                <li>Сахар 100 грамм</li>
+                <li>Яйца 3 грамм</li>
+                <li>Яблоки 300 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Смешать муку, сахар, яйца. Нарезать яблоки, выложить в форму, залить тестом. Выпекать 40 минут.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Рататуй.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 150</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 50</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Средне</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Рататуй</h1>
+                            <p class="description">Овощное рагу из Франции</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Томаты 200 грамм</li>
+                <li>Перец 100 грамм</li>
+                <li>Лук 50 грамм</li>
+                <li>Чеснок 10 грамм</li>
+                <li>Масло растительное 30 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Нарезать баклажаны, кабачки, томаты. Выложить в форму, полить соусом из томатов и перца. Запекать 40 минут.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Суши.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 200</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 30</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Сложно</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Суши</h1>
+                            <p class="description">Японские роллы с рыбой</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Рис 200 грамм</li>
+                <li>Рыба 100 грамм</li>
+                <li>Огурцы 50 грамм</li>
+                <li>Уксус 20 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Сварить рис, смешать с уксусом. Завернуть рис, рыбу, огурец в нори. Нарезать роллы, подавать с соевым соусом.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Том Ям.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 250</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 20</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Средне</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Том Ям</h1>
+                            <p class="description">Тайский острый суп с креветками</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Креветки 150 грамм</li>
+                <li>Грибы 100 грамм</li>
+                <li>Сливки 100 грамм</li>
+                <li>Лимон 20 грамм</li>
+                <li>Чеснок 10 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Сварить бульон, добавить пасту чили, лемонграсс, креветки, грибы. Варить 10 минут, добавить кокосовое молоко.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Блины.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 200</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 20</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Блины</h1>
+                            <p class="description">Тонкие русские блинчики</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Мука 150 грамм</li>
+                <li>Молоко 300 грамм</li>
+                <li>Яйца 2 грамм</li>
+                <li>Сахар 30 грамм</li>
+                <li>Мед 50 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Смешать муку, молоко, яйца, сахар. Жарить тонкие блины на сковороде. Подавать с медом или вареньем.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Пицца Маргарита.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 400</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 30</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Средне</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Пицца Маргарита</h1>
+                            <p class="description">Классическая пицца с томатами и базиликом</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Тесто 200 грамм</li>
+                <li>Томаты 100 грамм</li>
+                <li>Сыр 100 грамм</li>
+                <li>Базилик 20 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Замесить тесто, раскатать. Смазать томатным соусом, добавить моцареллу, базилик. Выпекать 15 минут.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Картошка фри.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 300</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 15</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Картошка фри</h1>
+                            <p class="description">Жареный картофель</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Картофель 300 грамм</li>
+                <li>Масло растительное 100 грамм</li>
+                <li>Соль 5 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Нарезать картофель брусками, обжарить во фритюре 5 минут. Посолить, подавать с соусом.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Бефстроганов.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 450</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 30</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Средне</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Бефстроганов</h1>
+                            <p class="description">Говядина в сливочном соусе</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Говядина 300 грамм</li>
+                <li>Лук 50 грамм</li>
+                <li>Сметана 100 грамм</li>
+                <li>Рис 100 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Нарезать говядину, обжарить с луком. Добавить сметану, горчицу, тушить 20 минут. Подавать с рисом.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Эклеры.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 350</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 60</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Сложно</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Эклеры</h1>
+                            <p class="description">Французские пирожные с кремом</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Тесто 200 грамм</li>
+                <li>Сливки 100 грамм</li>
+                <li>Шоколад 50 грамм</li>
+                <li>Ваниль 5 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Сварить заварное тесто, выпечь эклеры. Наполнить кремом из сливок и ванили, покрыть шоколадом.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Салат с тунцом.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 200</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 10</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Салат с тунцом</h1>
+                            <p class="description">Салат с консервированным тунцом</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Рыба 100 грамм</li>
+                <li>Листья салата 50 грамм</li>
+                <li>Огурцы 50 грамм</li>
+                <li>Помидоры 50 грамм</li>
+                <li>Масло растительное 20 грамм</li>
+                <li>Лимон 10 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Смешать тунец, листья салата, огурцы, помидоры. Заправить оливковым маслом и лимоном.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Гуляш.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 400</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 70</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Средне</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Гуляш</h1>
+                            <p class="description">Венгерское мясное рагу</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Говядина 300 грамм</li>
+                <li>Лук 50 грамм</li>
+                <li>Томаты 100 грамм</li>
+                <li>Картофель 200 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Обжарить говядину с луком, добавить паприку, томаты, тушить 1 час. Подавать с картофелем.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Крем-брюле.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 300</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 50</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Сложно</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Крем-брюле</h1>
+                            <p class="description">Французский десерт с карамельной корочкой</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Сливки 200 грамм</li>
+                <li>Сахар 50 грамм</li>
+                <li>Ваниль 5 грамм</li>
+                <li>Яйца 2 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Смешать сливки, сахар, ваниль, яйца. Запечь, посыпать сахаром, карамелизировать горелкой.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Окрошка.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 150</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 20</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Окрошка</h1>
+                            <p class="description">Холодный суп на квасе</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Картофель 200 грамм</li>
+                <li>Яйца 2 грамм</li>
+                <li>Огурцы 100 грамм</li>
+                <li>Свинина 100 грамм</li>
+                <li>Сметана 50 грамм</li>
+                <li>Зелень 20 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Нарезать картофель, яйца, огурцы, колбасу. Смешать с квасом, сметаной, зеленью.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Ризотто.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 350</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 30</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Средне</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Ризотто</h1>
+                            <p class="description">Итальянское блюдо с рисом и грибами</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Рис 200 грамм</li>
+                <li>Грибы 100 грамм</li>
+                <li>Лук 50 грамм</li>
+                <li>Пармезан 50 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Обжарить рис с луком, постепенно добавлять бульон. Добавить грибы, пармезан, перемешать.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Тартар.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 250</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 15</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Сложно</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Тартар</h1>
+                            <p class="description">Сырое мясо с приправами</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Говядина 200 грамм</li>
+                <li>Лук 30 грамм</li>
+                <li>Яйца 1 грамм</li>
+                <li>Масло растительное 20 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Измельчить говядину, смешать с луком, каперсами, горчицей, яйцом. Подавать с тостами.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Мусс шоколадный.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 300</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 20</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Средне</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Мусс шоколадный</h1>
+                            <p class="description">Воздушный шоколадный десерт</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Шоколад 100 грамм</li>
+                <li>Сливки 150 грамм</li>
+                <li>Сахар 30 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Растопить шоколад, смешать со взбитыми сливками. Охладить 2 часа, подавать с ягодами.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Куриный суп.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 150</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 30</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Куриный суп</h1>
+                            <p class="description">Легкий суп с лапшой</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Курица 200 грамм</li>
+                <li>Паста 100 грамм</li>
+                <li>Морковь 50 грамм</li>
+                <li>Лук 50 грамм</li>
+                <li>Зелень 20 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Сварить бульон из курицы, добавить лапшу, морковь, лук. Варить 20 минут, посыпать зеленью.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Брауни.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 400</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 40</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Брауни</h1>
+                            <p class="description">Шоколадный пирог</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Мука 100 грамм</li>
+                <li>Сахар 100 грамм</li>
+                <li>Яйца 2 грамм</li>
+                <li>Шоколад 100 грамм</li>
+                <li>Масло сливочное 50 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Смешать муку, сахар, яйца, шоколад, масло. Выпекать 25 минут, нарезать квадратами.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Салат с авокадо.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 250</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 15</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Салат с авокадо</h1>
+                            <p class="description">Салат с креветками и авокадо</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Авокадо 100 грамм</li>
+                <li>Креветки 100 грамм</li>
+                <li>Листья салата 50 грамм</li>
+                <li>Лимон 10 грамм</li>
+                <li>Масло растительное 20 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Нарезать авокадо, креветки, листья салата. Заправить лимоном, оливковым маслом.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Паэлья.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 450</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 40</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Сложно</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Паэлья</h1>
+                            <p class="description">Испанское блюдо с рисом и морепродуктами</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Рис 200 грамм</li>
+                <li>Креветки 100 грамм</li>
+                <li>Курица 100 грамм</li>
+                <li>Перец 50 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Обжарить рис, креветки, мидии, курицу с перцем. Добавить шафран, бульон, тушить 20 минут.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Сырники.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 300</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 20</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Сырники</h1>
+                            <p class="description">Творожные оладьи</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Сыр 200 грамм</li>
+                <li>Яйца 2 грамм</li>
+                <li>Мука 50 грамм</li>
+                <li>Сахар 30 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Смешать творог, яйца, муку, сахар. Сформировать сырники, обжарить по 3 минуты с каждой стороны.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Гаспачо.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 100</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 15</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Гаспачо</h1>
+                            <p class="description">Холодный томатный суп</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Томаты 300 грамм</li>
+                <li>Огурцы 100 грамм</li>
+                <li>Перец 50 грамм</li>
+                <li>Лук 30 грамм</li>
+                <li>Чеснок 5 грамм</li>
+                <li>Масло растительное 20 грамм</li>
+                <li>Уксус 10 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Измельчить томаты, огурцы, перец, лук, чеснок. Смешать с оливковым маслом, уксусом, охладить.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Киш.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 400</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 50</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Средне</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Киш</h1>
+                            <p class="description">Французский пирог с начинкой</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Тесто 200 грамм</li>
+                <li>Яйца 3 грамм</li>
+                <li>Сливки 100 грамм</li>
+                <li>Бекон 100 грамм</li>
+                <li>Сыр 50 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Замесить тесто, выложить в форму. Смешать яйца, сливки, бекон, сыр, запечь 40 минут.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Фалафель.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 300</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 20</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Средне</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Фалафель</h1>
+                            <p class="description">Жареные шарики из нута</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Лук 50 грамм</li>
+                <li>Зелень 20 грамм</li>
+                <li>Масло растительное 50 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Измельчить нут, лук, зелень, специи. Сформировать шарики, обжарить во фритюре 5 минут.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Торт Наполеон.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 500</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 90</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Сложно</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Торт Наполеон</h1>
+                            <p class="description">Слоеный торт с кремом</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Тесто 300 грамм</li>
+                <li>Сливки 200 грамм</li>
+                <li>Сахар 100 грамм</li>
+                <li>Масло сливочное 100 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Выпечь слоеные коржи, смазать заварным кремом. Охладить 4 часа, нарезать.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Жульен.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 350</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 20</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Средне</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Жульен</h1>
+                            <p class="description">Грибная закуска с сыром</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Грибы 200 грамм</li>
+                <li>Лук 50 грамм</li>
+                <li>Сливки 100 грамм</li>
+                <li>Сыр 50 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Обжарить грибы с луком, добавить сливки, сыр. Запечь в кокотницах 10 минут.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Капрезе.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 200</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 10</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Капрезе</h1>
+                            <p class="description">Итальянский салат с томатами и моцареллой</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Томаты 150 грамм</li>
+                <li>Сыр 100 грамм</li>
+                <li>Базилик 20 грамм</li>
+                <li>Масло растительное 20 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Нарезать томаты, моцареллу, базилик. Полить оливковым маслом, бальзамиком.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Хумус.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 250</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 15</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Хумус</h1>
+                            <p class="description">Паста из нута с тахини</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Чеснок 10 грамм</li>
+                <li>Лимон 10 грамм</li>
+                <li>Масло растительное 20 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Измельчить нут, тахини, чеснок, лимон, оливковое масло. Подавать с питой.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Борщ зеленый.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 150</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 30</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Борщ зеленый</h1>
+                            <p class="description">Суп со щавелем</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Картофель 200 грамм</li>
+                <li>Яйца 2 грамм</li>
+                <li>Сметана 50 грамм</li>
+                <li>Зелень 20 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Сварить бульон, добавить щавель, картофель, яйца. Варить 20 минут, подавать со сметаной.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Омлет.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 200</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 10</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Омлет</h1>
+                            <p class="description">Яичное блюдо с начинкой</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Яйца 3 грамм</li>
+                <li>Сыр 50 грамм</li>
+                <li>Помидоры 50 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Взбить яйца, добавить сыр, помидоры. Жарить на сковороде 5 минут.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Кекс.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 350</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 50</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Кекс</h1>
+                            <p class="description">Простой ванильный кекс</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Мука 150 грамм</li>
+                <li>Сахар 100 грамм</li>
+                <li>Яйца 2 грамм</li>
+                <li>Масло сливочное 50 грамм</li>
+                <li>Ваниль 5 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Смешать муку, сахар, яйца, масло, ваниль. Выпекать 40 минут.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Рагу.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 400</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 70</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Средне</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Рагу</h1>
+                            <p class="description">Овощное блюдо с мясом</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Говядина 300 грамм</li>
+                <li>Картофель 200 грамм</li>
+                <li>Морковь 100 грамм</li>
+                <li>Томаты 100 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Обжарить говядину, добавить картофель, морковь, томаты. Тушить 1 час.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Макароны по-флотски.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 450</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 20</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Макароны по-флотски</h1>
+                            <p class="description">Паста с мясом</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Паста 200 грамм</li>
+                <li>Говядина 150 грамм</li>
+                <li>Лук 50 грамм</li>
+                <li>Сыр 50 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Сварить макароны, обжарить фарш с луком. Смешать, подавать с сыром.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Пудинг.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 250</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 20</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Пудинг</h1>
+                            <p class="description">Молочный десерт</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Молоко 200 грамм</li>
+                <li>Сахар 50 грамм</li>
+                <li>Ваниль 5 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Смешать молоко, сахар, крахмал, ваниль. Варить до загустения, охладить.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Салат с кальмарами.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 200</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 15</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Салат с кальмарами</h1>
+                            <p class="description">Морской салат</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Креветки 100 грамм</li>
+                <li>Огурцы 50 грамм</li>
+                <li>Яйца 2 грамм</li>
+                <li>Майонез 50 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Отварить кальмары, нарезать с огурцами, яйцами. Заправить майонезом.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Голубцы.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 350</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 60</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Средне</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Голубцы</h1>
+                            <p class="description">Капуста с мясной начинкой</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Капуста 300 грамм</li>
+                <li>Говядина 200 грамм</li>
+                <li>Рис 100 грамм</li>
+                <li>Томаты 100 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Завернуть фарш с рисом в капустные листья. Тушить в томатном соусе 40 минут.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Пирожки.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 300</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 40</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Средне</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Пирожки</h1>
+                            <p class="description">Печеные пирожки с начинкой</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Тесто 300 грамм</li>
+                <li>Говядина 150 грамм</li>
+                <li>Капуста 100 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Замесить тесто, начинить мясом или капустой. Выпекать 20 минут.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Смузи.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 150</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 5</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Смузи</h1>
+                            <p class="description">Фруктовый напиток</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Молоко 200 грамм</li>
+                <li>Яблоки 100 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Измельчить банан, ягоды, йогурт в блендере. Подавать охлажденным.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Тефтели.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 400</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 40</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Средне</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Тефтели</h1>
+                            <p class="description">Мясные шарики в соусе</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Говядина 300 грамм</li>
+                <li>Рис 100 грамм</li>
+                <li>Яйца 1 грамм</li>
+                <li>Томаты 100 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Смешать фарш, рис, яйцо. Сформировать тефтели, тушить в томатном соусе 30 минут.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Минтай жареный.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 300</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 15</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Минтай жареный</h1>
+                            <p class="description">Рыба в панировке</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Рыба 200 грамм</li>
+                <li>Мука 50 грамм</li>
+                <li>Масло растительное 30 грамм</li>
+                <li>Лимон 10 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Обвалять минтай в муке, обжарить на масле 10 минут. Подавать с лимоном.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Крокеты.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 350</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 20</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Средне</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Крокеты</h1>
+                            <p class="description">Жареные шарики с начинкой</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Картофель 200 грамм</li>
+                <li>Сыр 50 грамм</li>
+                <li>Масло растительное 50 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Смешать картофельное пюре, сыр, обвалять в панировке, обжарить 5 минут.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Салат с курицей.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 250</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 20</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Салат с курицей</h1>
+                            <p class="description">Салат с жареной курицей</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Курица 200 грамм</li>
+                <li>Листья салата 50 грамм</li>
+                <li>Помидоры 50 грамм</li>
+                <li>Майонез 50 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Обжарить курицу, смешать с листьями салата, помидорами, заправить майонезом.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Медовик.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 450</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 90</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Сложно</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Медовик</h1>
+                            <p class="description">Торт с медовыми коржами</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Мука 300 грамм</li>
+                <li>Мед 100 грамм</li>
+                <li>Сметана 200 грамм</li>
+                <li>Сахар 100 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Выпечь медовые коржи, смазать сметанным кремом. Охладить 4 часа.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Уха.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 150</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 30</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Уха</h1>
+                            <p class="description">Рыбный суп</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Рыба 200 грамм</li>
+                <li>Картофель 200 грамм</li>
+                <li>Морковь 50 грамм</li>
+                <li>Лук 50 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Сварить бульон из рыбы, добавить картофель, морковь, лук. Варить 20 минут.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Клубничный тарт.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 350</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 60</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Средне</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Клубничный тарт</h1>
+                            <p class="description">Десерт с ягодами</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Тесто 200 грамм</li>
+                <li>Сливки 100 грамм</li>
+                <li>Сахар 50 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Выпечь песочное тесто, наполнить заварным кремом, украсить клубникой.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Карри.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 400</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 30</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Средне</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Карри</h1>
+                            <p class="description">Индийское блюдо с рисом</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Курица 200 грамм</li>
+                <li>Лук 50 грамм</li>
+                <li>Рис 100 грамм</li>
+                <li>Сливки 100 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Обжарить курицу с луком, добавить карри, кокосовое молоко. Тушить 20 минут, подавать с рисом.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Бутерброды.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 300</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 10</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Бутерброды</h1>
+                            <p class="description">Закуски с сыром и колбасой</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Тесто 100 грамм</li>
+                <li>Сыр 50 грамм</li>
+                <li>Свинина 50 грамм</li>
+                <li>Помидоры 50 грамм</li>
+                <li>Масло сливочное 20 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Намазать хлеб маслом, выложить сыр, колбасу, помидоры. Подавать сразу.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Плов.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 450</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 50</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Средне</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Плов</h1>
+                            <p class="description">Узбекское блюдо с рисом</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Говядина 300 грамм</li>
+                <li>Рис 200 грамм</li>
+                <li>Морковь 100 грамм</li>
+                <li>Лук 50 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Обжарить мясо с морковью, луком, добавить рис, специи, тушить 40 минут.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Профитроли.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 350</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 60</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Сложно</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Профитроли</h1>
+                            <p class="description">Пирожные с кремом</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Тесто 200 грамм</li>
+                <li>Сливки 100 грамм</li>
+                <li>Шоколад 50 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Выпечь заварное тесто, наполнить кремом из сливок. Полить шоколадом.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Салат с сыром.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 200</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 10</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Салат с сыром</h1>
+                            <p class="description">Салат с фетой и овощами</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Огурцы 100 грамм</li>
+                <li>Помидоры 100 грамм</li>
+                <li>Сыр 50 грамм</li>
+                <li>Масло растительное 20 грамм</li>
+                <li>Орегано 5 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Нарезать огурцы, помидоры, фету, добавить оливковое масло, орегано.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Луковый суп.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 250</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 40</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Средне</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Луковый суп</h1>
+                            <p class="description">Французский суп с сыром</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Лук 200 грамм</li>
+                <li>Сыр 50 грамм</li>
+                <li>Масло сливочное 30 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Карамелизировать лук, добавить бульон, варить 20 минут. Запечь с сыром.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Запеканка.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 300</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 50</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Запеканка</h1>
+                            <p class="description">Творожное блюдо</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Сыр 200 грамм</li>
+                <li>Яйца 2 грамм</li>
+                <li>Сахар 50 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Смешать творог, яйца, сахар, манку. Запечь 40 минут.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Кебаб.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 400</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 20</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Средне</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Кебаб</h1>
+                            <p class="description">Жареное мясо на шампуре</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Говядина 300 грамм</li>
+                <li>Лук 100 грамм</li>
+                <li>Перец 5 грамм</li>
+                <li>Соль 5 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Мариновать мясо с луком и специями, нанизать на шампуры, жарить на гриле 15 минут. Подавать с соусом.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Морс.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 100</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 15</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Морс</h1>
+                            <p class="description">Ягодный напиток</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Сахар 50 грамм</li>
+                <li>Вода 1 литр</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Измельчить ягоды, залить водой, добавить сахар, варить 10 минут. Процедить и охладить.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Фрикасе.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 450</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 30</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Средне</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Фрикасе</h1>
+                            <p class="description">Курица в сливочном соусе</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Курица 300 грамм</li>
+                <li>Сливки 100 грамм</li>
+                <li>Грибы 100 грамм</li>
+                <li>Лук 50 грамм</li>
+                <li>Рис 100 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Обжарить курицу с луком, добавить сливки, грибы, тушить 20 минут. Подавать с рисом.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Салат с грушей.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 250</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 10</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Салат с грушей</h1>
+                            <p class="description">Салат с сыром и грушей</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Листья салата 50 грамм</li>
+                <li>Сыр 50 грамм</li>
+                <li>Мед 10 грамм</li>
+                <li>Масло растительное 20 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Нарезать грушу, листья салата, сыр, добавить орехи. Заправить медово-горчичным соусом.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Макаруны.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 300</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 40</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Сложно</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Макаруны</h1>
+                            <p class="description">Французские миндальные пирожные</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Мука 100 грамм</li>
+                <li>Сахар 100 грамм</li>
+                <li>Яйца 2 грамм</li>
+                <li>Сливки 50 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Смешать миндальную муку, сахар, взбитые белки. Выпечь, начинить кремом.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Суп-пюре.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 200</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 30</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Суп-пюре</h1>
+                            <p class="description">Суп-пюре из тыквы</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Морковь 100 грамм</li>
+                <li>Лук 50 грамм</li>
+                <li>Сливки 100 грамм</li>
+                <li>Крутоны 30 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Сварить тыкву с луком, морковью, измельчить блендером. Добавить сливки, подавать с крутонами.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Куриные крылышки.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 400</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 30</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Средне</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Куриные крылышки</h1>
+                            <p class="description">Жареные крылышки в соусе</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Курица 300 грамм</li>
+                <li>Масло растительное 50 грамм</li>
+                <li>Соль 5 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Мариновать крылышки в соусе, жарить 20 минут. Подавать с соусом барбекю.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Салат с беконом.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 300</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 15</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Салат с беконом</h1>
+                            <p class="description">Салат с жареным беконом</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Бекон 100 грамм</li>
+                <li>Листья салата 50 грамм</li>
+                <li>Помидоры 50 грамм</li>
+                <li>Масло растительное 20 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Обжарить бекон, смешать с листьями салата, помидорами, заправить оливковым маслом.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Лимонад.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 100</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 10</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Лимонад</h1>
+                            <p class="description">Освежающий напиток</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Лимон 50 грамм</li>
+                <li>Сахар 50 грамм</li>
+                <li>Вода 1 литр</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Выжать сок из лимонов, смешать с водой и сахаром. Охладить, подавать со льдом.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Печенье.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 300</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 25</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Печенье</h1>
+                            <p class="description">Шоколадное печенье</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Мука 150 грамм</li>
+                <li>Сахар 100 грамм</li>
+                <li>Масло сливочное 50 грамм</li>
+                <li>Шоколад 50 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Смешать муку, сахар, масло, шоколад. Сформировать печенье, выпекать 15 минут.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Шашлык.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 450</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 30</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Средне</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Шашлык</h1>
+                            <p class="description">Мясо на гриле</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Свинина 300 грамм</li>
+                <li>Лук 100 грамм</li>
+                <li>Соль 5 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Мариновать свинину с луком, жарить на углях 20 минут. Подавать с соусом.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Салат с яйцом.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 150</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 10</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Салат с яйцом</h1>
+                            <p class="description">Салат с вареными яйцами</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Яйца 3 грамм</li>
+                <li>Огурцы 100 грамм</li>
+                <li>Зелень 20 грамм</li>
+                <li>Сметана 50 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Нарезать яйца, огурцы, зелень, заправить сметаной.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Томагавк.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 600</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 15</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Средне</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Томагавк</h1>
+                            <p class="description">Стейк на кости</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Говядина 400 грамм</li>
+                <li>Соль 5 грамм</li>
+                <li>Перец 5 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Обжарить стейк на гриле по 5 минут с каждой стороны, дать отдохнуть 5 минут.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Суп с фрикадельками.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 200</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 30</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Суп с фрикадельками</h1>
+                            <p class="description">Суп с мясными шариками</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Говядина 200 грамм</li>
+                <li>Картофель 200 грамм</li>
+                <li>Лук 50 грамм</li>
+                <li>Морковь 50 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Сварить бульон, добавить картофель, фрикадельки из фарша, варить 20 минут.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Торт Прага.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 500</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 90</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Сложно</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Торт Прага</h1>
+                            <p class="description">Шоколадный торт с кремом</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Мука 200 грамм</li>
+                <li>Сахар 150 грамм</li>
+                <li>Шоколад 100 грамм</li>
+                <li>Сливки 100 грамм</li>
+                <li>Яйца 3 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Выпечь шоколадные коржи, смазать кремом, покрыть глазурью. Охладить 4 часа.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Крем-суп.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 200</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 25</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Крем-суп</h1>
+                            <p class="description">Суп-пюре с брокколи</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Картофель 200 грамм</li>
+                <li>Сливки 100 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Сварить брокколи с картофелем, измельчить блендером, добавить сливки.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Салат с рыбой.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 250</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 15</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Салат с рыбой</h1>
+                            <p class="description">Салат с копченой рыбой</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Рыба 100 грамм</li>
+                <li>Картофель 100 грамм</li>
+                <li>Яйца 2 грамм</li>
+                <li>Майонез 50 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Нарезать рыбу, картофель, яйца, заправить майонезом.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Курица терияки.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 400</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 20</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Средне</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Курица терияки</h1>
+                            <p class="description">Курица в сладком соусе</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Курица 300 грамм</li>
+                <li>Рис 100 грамм</li>
+                <li>Мед 20 грамм</li>
+                <li>Соль 5 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Обжарить курицу, добавить соус терияки, тушить 10 минут. Подавать с рисом.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Пирог с рыбой.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 400</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 60</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Средне</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Пирог с рыбой</h1>
+                            <p class="description">Пирог с начинкой из рыбы</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Тесто 300 грамм</li>
+                <li>Рыба 200 грамм</li>
+                <li>Рис 100 грамм</li>
+                <li>Лук 50 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Замесить тесто, начинить рыбой, луком, рисом. Выпекать 40 минут.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Салат с морепродуктами.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 200</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 15</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Салат с морепродуктами</h1>
+                            <p class="description">Салат с креветками и кальмарами</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Креветки 100 грамм</li>
+                <li>Листья салата 50 грамм</li>
+                <li>Лимон 10 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Отварить креветки, кальмары, смешать с листьями салата, заправить лимоном.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Тыквенный суп.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 200</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 30</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Тыквенный суп</h1>
+                            <p class="description">Суп-пюре с тыквой</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Лук 50 грамм</li>
+                <li>Сливки 100 грамм</li>
+                <li>Корица 5 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Сварить тыкву с луком, измельчить блендером, добавить сливки, корицу.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Фаршированный перец.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 350</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 50</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Средне</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Фаршированный перец</h1>
+                            <p class="description">Перец с мясной начинкой</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Перец 200 грамм</li>
+                <li>Говядина 200 грамм</li>
+                <li>Рис 100 грамм</li>
+                <li>Томаты 100 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Начинить перец фаршем с рисом, тушить в томатном соусе 40 минут.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Кофе латте.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 150</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 5</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Кофе латте</h1>
+                            <p class="description">Кофе с молоком</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Кофе 50 грамм</li>
+                <li>Молоко 150 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Сварить эспрессо, добавить горячее молоко, взбить пену.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Пирог с яблоками.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 300</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 50</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Пирог с яблоками</h1>
+                            <p class="description">Яблочный пирог с корицей</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Тесто 200 грамм</li>
+                <li>Яблоки 300 грамм</li>
+                <li>Сахар 50 грамм</li>
+                <li>Корица 5 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Замесить тесто, начинить яблоками с сахаром и корицей. Выпекать 40 минут.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Салат с грибами.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 200</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 15</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Салат с грибами</h1>
+                            <p class="description">Салат с жареными грибами</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Грибы 150 грамм</li>
+                <li>Лук 50 грамм</li>
+                <li>Листья салата 50 грамм</li>
+                <li>Сметана 50 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Обжарить грибы с луком, смешать с листьями салата, заправить сметаной.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Суп с клецками.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 200</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 25</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Суп с клецками</h1>
+                            <p class="description">Суп с мучными клецками</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Мука 100 грамм</li>
+                <li>Яйца 2 грамм</li>
+                <li>Курица 200 грамм</li>
+                <li>Морковь 50 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Сварить бульон, добавить клецки из муки и яиц, варить 10 минут.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Курица в духовке.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 450</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 70</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Средне</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Курица в духовке</h1>
+                            <p class="description">Запеченная курица с травами</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Курица 500 грамм</li>
+                <li>Картофель 200 грамм</li>
+                <li>Чеснок 10 грамм</li>
+                <li>Соль 5 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Натереть курицу специями, запекать 1 час при 180°C. Подавать с картофелем.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Тирамису с ягодами.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 400</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 30</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Средне</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Тирамису с ягодами</h1>
+                            <p class="description">Десерт с маскарпоне и ягодами</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Маскарпоне 200 грамм</li>
+                <li>Печенье савоярди 150 грамм</li>
+                <li>Сахар 50 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Смешать маскарпоне с сахаром, выложить слоями с печеньем и ягодами. Охладить 4 часа.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Салат с орехами.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 250</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 10</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Салат с орехами</h1>
+                            <p class="description">Салат с грецкими орехами</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Листья салата 50 грамм</li>
+                <li>Сыр 50 грамм</li>
+                <li>Мед 10 грамм</li>
+                <li>Масло растительное 20 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Смешать листья салата, сыр, орехи, заправить медом и оливковым маслом.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Рыба в кляре.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 350</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 20</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Рыба в кляре</h1>
+                            <p class="description">Жареная рыба в тесте</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Рыба 200 грамм</li>
+                <li>Мука 50 грамм</li>
+                <li>Яйца 2 грамм</li>
+                <li>Масло растительное 50 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Приготовить кляр из муки и яиц, обмакнуть рыбу, обжарить 10 минут.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Пирог с мясом.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 400</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 50</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Средне</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Пирог с мясом</h1>
+                            <p class="description">Пирог с мясной начинкой</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Тесто 300 грамм</li>
+                <li>Говядина 200 грамм</li>
+                <li>Лук 50 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Замесить тесто, начинить фаршем с луком, выпекать 40 минут.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Салат с ананасом.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 300</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 15</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Салат с ананасом</h1>
+                            <p class="description">Салат с курицей и ананасом</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Курица 200 грамм</li>
+                <li>Сыр 50 грамм</li>
+                <li>Майонез 50 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Нарезать курицу, ананас, сыр, заправить майонезом.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Суп с чечевицей.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 200</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 30</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Суп с чечевицей</h1>
+                            <p class="description">Суп с красной чечевицей</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Морковь 100 грамм</li>
+                <li>Лук 50 грамм</li>
+                <li>Томаты 100 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Сварить чечевицу с морковью, луком, томатами, варить 20 минут.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Торт с кремом.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 450</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 90</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Сложно</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Торт с кремом</h1>
+                            <p class="description">Бисквитный торт с кремом</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Мука 200 грамм</li>
+                <li>Сахар 150 грамм</li>
+                <li>Яйца 3 грамм</li>
+                <li>Сливки 200 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Выпечь бисквит, смазать кремом из сливок и сахара. Охладить 4 часа.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Салат с ветчиной.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 300</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 10</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Салат с ветчиной</h1>
+                            <p class="description">Салат с ветчиной и сыром</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Свинина 100 грамм</li>
+                <li>Сыр 50 грамм</li>
+                <li>Огурцы 50 грамм</li>
+                <li>Майонез 50 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Нарезать ветчину, сыр, огурцы, заправить майонезом.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h1>Контактная информация</h1>
+        <p>Телефон: +7 (928) 123-45-67</p>
+        <p>Почта: menucraft@gmail.com</p>
+    </footer>
+</body>
+</html>

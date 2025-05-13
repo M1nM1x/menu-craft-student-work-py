@@ -1,0 +1,564 @@
+[
+    {
+        "dish_id": 1,
+        "dish_name": "Борщ",
+        "description": "Традиционный украинский суп с говядиной и свеклой",
+        "recipe": "Сварить бульон из говядины, добавить нарезанные свеклу, капусту, картофель, морковь, лук. Тушить томаты с чесноком, добавить в суп. Варить 40 минут, подавать со сметаной.",
+        "calories": 250,
+        "cooking_time": 60,
+        "difficulty": "Средне",
+        "category_id": 1,
+        "ingredients": [
+            {
+                "ingredient": "Свекла",
+                "quantity": 300,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Капуста",
+                "quantity": 200,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Картофель",
+                "quantity": 400,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Говядина",
+                "quantity": 200,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Морковь",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Лук",
+                "quantity": 50,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Томаты",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Чеснок",
+                "quantity": 10,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Сметана",
+                "quantity": 50,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 6,
+        "dish_name": "Грибной суп",
+        "description": "Суп с шампиньонами и сливками",
+        "recipe": "Обжарить грибы с луком, добавить картофель и воду, варить 20 минут. Влить сливки, посолить, подавать с зеленью.",
+        "calories": 200,
+        "cooking_time": 30,
+        "difficulty": "Легко",
+        "category_id": 1,
+        "ingredients": [
+            {
+                "ingredient": "Грибы",
+                "quantity": 200,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Сливки",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Лук",
+                "quantity": 50,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Картофель",
+                "quantity": 200,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Соль",
+                "quantity": 5,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Зелень",
+                "quantity": 20,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 11,
+        "dish_name": "Щи",
+        "description": "Русский капустный суп",
+        "recipe": "Сварить бульон, добавить капусту, картофель, морковь, лук. Варить 30 минут, подавать со сметаной.",
+        "calories": 180,
+        "cooking_time": 40,
+        "difficulty": "Легко",
+        "category_id": 1,
+        "ingredients": [
+            {
+                "ingredient": "Капуста",
+                "quantity": 300,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Картофель",
+                "quantity": 200,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Морковь",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Лук",
+                "quantity": 50,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Сметана",
+                "quantity": 50,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 17,
+        "dish_name": "Том Ям",
+        "description": "Тайский острый суп с креветками",
+        "recipe": "Сварить бульон, добавить пасту чили, лемонграсс, креветки, грибы. Варить 10 минут, добавить кокосовое молоко.",
+        "calories": 250,
+        "cooking_time": 20,
+        "difficulty": "Средне",
+        "category_id": 1,
+        "ingredients": [
+            {
+                "ingredient": "Креветки",
+                "quantity": 150,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Грибы",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Сливки",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Лимон",
+                "quantity": 20,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Чеснок",
+                "quantity": 10,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 26,
+        "dish_name": "Окрошка",
+        "description": "Холодный суп на квасе",
+        "recipe": "Нарезать картофель, яйца, огурцы, колбасу. Смешать с квасом, сметаной, зеленью.",
+        "calories": 150,
+        "cooking_time": 20,
+        "difficulty": "Легко",
+        "category_id": 1,
+        "ingredients": [
+            {
+                "ingredient": "Картофель",
+                "quantity": 200,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Яйца",
+                "quantity": 2,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Огурцы",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Свинина",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Сметана",
+                "quantity": 50,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Зелень",
+                "quantity": 20,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 30,
+        "dish_name": "Куриный суп",
+        "description": "Легкий суп с лапшой",
+        "recipe": "Сварить бульон из курицы, добавить лапшу, морковь, лук. Варить 20 минут, посыпать зеленью.",
+        "calories": 150,
+        "cooking_time": 30,
+        "difficulty": "Легко",
+        "category_id": 1,
+        "ingredients": [
+            {
+                "ingredient": "Курица",
+                "quantity": 200,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Паста",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Морковь",
+                "quantity": 50,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Лук",
+                "quantity": 50,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Зелень",
+                "quantity": 20,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 35,
+        "dish_name": "Гаспачо",
+        "description": "Холодный томатный суп",
+        "recipe": "Измельчить томаты, огурцы, перец, лук, чеснок. Смешать с оливковым маслом, уксусом, охладить.",
+        "calories": 100,
+        "cooking_time": 15,
+        "difficulty": "Легко",
+        "category_id": 1,
+        "ingredients": [
+            {
+                "ingredient": "Томаты",
+                "quantity": 300,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Огурцы",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Перец",
+                "quantity": 50,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Лук",
+                "quantity": 30,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Чеснок",
+                "quantity": 5,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Масло растительное",
+                "quantity": 20,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Уксус",
+                "quantity": 10,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 42,
+        "dish_name": "Борщ зеленый",
+        "description": "Суп со щавелем",
+        "recipe": "Сварить бульон, добавить щавель, картофель, яйца. Варить 20 минут, подавать со сметаной.",
+        "calories": 150,
+        "cooking_time": 30,
+        "difficulty": "Легко",
+        "category_id": 1,
+        "ingredients": [
+            {
+                "ingredient": "Картофель",
+                "quantity": 200,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Яйца",
+                "quantity": 2,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Сметана",
+                "quantity": 50,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Зелень",
+                "quantity": 20,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 57,
+        "dish_name": "Уха",
+        "description": "Рыбный суп",
+        "recipe": "Сварить бульон из рыбы, добавить картофель, морковь, лук. Варить 20 минут.",
+        "calories": 150,
+        "cooking_time": 30,
+        "difficulty": "Легко",
+        "category_id": 1,
+        "ingredients": [
+            {
+                "ingredient": "Рыба",
+                "quantity": 200,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Картофель",
+                "quantity": 200,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Морковь",
+                "quantity": 50,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Лук",
+                "quantity": 50,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 64,
+        "dish_name": "Луковый суп",
+        "description": "Французский суп с сыром",
+        "recipe": "Карамелизировать лук, добавить бульон, варить 20 минут. Запечь с сыром.",
+        "calories": 250,
+        "cooking_time": 40,
+        "difficulty": "Средне",
+        "category_id": 1,
+        "ingredients": [
+            {
+                "ingredient": "Лук",
+                "quantity": 200,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Сыр",
+                "quantity": 50,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Масло сливочное",
+                "quantity": 30,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 71,
+        "dish_name": "Суп-пюре",
+        "description": "Суп-пюре из тыквы",
+        "recipe": "Сварить тыкву с луком, морковью, измельчить блендером. Добавить сливки, подавать с крутонами.",
+        "calories": 200,
+        "cooking_time": 30,
+        "difficulty": "Легко",
+        "category_id": 1,
+        "ingredients": [
+            {
+                "ingredient": "Морковь",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Лук",
+                "quantity": 50,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Сливки",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Крутоны",
+                "quantity": 30,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 79,
+        "dish_name": "Суп с фрикадельками",
+        "description": "Суп с мясными шариками",
+        "recipe": "Сварить бульон, добавить картофель, фрикадельки из фарша, варить 20 минут.",
+        "calories": 200,
+        "cooking_time": 30,
+        "difficulty": "Легко",
+        "category_id": 1,
+        "ingredients": [
+            {
+                "ingredient": "Говядина",
+                "quantity": 200,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Картофель",
+                "quantity": 200,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Лук",
+                "quantity": 50,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Морковь",
+                "quantity": 50,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 81,
+        "dish_name": "Крем-суп",
+        "description": "Суп-пюре с брокколи",
+        "recipe": "Сварить брокколи с картофелем, измельчить блендером, добавить сливки.",
+        "calories": 200,
+        "cooking_time": 25,
+        "difficulty": "Легко",
+        "category_id": 1,
+        "ingredients": [
+            {
+                "ingredient": "Картофель",
+                "quantity": 200,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Сливки",
+                "quantity": 100,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 86,
+        "dish_name": "Тыквенный суп",
+        "description": "Суп-пюре с тыквой",
+        "recipe": "Сварить тыкву с луком, измельчить блендером, добавить сливки, корицу.",
+        "calories": 200,
+        "cooking_time": 30,
+        "difficulty": "Легко",
+        "category_id": 1,
+        "ingredients": [
+            {
+                "ingredient": "Лук",
+                "quantity": 50,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Сливки",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Корица",
+                "quantity": 5,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 91,
+        "dish_name": "Суп с клецками",
+        "description": "Суп с мучными клецками",
+        "recipe": "Сварить бульон, добавить клецки из муки и яиц, варить 10 минут.",
+        "calories": 200,
+        "cooking_time": 25,
+        "difficulty": "Легко",
+        "category_id": 1,
+        "ingredients": [
+            {
+                "ingredient": "Мука",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Яйца",
+                "quantity": 2,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Курица",
+                "quantity": 200,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Морковь",
+                "quantity": 50,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 98,
+        "dish_name": "Суп с чечевицей",
+        "description": "Суп с красной чечевицей",
+        "recipe": "Сварить чечевицу с морковью, луком, томатами, варить 20 минут.",
+        "calories": 200,
+        "cooking_time": 30,
+        "difficulty": "Легко",
+        "category_id": 1,
+        "ingredients": [
+            {
+                "ingredient": "Морковь",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Лук",
+                "quantity": 50,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Томаты",
+                "quantity": 100,
+                "unit": "грамм"
+            }
+        ]
+    }
+]

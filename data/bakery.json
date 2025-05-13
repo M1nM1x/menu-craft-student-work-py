@@ -1,0 +1,359 @@
+[
+    {
+        "dish_id": 13,
+        "dish_name": "Панкейки",
+        "description": "Американские блинчики с сиропом",
+        "recipe": "Смешать муку, молоко, яйца, сахар. Жарить на сковороде по 2 минуты с каждой стороны. Подавать с сиропом.",
+        "calories": 300,
+        "cooking_time": 15,
+        "difficulty": "Легко",
+        "category_id": 6,
+        "ingredients": [
+            {
+                "ingredient": "Мука",
+                "quantity": 150,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Молоко",
+                "quantity": 200,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Яйца",
+                "quantity": 2,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Сахар",
+                "quantity": 30,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Масло растительное",
+                "quantity": 20,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 14,
+        "dish_name": "Шарлотка",
+        "description": "Яблочный пирог",
+        "recipe": "Смешать муку, сахар, яйца. Нарезать яблоки, выложить в форму, залить тестом. Выпекать 40 минут.",
+        "calories": 250,
+        "cooking_time": 50,
+        "difficulty": "Легко",
+        "category_id": 6,
+        "ingredients": [
+            {
+                "ingredient": "Мука",
+                "quantity": 150,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Сахар",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Яйца",
+                "quantity": 3,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Яблоки",
+                "quantity": 300,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 18,
+        "dish_name": "Блины",
+        "description": "Тонкие русские блинчики",
+        "recipe": "Смешать муку, молоко, яйца, сахар. Жарить тонкие блины на сковороде. Подавать с медом или вареньем.",
+        "calories": 200,
+        "cooking_time": 20,
+        "difficulty": "Легко",
+        "category_id": 6,
+        "ingredients": [
+            {
+                "ingredient": "Мука",
+                "quantity": 150,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Молоко",
+                "quantity": 300,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Яйца",
+                "quantity": 2,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Сахар",
+                "quantity": 30,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Мед",
+                "quantity": 50,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 36,
+        "dish_name": "Киш",
+        "description": "Французский пирог с начинкой",
+        "recipe": "Замесить тесто, выложить в форму. Смешать яйца, сливки, бекон, сыр, запечь 40 минут.",
+        "calories": 400,
+        "cooking_time": 50,
+        "difficulty": "Средне",
+        "category_id": 6,
+        "ingredients": [
+            {
+                "ingredient": "Тесто",
+                "quantity": 200,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Яйца",
+                "quantity": 3,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Сливки",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Бекон",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Сыр",
+                "quantity": 50,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 44,
+        "dish_name": "Кекс",
+        "description": "Простой ванильный кекс",
+        "recipe": "Смешать муку, сахар, яйца, масло, ваниль. Выпекать 40 минут.",
+        "calories": 350,
+        "cooking_time": 50,
+        "difficulty": "Легко",
+        "category_id": 6,
+        "ingredients": [
+            {
+                "ingredient": "Мука",
+                "quantity": 150,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Сахар",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Яйца",
+                "quantity": 2,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Масло сливочное",
+                "quantity": 50,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Ваниль",
+                "quantity": 5,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 50,
+        "dish_name": "Пирожки",
+        "description": "Печеные пирожки с начинкой",
+        "recipe": "Замесить тесто, начинить мясом или капустой. Выпекать 20 минут.",
+        "calories": 300,
+        "cooking_time": 40,
+        "difficulty": "Средне",
+        "category_id": 6,
+        "ingredients": [
+            {
+                "ingredient": "Тесто",
+                "quantity": 300,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Говядина",
+                "quantity": 150,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Капуста",
+                "quantity": 100,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 58,
+        "dish_name": "Клубничный тарт",
+        "description": "Десерт с ягодами",
+        "recipe": "Выпечь песочное тесто, наполнить заварным кремом, украсить клубникой.",
+        "calories": 350,
+        "cooking_time": 60,
+        "difficulty": "Средне",
+        "category_id": 6,
+        "ingredients": [
+            {
+                "ingredient": "Тесто",
+                "quantity": 200,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Сливки",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Сахар",
+                "quantity": 50,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 75,
+        "dish_name": "Печенье",
+        "description": "Шоколадное печенье",
+        "recipe": "Смешать муку, сахар, масло, шоколад. Сформировать печенье, выпекать 15 минут.",
+        "calories": 300,
+        "cooking_time": 25,
+        "difficulty": "Легко",
+        "category_id": 6,
+        "ingredients": [
+            {
+                "ingredient": "Мука",
+                "quantity": 150,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Сахар",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Масло сливочное",
+                "quantity": 50,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Шоколад",
+                "quantity": 50,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 84,
+        "dish_name": "Пирог с рыбой",
+        "description": "Пирог с начинкой из рыбы",
+        "recipe": "Замесить тесто, начинить рыбой, луком, рисом. Выпекать 40 минут.",
+        "calories": 400,
+        "cooking_time": 60,
+        "difficulty": "Средне",
+        "category_id": 6,
+        "ingredients": [
+            {
+                "ingredient": "Тесто",
+                "quantity": 300,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Рыба",
+                "quantity": 200,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Рис",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Лук",
+                "quantity": 50,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 89,
+        "dish_name": "Пирог с яблоками",
+        "description": "Яблочный пирог с корицей",
+        "recipe": "Замесить тесто, начинить яблоками с сахаром и корицей. Выпекать 40 минут.",
+        "calories": 300,
+        "cooking_time": 50,
+        "difficulty": "Легко",
+        "category_id": 6,
+        "ingredients": [
+            {
+                "ingredient": "Тесто",
+                "quantity": 200,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Яблоки",
+                "quantity": 300,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Сахар",
+                "quantity": 50,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Корица",
+                "quantity": 5,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 96,
+        "dish_name": "Пирог с мясом",
+        "description": "Пирог с мясной начинкой",
+        "recipe": "Замесить тесто, начинить фаршем с луком, выпекать 40 минут.",
+        "calories": 400,
+        "cooking_time": 50,
+        "difficulty": "Средне",
+        "category_id": 6,
+        "ingredients": [
+            {
+                "ingredient": "Тесто",
+                "quantity": 300,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Говядина",
+                "quantity": 200,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Лук",
+                "quantity": 50,
+                "unit": "грамм"
+            }
+        ]
+    }
+]

@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <title>Супы</title>
+</head>
+<body>
+    <header>
+        <a href="{{ url_for('main_page') }}">
+            <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Логотип" class="logo">
+        </a>
+        
+        <nav>
+            <a href="{{ url_for('main_page') }}">Главная</a>
+            <a href="{{ url_for('statistics') }}">Статистика</a>
+            <a href="{{ url_for('settings') }}">Настройки</a>
+            <a href="{{ url_for('profile') }}">Профиль</a>
+        </nav>
+
+        <form action="{{ url_for('search') }}" method="get" class="pretty-input">
+            <input type="text" name="query" placeholder="Поиск...">
+        </form>
+    </header>
+    <main>
+        <div class="container">
+            <div class="dishes">
+
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Борщ.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 250</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 60</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Средне</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Борщ</h1>
+                            <p class="description">Традиционный украинский суп с говядиной и свеклой</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Свекла 300 грамм</li>
+                <li>Капуста 200 грамм</li>
+                <li>Картофель 400 грамм</li>
+                <li>Говядина 200 грамм</li>
+                <li>Морковь 100 грамм</li>
+                <li>Лук 50 грамм</li>
+                <li>Томаты 100 грамм</li>
+                <li>Чеснок 10 грамм</li>
+                <li>Сметана 50 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Сварить бульон из говядины, добавить нарезанные свеклу, капусту, картофель, морковь, лук. Тушить томаты с чесноком, добавить в суп. Варить 40 минут, подавать со сметаной.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Грибной суп.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 200</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 30</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Грибной суп</h1>
+                            <p class="description">Суп с шампиньонами и сливками</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Грибы 200 грамм</li>
+                <li>Сливки 100 грамм</li>
+                <li>Лук 50 грамм</li>
+                <li>Картофель 200 грамм</li>
+                <li>Соль 5 грамм</li>
+                <li>Зелень 20 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Обжарить грибы с луком, добавить картофель и воду, варить 20 минут. Влить сливки, посолить, подавать с зеленью.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Щи.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 180</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 40</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Щи</h1>
+                            <p class="description">Русский капустный суп</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Капуста 300 грамм</li>
+                <li>Картофель 200 грамм</li>
+                <li>Морковь 100 грамм</li>
+                <li>Лук 50 грамм</li>
+                <li>Сметана 50 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Сварить бульон, добавить капусту, картофель, морковь, лук. Варить 30 минут, подавать со сметаной.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Том Ям.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 250</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 20</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Средне</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Том Ям</h1>
+                            <p class="description">Тайский острый суп с креветками</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Креветки 150 грамм</li>
+                <li>Грибы 100 грамм</li>
+                <li>Сливки 100 грамм</li>
+                <li>Лимон 20 грамм</li>
+                <li>Чеснок 10 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Сварить бульон, добавить пасту чили, лемонграсс, креветки, грибы. Варить 10 минут, добавить кокосовое молоко.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Окрошка.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 150</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 20</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Окрошка</h1>
+                            <p class="description">Холодный суп на квасе</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Картофель 200 грамм</li>
+                <li>Яйца 2 грамм</li>
+                <li>Огурцы 100 грамм</li>
+                <li>Свинина 100 грамм</li>
+                <li>Сметана 50 грамм</li>
+                <li>Зелень 20 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Нарезать картофель, яйца, огурцы, колбасу. Смешать с квасом, сметаной, зеленью.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Куриный суп.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 150</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 30</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Куриный суп</h1>
+                            <p class="description">Легкий суп с лапшой</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Курица 200 грамм</li>
+                <li>Паста 100 грамм</li>
+                <li>Морковь 50 грамм</li>
+                <li>Лук 50 грамм</li>
+                <li>Зелень 20 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Сварить бульон из курицы, добавить лапшу, морковь, лук. Варить 20 минут, посыпать зеленью.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Гаспачо.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 100</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 15</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Гаспачо</h1>
+                            <p class="description">Холодный томатный суп</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Томаты 300 грамм</li>
+                <li>Огурцы 100 грамм</li>
+                <li>Перец 50 грамм</li>
+                <li>Лук 30 грамм</li>
+                <li>Чеснок 5 грамм</li>
+                <li>Масло растительное 20 грамм</li>
+                <li>Уксус 10 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Измельчить томаты, огурцы, перец, лук, чеснок. Смешать с оливковым маслом, уксусом, охладить.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Борщ зеленый.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 150</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 30</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Борщ зеленый</h1>
+                            <p class="description">Суп со щавелем</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Картофель 200 грамм</li>
+                <li>Яйца 2 грамм</li>
+                <li>Сметана 50 грамм</li>
+                <li>Зелень 20 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Сварить бульон, добавить щавель, картофель, яйца. Варить 20 минут, подавать со сметаной.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Уха.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 150</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 30</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Уха</h1>
+                            <p class="description">Рыбный суп</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Рыба 200 грамм</li>
+                <li>Картофель 200 грамм</li>
+                <li>Морковь 50 грамм</li>
+                <li>Лук 50 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Сварить бульон из рыбы, добавить картофель, морковь, лук. Варить 20 минут.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Луковый суп.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 250</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 40</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Средне</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Луковый суп</h1>
+                            <p class="description">Французский суп с сыром</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Лук 200 грамм</li>
+                <li>Сыр 50 грамм</li>
+                <li>Масло сливочное 30 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Карамелизировать лук, добавить бульон, варить 20 минут. Запечь с сыром.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Суп-пюре.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 200</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 30</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Суп-пюре</h1>
+                            <p class="description">Суп-пюре из тыквы</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Морковь 100 грамм</li>
+                <li>Лук 50 грамм</li>
+                <li>Сливки 100 грамм</li>
+                <li>Крутоны 30 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Сварить тыкву с луком, морковью, измельчить блендером. Добавить сливки, подавать с крутонами.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Суп с фрикадельками.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 200</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 30</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Суп с фрикадельками</h1>
+                            <p class="description">Суп с мясными шариками</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Говядина 200 грамм</li>
+                <li>Картофель 200 грамм</li>
+                <li>Лук 50 грамм</li>
+                <li>Морковь 50 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Сварить бульон, добавить картофель, фрикадельки из фарша, варить 20 минут.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Крем-суп.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 200</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 25</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Крем-суп</h1>
+                            <p class="description">Суп-пюре с брокколи</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Картофель 200 грамм</li>
+                <li>Сливки 100 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Сварить брокколи с картофелем, измельчить блендером, добавить сливки.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Тыквенный суп.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 200</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 30</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Тыквенный суп</h1>
+                            <p class="description">Суп-пюре с тыквой</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Лук 50 грамм</li>
+                <li>Сливки 100 грамм</li>
+                <li>Корица 5 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Сварить тыкву с луком, измельчить блендером, добавить сливки, корицу.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Суп с клецками.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 200</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 25</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Суп с клецками</h1>
+                            <p class="description">Суп с мучными клецками</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Мука 100 грамм</li>
+                <li>Яйца 2 грамм</li>
+                <li>Курица 200 грамм</li>
+                <li>Морковь 50 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Сварить бульон, добавить клецки из муки и яиц, варить 10 минут.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Суп с чечевицей.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 200</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 30</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Суп с чечевицей</h1>
+                            <p class="description">Суп с красной чечевицей</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Морковь 100 грамм</li>
+                <li>Лук 50 грамм</li>
+                <li>Томаты 100 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Сварить чечевицу с морковью, луком, томатами, варить 20 минут.</p>
+                        </div>
+                    </div>  
+                </div>
+
+                
+
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h1>Контактная информация</h1>
+        <p>Телефон: +7 (928) 123-45-67</p>
+        <p>Почта: menucraft@gmail.com</p>
+    </footer>
+</body>
+</html>

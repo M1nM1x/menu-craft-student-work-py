@@ -1,0 +1,88 @@
+[
+    {
+        "dish_id": 43,
+        "dish_name": "Омлет",
+        "description": "Яичное блюдо с начинкой",
+        "recipe": "Взбить яйца, добавить сыр, помидоры. Жарить на сковороде 5 минут.",
+        "calories": 200,
+        "cooking_time": 10,
+        "difficulty": "Легко",
+        "category_id": 10,
+        "ingredients": [
+            {
+                "ingredient": "Яйца",
+                "quantity": 3,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Сыр",
+                "quantity": 50,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Помидоры",
+                "quantity": 50,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 49,
+        "dish_name": "Голубцы",
+        "description": "Капуста с мясной начинкой",
+        "recipe": "Завернуть фарш с рисом в капустные листья. Тушить в томатном соусе 40 минут.",
+        "calories": 350,
+        "cooking_time": 60,
+        "difficulty": "Средне",
+        "category_id": 10,
+        "ingredients": [
+            {
+                "ingredient": "Капуста",
+                "quantity": 300,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Говядина",
+                "quantity": 200,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Рис",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Томаты",
+                "quantity": 100,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 65,
+        "dish_name": "Запеканка",
+        "description": "Творожное блюдо",
+        "recipe": "Смешать творог, яйца, сахар, манку. Запечь 40 минут.",
+        "calories": 300,
+        "cooking_time": 50,
+        "difficulty": "Легко",
+        "category_id": 10,
+        "ingredients": [
+            {
+                "ingredient": "Сыр",
+                "quantity": 200,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Яйца",
+                "quantity": 2,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Сахар",
+                "quantity": 50,
+                "unit": "грамм"
+            }
+        ]
+    }
+]

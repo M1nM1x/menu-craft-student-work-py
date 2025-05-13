@@ -1,0 +1,129 @@
+{
+    "2025-05-13": {
+        "breakfast": {
+            "dish_id": 18,
+            "dish_name": "Блины",
+            "description": "Тонкие русские блинчики",
+            "recipe": "Смешать муку, молоко, яйца, сахар. Жарить тонкие блины на сковороде. Подавать с медом или вареньем.",
+            "calories": 200,
+            "cooking_time": 20,
+            "difficulty": "Легко",
+            "category_id": 6,
+            "ingredients": [
+                {
+                    "ingredient": "Мука",
+                    "quantity": 150,
+                    "unit": "грамм"
+                },
+                {
+                    "ingredient": "Молоко",
+                    "quantity": 300,
+                    "unit": "грамм"
+                },
+                {
+                    "ingredient": "Яйца",
+                    "quantity": 2,
+                    "unit": "грамм"
+                },
+                {
+                    "ingredient": "Сахар",
+                    "quantity": 30,
+                    "unit": "грамм"
+                },
+                {
+                    "ingredient": "Мед",
+                    "quantity": 50,
+                    "unit": "грамм"
+                }
+            ],
+            "criteria": [
+                "блинчики",
+                "завтрак",
+                "сладкое",
+                "мука",
+                "молоко",
+                "традиционное"
+            ]
+        },
+        "lunch": {
+            "dish_id": 19,
+            "dish_name": "Пицца Маргарита",
+            "description": "Классическая пицца с томатами и базиликом",
+            "recipe": "Замесить тесто, раскатать. Смазать томатным соусом, добавить моцареллу, базилик. Выпекать 15 минут.",
+            "calories": 400,
+            "cooking_time": 30,
+            "difficulty": "Средне",
+            "category_id": 8,
+            "ingredients": [
+                {
+                    "ingredient": "Тесто",
+                    "quantity": 200,
+                    "unit": "грамм"
+                },
+                {
+                    "ingredient": "Томаты",
+                    "quantity": 100,
+                    "unit": "грамм"
+                },
+                {
+                    "ingredient": "Сыр",
+                    "quantity": 100,
+                    "unit": "грамм"
+                },
+                {
+                    "ingredient": "Базилик",
+                    "quantity": 20,
+                    "unit": "грамм"
+                }
+            ],
+            "criteria": [
+                "пицца",
+                "обед",
+                "ужин",
+                "томаты",
+                "сыр",
+                "итальянское"
+            ]
+        },
+        "dinner": {
+            "dish_id": 24,
+            "dish_name": "Гуляш",
+            "description": "Венгерское мясное рагу",
+            "recipe": "Обжарить говядину с луком, добавить паприку, томаты, тушить 1 час. Подавать с картофелем.",
+            "calories": 400,
+            "cooking_time": 70,
+            "difficulty": "Средне",
+            "category_id": 3,
+            "ingredients": [
+                {
+                    "ingredient": "Говядина",
+                    "quantity": 300,
+                    "unit": "грамм"
+                },
+                {
+                    "ingredient": "Лук",
+                    "quantity": 50,
+                    "unit": "грамм"
+                },
+                {
+                    "ingredient": "Томаты",
+                    "quantity": 100,
+                    "unit": "грамм"
+                },
+                {
+                    "ingredient": "Картофель",
+                    "quantity": 200,
+                    "unit": "грамм"
+                }
+            ],
+            "criteria": [
+                "рагу",
+                "обед",
+                "ужин",
+                "говядина",
+                "томаты",
+                "венгерское"
+            ]
+        }
+    }
+}

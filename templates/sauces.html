@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <title>Соусы</title>
+</head>
+<body>
+    <header>
+        <a href="{{ url_for('main_page') }}">
+            <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Логотип" class="logo">
+        </a>
+        
+        <nav>
+            <a href="{{ url_for('main_page') }}">Главная</a>
+            <a href="{{ url_for('statistics') }}">Статистика</a>
+            <a href="{{ url_for('settings') }}">Настройки</a>
+            <a href="{{ url_for('profile') }}">Профиль</a>
+        </nav>
+
+        <form action="{{ url_for('search') }}" method="get" class="pretty-input">
+            <input type="text" name="query" placeholder="Поиск...">
+        </form>
+    </header>
+    <main>
+        <div class="container">
+            <div class="dishes">
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Фалафель.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 300</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 20</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Средне</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Фалафель</h1>
+                            <p class="description">Жареные шарики из нута</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Лук 50 грамм</li>
+                <li>Зелень 20 грамм</li>
+                <li>Масло растительное 50 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Измельчить нут, лук, зелень, специи. Сформировать шарики, обжарить во фритюре 5 минут.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Рагу.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 400</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 70</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Средне</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Рагу</h1>
+                            <p class="description">Овощное блюдо с мясом</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Говядина 300 грамм</li>
+                <li>Картофель 200 грамм</li>
+                <li>Морковь 100 грамм</li>
+                <li>Томаты 100 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Обжарить говядину, добавить картофель, морковь, томаты. Тушить 1 час.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Крокеты.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 350</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 20</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Средне</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Крокеты</h1>
+                            <p class="description">Жареные шарики с начинкой</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Картофель 200 грамм</li>
+                <li>Сыр 50 грамм</li>
+                <li>Масло растительное 50 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Смешать картофельное пюре, сыр, обвалять в панировке, обжарить 5 минут.</p>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h1>Контактная информация</h1>
+        <p>Телефон: +7 (928) 123-45-67</p>
+        <p>Почта: menucraft@gmail.com</p>
+    </footer>
+</body>
+</html>

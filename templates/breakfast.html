@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <title>Завтраки</title>
+</head>
+<body>
+    <header>
+        <a href="{{ url_for('main_page') }}">
+            <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Логотип" class="logo">
+        </a>
+        
+        <nav>
+            <a href="{{ url_for('main_page') }}">Главная</a>
+            <a href="{{ url_for('statistics') }}">Статистика</a>
+            <a href="{{ url_for('settings') }}">Настройки</a>
+            <a href="{{ url_for('profile') }}">Профиль</a>
+        </nav>
+        <form action="{{ url_for('search') }}" method="get" class="pretty-input">
+            <input type="text" name="query" placeholder="Поиск...">
+        </form>
+    </header>
+    <main>
+        <div class="container">
+            <div class="dishes">
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Омлет.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 200</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 10</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Омлет</h1>
+                            <p class="description">Яичное блюдо с начинкой</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Яйца 3 грамм</li>
+                <li>Сыр 50 грамм</li>
+                <li>Помидоры 50 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Взбить яйца, добавить сыр, помидоры. Жарить на сковороде 5 минут.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Голубцы.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 350</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 60</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Средне</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Голубцы</h1>
+                            <p class="description">Капуста с мясной начинкой</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Капуста 300 грамм</li>
+                <li>Говядина 200 грамм</li>
+                <li>Рис 100 грамм</li>
+                <li>Томаты 100 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Завернуть фарш с рисом в капустные листья. Тушить в томатном соусе 40 минут.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Запеканка.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 300</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 50</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Запеканка</h1>
+                            <p class="description">Творожное блюдо</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Сыр 200 грамм</li>
+                <li>Яйца 2 грамм</li>
+                <li>Сахар 50 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Смешать творог, яйца, сахар, манку. Запечь 40 минут.</p>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h1>Контактная информация</h1>
+        <p>Телефон: +7 (928) 123-45-67</p>
+        <p>Почта: menucraft@gmail.com</p>
+    </footer>
+</body>
+</html>

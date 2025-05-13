@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <title>Гарниры</title>
+</head>
+<body>
+    <header>
+        <a href="{{ url_for('main_page') }}">
+            <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Логотип" class="logo">
+        </a>
+        
+        <nav>
+            <a href="{{ url_for('main_page') }}">Главная</a>
+            <a href="{{ url_for('statistics') }}">Статистика</a>
+            <a href="{{ url_for('settings') }}">Настройки</a>
+            <a href="{{ url_for('profile') }}">Профиль</a>
+        </nav>
+        <form action="{{ url_for('search') }}" method="get" class="pretty-input">
+            <input type="text" name="query" placeholder="Поиск...">
+        </form>
+    </header>
+    <main>
+        <div class="container">
+            <div class="dishes">
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Пицца Маргарита.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 400</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 30</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Средне</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Пицца Маргарита</h1>
+                            <p class="description">Классическая пицца с томатами и базиликом</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Тесто 200 грамм</li>
+                <li>Томаты 100 грамм</li>
+                <li>Сыр 100 грамм</li>
+                <li>Базилик 20 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Замесить тесто, раскатать. Смазать томатным соусом, добавить моцареллу, базилик. Выпекать 15 минут.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Картошка фри.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 300</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 15</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Картошка фри</h1>
+                            <p class="description">Жареный картофель</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Картофель 300 грамм</li>
+                <li>Масло растительное 100 грамм</li>
+                <li>Соль 5 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Нарезать картофель брусками, обжарить во фритюре 5 минут. Посолить, подавать с соусом.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Тартар.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 250</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 15</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Сложно</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Тартар</h1>
+                            <p class="description">Сырое мясо с приправами</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Говядина 200 грамм</li>
+                <li>Лук 30 грамм</li>
+                <li>Яйца 1 грамм</li>
+                <li>Масло растительное 20 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Измельчить говядину, смешать с луком, каперсами, горчицей, яйцом. Подавать с тостами.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Сырники.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 300</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 20</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Сырники</h1>
+                            <p class="description">Творожные оладьи</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Сыр 200 грамм</li>
+                <li>Яйца 2 грамм</li>
+                <li>Мука 50 грамм</li>
+                <li>Сахар 30 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Смешать творог, яйца, муку, сахар. Сформировать сырники, обжарить по 3 минуты с каждой стороны.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Профитроли.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 350</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 60</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Сложно</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Профитроли</h1>
+                            <p class="description">Пирожные с кремом</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Тесто 200 грамм</li>
+                <li>Сливки 100 грамм</li>
+                <li>Шоколад 50 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Выпечь заварное тесто, наполнить кремом из сливок. Полить шоколадом.</p>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h1>Контактная информация</h1>
+        <p>Телефон: +7 (928) 123-45-67</p>
+        <p>Почта: menucraft@gmail.com</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <title>Настройки</title>
+</head>
+<body>
+    <header>
+        <a href="{{ url_for('main_page') }}">
+            <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Логотип" class="logo">
+        </a>
+        <nav>
+            <a href="{{ url_for('main_page') }}">Главная</a>
+            <a href="{{ url_for('statistics') }}">Статистика</a>
+            <a href="{{ url_for('settings') }}">Настройки</a>
+            <a href="{{ url_for('profile') }}">Профиль</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Настройки</h1>
+        <form method="POST" action="{{ url_for('settings') }}" class="settings-form">
+            <label for="cuisine">Тип кухни:</label>
+            <select id="cuisine" name="cuisine">
+                <option value="итальянское">Итальянская</option>
+                <option value="французское">Французская</option>
+                <option value="японское">Японская</option>
+                <option value="традиционное">Традиционная</option>
+            </select>
+            <br><br>
+            <label for="difficulty">Сложность:</label>
+            <select id="difficulty" name="difficulty">
+                <option value="Легко">Легко</option>
+                <option value="Средне">Средне</option>
+                <option value="Сложно">Сложно</option>
+            </select>
+            <br><br>
+            <label for="calories">Максимальная калорийность:</label>
+            <input type="number" id="calories" name="calories" min="100" max="1000">
+            <br><br>
+            <label for="category">Категория блюда:</label>
+            <select id="category" name="category">
+                <option value="1">Супы</option>
+                <option value="2">Салаты</option>
+                <option value="3">Основные блюда</option>
+                <option value="4">Десерты</option>
+                <option value="5">Закуски</option>
+                <option value="6">Выпечка</option>
+                <option value="7">Напитки</option>
+                <option value="8">Гарниры</option>
+                <option value="9">Соусы</option>
+                <option value="10">Завтраки</option>
+            </select>
+            <br><br>
+            <button type="submit">Сохранить настройки</button>
+        </form>
+    </main>
+    <footer>
+        <h1>Контактная информация</h1>
+        <p>Телефон: +7 (928) 123-45-67</p>
+        <p>Почта: menucraft@gmail.com</p>
+    </footer>
+</body>
+</html>

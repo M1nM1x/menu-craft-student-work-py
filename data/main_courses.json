@@ -1,0 +1,721 @@
+[
+    {
+        "dish_id": 3,
+        "dish_name": "Спагетти карбонара",
+        "description": "Итальянская паста с беконом и сыром",
+        "recipe": "Сварить спагетти. Обжарить бекон, смешать с яйцами и пармезаном. Добавить пасту, перемешать, подавать сразу.",
+        "calories": 600,
+        "cooking_time": 15,
+        "difficulty": "Средне",
+        "category_id": 3,
+        "ingredients": [
+            {
+                "ingredient": "Паста",
+                "quantity": 200,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Бекон",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Пармезан",
+                "quantity": 50,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Яйца",
+                "quantity": 2,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Соль",
+                "quantity": 5,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 7,
+        "dish_name": "Пельмени",
+        "description": "Сибирские пельмени с мясом",
+        "recipe": "Замесить тесто, приготовить фарш из говядины и лука. Сформировать пельмени, варить 7 минут. Подавать со сметаной.",
+        "calories": 450,
+        "cooking_time": 40,
+        "difficulty": "Средне",
+        "category_id": 3,
+        "ingredients": [
+            {
+                "ingredient": "Тесто",
+                "quantity": 300,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Говядина",
+                "quantity": 200,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Лук",
+                "quantity": 50,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Соль",
+                "quantity": 5,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Сметана",
+                "quantity": 50,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 10,
+        "dish_name": "Лазанья",
+        "description": "Итальянское блюдо с мясом и сыром",
+        "recipe": "Приготовить мясной соус из говядины, томатов, лука. Собрать слои из листов лазаньи, соуса, сыра. Выпекать 40 минут.",
+        "calories": 550,
+        "cooking_time": 60,
+        "difficulty": "Сложно",
+        "category_id": 3,
+        "ingredients": [
+            {
+                "ingredient": "Тесто",
+                "quantity": 200,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Говядина",
+                "quantity": 200,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Сыр",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Томаты",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Лук",
+                "quantity": 50,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 12,
+        "dish_name": "Котлеты",
+        "description": "Жареные мясные котлеты",
+        "recipe": "Смешать фарш, лук, яйцо, хлебные крошки. Сформировать котлеты, обжарить на масле 10 минут.",
+        "calories": 400,
+        "cooking_time": 20,
+        "difficulty": "Средне",
+        "category_id": 3,
+        "ingredients": [
+            {
+                "ingredient": "Говядина",
+                "quantity": 300,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Лук",
+                "quantity": 50,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Яйца",
+                "quantity": 1,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Масло растительное",
+                "quantity": 30,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Соль",
+                "quantity": 5,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 15,
+        "dish_name": "Рататуй",
+        "description": "Овощное рагу из Франции",
+        "recipe": "Нарезать баклажаны, кабачки, томаты. Выложить в форму, полить соусом из томатов и перца. Запекать 40 минут.",
+        "calories": 150,
+        "cooking_time": 50,
+        "difficulty": "Средне",
+        "category_id": 3,
+        "ingredients": [
+            {
+                "ingredient": "Томаты",
+                "quantity": 200,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Перец",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Лук",
+                "quantity": 50,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Чеснок",
+                "quantity": 10,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Масло растительное",
+                "quantity": 30,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 16,
+        "dish_name": "Суши",
+        "description": "Японские роллы с рыбой",
+        "recipe": "Сварить рис, смешать с уксусом. Завернуть рис, рыбу, огурец в нори. Нарезать роллы, подавать с соевым соусом.",
+        "calories": 200,
+        "cooking_time": 30,
+        "difficulty": "Сложно",
+        "category_id": 3,
+        "ingredients": [
+            {
+                "ingredient": "Рис",
+                "quantity": 200,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Рыба",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Огурцы",
+                "quantity": 50,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Уксус",
+                "quantity": 20,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 21,
+        "dish_name": "Бефстроганов",
+        "description": "Говядина в сливочном соусе",
+        "recipe": "Нарезать говядину, обжарить с луком. Добавить сметану, горчицу, тушить 20 минут. Подавать с рисом.",
+        "calories": 450,
+        "cooking_time": 30,
+        "difficulty": "Средне",
+        "category_id": 3,
+        "ingredients": [
+            {
+                "ingredient": "Говядина",
+                "quantity": 300,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Лук",
+                "quantity": 50,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Сметана",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Рис",
+                "quantity": 100,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 24,
+        "dish_name": "Гуляш",
+        "description": "Венгерское мясное рагу",
+        "recipe": "Обжарить говядину с луком, добавить паприку, томаты, тушить 1 час. Подавать с картофелем.",
+        "calories": 400,
+        "cooking_time": 70,
+        "difficulty": "Средне",
+        "category_id": 3,
+        "ingredients": [
+            {
+                "ingredient": "Говядина",
+                "quantity": 300,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Лук",
+                "quantity": 50,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Томаты",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Картофель",
+                "quantity": 200,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 27,
+        "dish_name": "Ризотто",
+        "description": "Итальянское блюдо с рисом и грибами",
+        "recipe": "Обжарить рис с луком, постепенно добавлять бульон. Добавить грибы, пармезан, перемешать.",
+        "calories": 350,
+        "cooking_time": 30,
+        "difficulty": "Средне",
+        "category_id": 3,
+        "ingredients": [
+            {
+                "ingredient": "Рис",
+                "quantity": 200,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Грибы",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Лук",
+                "quantity": 50,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Пармезан",
+                "quantity": 50,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 33,
+        "dish_name": "Паэлья",
+        "description": "Испанское блюдо с рисом и морепродуктами",
+        "recipe": "Обжарить рис, креветки, мидии, курицу с перцем. Добавить шафран, бульон, тушить 20 минут.",
+        "calories": 450,
+        "cooking_time": 40,
+        "difficulty": "Сложно",
+        "category_id": 3,
+        "ingredients": [
+            {
+                "ingredient": "Рис",
+                "quantity": 200,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Креветки",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Курица",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Перец",
+                "quantity": 50,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 46,
+        "dish_name": "Макароны по-флотски",
+        "description": "Паста с мясом",
+        "recipe": "Сварить макароны, обжарить фарш с луком. Смешать, подавать с сыром.",
+        "calories": 450,
+        "cooking_time": 20,
+        "difficulty": "Легко",
+        "category_id": 3,
+        "ingredients": [
+            {
+                "ingredient": "Паста",
+                "quantity": 200,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Говядина",
+                "quantity": 150,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Лук",
+                "quantity": 50,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Сыр",
+                "quantity": 50,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 53,
+        "dish_name": "Минтай жареный",
+        "description": "Рыба в панировке",
+        "recipe": "Обвалять минтай в муке, обжарить на масле 10 минут. Подавать с лимоном.",
+        "calories": 300,
+        "cooking_time": 15,
+        "difficulty": "Легко",
+        "category_id": 3,
+        "ingredients": [
+            {
+                "ingredient": "Рыба",
+                "quantity": 200,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Мука",
+                "quantity": 50,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Масло растительное",
+                "quantity": 30,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Лимон",
+                "quantity": 10,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 61,
+        "dish_name": "Плов",
+        "description": "Узбекское блюдо с рисом",
+        "recipe": "Обжарить мясо с морковью, луком, добавить рис, специи, тушить 40 минут.",
+        "calories": 450,
+        "cooking_time": 50,
+        "difficulty": "Средне",
+        "category_id": 3,
+        "ingredients": [
+            {
+                "ingredient": "Говядина",
+                "quantity": 300,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Рис",
+                "quantity": 200,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Морковь",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Лук",
+                "quantity": 50,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 66,
+        "dish_name": "Кебаб",
+        "description": "Жареное мясо на шампуре",
+        "recipe": "Мариновать мясо с луком и специями, нанизать на шампуры, жарить на гриле 15 минут. Подавать с соусом.",
+        "calories": 400,
+        "cooking_time": 20,
+        "difficulty": "Средне",
+        "category_id": 3,
+        "ingredients": [
+            {
+                "ingredient": "Говядина",
+                "quantity": 300,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Лук",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Перец",
+                "quantity": 5,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Соль",
+                "quantity": 5,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 68,
+        "dish_name": "Фрикасе",
+        "description": "Курица в сливочном соусе",
+        "recipe": "Обжарить курицу с луком, добавить сливки, грибы, тушить 20 минут. Подавать с рисом.",
+        "calories": 450,
+        "cooking_time": 30,
+        "difficulty": "Средне",
+        "category_id": 3,
+        "ingredients": [
+            {
+                "ingredient": "Курица",
+                "quantity": 300,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Сливки",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Грибы",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Лук",
+                "quantity": 50,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Рис",
+                "quantity": 100,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 72,
+        "dish_name": "Куриные крылышки",
+        "description": "Жареные крылышки в соусе",
+        "recipe": "Мариновать крылышки в соусе, жарить 20 минут. Подавать с соусом барбекю.",
+        "calories": 400,
+        "cooking_time": 30,
+        "difficulty": "Средне",
+        "category_id": 3,
+        "ingredients": [
+            {
+                "ingredient": "Курица",
+                "quantity": 300,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Масло растительное",
+                "quantity": 50,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Соль",
+                "quantity": 5,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 76,
+        "dish_name": "Шашлык",
+        "description": "Мясо на гриле",
+        "recipe": "Мариновать свинину с луком, жарить на углях 20 минут. Подавать с соусом.",
+        "calories": 450,
+        "cooking_time": 30,
+        "difficulty": "Средне",
+        "category_id": 3,
+        "ingredients": [
+            {
+                "ingredient": "Свинина",
+                "quantity": 300,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Лук",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Соль",
+                "quantity": 5,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 78,
+        "dish_name": "Томагавк",
+        "description": "Стейк на кости",
+        "recipe": "Обжарить стейк на гриле по 5 минут с каждой стороны, дать отдохнуть 5 минут.",
+        "calories": 600,
+        "cooking_time": 15,
+        "difficulty": "Средне",
+        "category_id": 3,
+        "ingredients": [
+            {
+                "ingredient": "Говядина",
+                "quantity": 400,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Соль",
+                "quantity": 5,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Перец",
+                "quantity": 5,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 83,
+        "dish_name": "Курица терияки",
+        "description": "Курица в сладком соусе",
+        "recipe": "Обжарить курицу, добавить соус терияки, тушить 10 минут. Подавать с рисом.",
+        "calories": 400,
+        "cooking_time": 20,
+        "difficulty": "Средне",
+        "category_id": 3,
+        "ingredients": [
+            {
+                "ingredient": "Курица",
+                "quantity": 300,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Рис",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Мед",
+                "quantity": 20,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Соль",
+                "quantity": 5,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 87,
+        "dish_name": "Фаршированный перец",
+        "description": "Перец с мясной начинкой",
+        "recipe": "Начинить перец фаршем с рисом, тушить в томатном соусе 40 минут.",
+        "calories": 350,
+        "cooking_time": 50,
+        "difficulty": "Средне",
+        "category_id": 3,
+        "ingredients": [
+            {
+                "ingredient": "Перец",
+                "quantity": 200,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Говядина",
+                "quantity": 200,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Рис",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Томаты",
+                "quantity": 100,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 92,
+        "dish_name": "Курица в духовке",
+        "description": "Запеченная курица с травами",
+        "recipe": "Натереть курицу специями, запекать 1 час при 180°C. Подавать с картофелем.",
+        "calories": 450,
+        "cooking_time": 70,
+        "difficulty": "Средне",
+        "category_id": 3,
+        "ingredients": [
+            {
+                "ingredient": "Курица",
+                "quantity": 500,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Картофель",
+                "quantity": 200,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Чеснок",
+                "quantity": 10,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Соль",
+                "quantity": 5,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 95,
+        "dish_name": "Рыба в кляре",
+        "description": "Жареная рыба в тесте",
+        "recipe": "Приготовить кляр из муки и яиц, обмакнуть рыбу, обжарить 10 минут.",
+        "calories": 350,
+        "cooking_time": 20,
+        "difficulty": "Легко",
+        "category_id": 3,
+        "ingredients": [
+            {
+                "ingredient": "Рыба",
+                "quantity": 200,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Мука",
+                "quantity": 50,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Яйца",
+                "quantity": 2,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Масло растительное",
+                "quantity": 50,
+                "unit": "грамм"
+            }
+        ]
+    }
+]

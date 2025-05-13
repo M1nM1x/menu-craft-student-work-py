@@ -1,0 +1,460 @@
+[
+    {
+        "dish_id": 4,
+        "dish_name": "Тирамису",
+        "description": "Итальянский десерт с маскарпоне и кофе",
+        "recipe": "Смешать маскарпоне с сахаром и сливками. Обмакнуть печенье савоярди в кофе, выложить слоями с кремом. Посыпать какао, охладить 4 часа.",
+        "calories": 400,
+        "cooking_time": 30,
+        "difficulty": "Средне",
+        "category_id": 4,
+        "ingredients": [
+            {
+                "ingredient": "Маскарпоне",
+                "quantity": 250,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Кофе",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Печенье савоярди",
+                "quantity": 200,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Какао",
+                "quantity": 20,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Сахар",
+                "quantity": 50,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Сливки",
+                "quantity": 100,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 8,
+        "dish_name": "Чизкейк",
+        "description": "Десерт с сырным кремом и печеньем",
+        "recipe": "Измельчить печенье, смешать с маслом для основы. Смешать маскарпоне, сахар, яйца, вылить на основу. Выпекать 50 минут, охладить.",
+        "calories": 500,
+        "cooking_time": 60,
+        "difficulty": "Средне",
+        "category_id": 4,
+        "ingredients": [
+            {
+                "ingredient": "Маскарпоне",
+                "quantity": 200,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Масло сливочное",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Сахар",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Яйца",
+                "quantity": 2,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Печенье савоярди",
+                "quantity": 150,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 22,
+        "dish_name": "Эклеры",
+        "description": "Французские пирожные с кремом",
+        "recipe": "Сварить заварное тесто, выпечь эклеры. Наполнить кремом из сливок и ванили, покрыть шоколадом.",
+        "calories": 350,
+        "cooking_time": 60,
+        "difficulty": "Сложно",
+        "category_id": 4,
+        "ingredients": [
+            {
+                "ingredient": "Тесто",
+                "quantity": 200,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Сливки",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Шоколад",
+                "quantity": 50,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Ваниль",
+                "quantity": 5,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 25,
+        "dish_name": "Крем-брюле",
+        "description": "Французский десерт с карамельной корочкой",
+        "recipe": "Смешать сливки, сахар, ваниль, яйца. Запечь, посыпать сахаром, карамелизировать горелкой.",
+        "calories": 300,
+        "cooking_time": 50,
+        "difficulty": "Сложно",
+        "category_id": 4,
+        "ingredients": [
+            {
+                "ingredient": "Сливки",
+                "quantity": 200,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Сахар",
+                "quantity": 50,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Ваниль",
+                "quantity": 5,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Яйца",
+                "quantity": 2,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 29,
+        "dish_name": "Мусс шоколадный",
+        "description": "Воздушный шоколадный десерт",
+        "recipe": "Растопить шоколад, смешать со взбитыми сливками. Охладить 2 часа, подавать с ягодами.",
+        "calories": 300,
+        "cooking_time": 20,
+        "difficulty": "Средне",
+        "category_id": 4,
+        "ingredients": [
+            {
+                "ingredient": "Шоколад",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Сливки",
+                "quantity": 150,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Сахар",
+                "quantity": 30,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 31,
+        "dish_name": "Брауни",
+        "description": "Шоколадный пирог",
+        "recipe": "Смешать муку, сахар, яйца, шоколад, масло. Выпекать 25 минут, нарезать квадратами.",
+        "calories": 400,
+        "cooking_time": 40,
+        "difficulty": "Легко",
+        "category_id": 4,
+        "ingredients": [
+            {
+                "ingredient": "Мука",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Сахар",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Яйца",
+                "quantity": 2,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Шоколад",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Масло сливочное",
+                "quantity": 50,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 38,
+        "dish_name": "Торт Наполеон",
+        "description": "Слоеный торт с кремом",
+        "recipe": "Выпечь слоеные коржи, смазать заварным кремом. Охладить 4 часа, нарезать.",
+        "calories": 500,
+        "cooking_time": 90,
+        "difficulty": "Сложно",
+        "category_id": 4,
+        "ingredients": [
+            {
+                "ingredient": "Тесто",
+                "quantity": 300,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Сливки",
+                "quantity": 200,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Сахар",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Масло сливочное",
+                "quantity": 100,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 47,
+        "dish_name": "Пудинг",
+        "description": "Молочный десерт",
+        "recipe": "Смешать молоко, сахар, крахмал, ваниль. Варить до загустения, охладить.",
+        "calories": 250,
+        "cooking_time": 20,
+        "difficulty": "Легко",
+        "category_id": 4,
+        "ingredients": [
+            {
+                "ingredient": "Молоко",
+                "quantity": 200,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Сахар",
+                "quantity": 50,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Ваниль",
+                "quantity": 5,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 56,
+        "dish_name": "Медовик",
+        "description": "Торт с медовыми коржами",
+        "recipe": "Выпечь медовые коржи, смазать сметанным кремом. Охладить 4 часа.",
+        "calories": 450,
+        "cooking_time": 90,
+        "difficulty": "Сложно",
+        "category_id": 4,
+        "ingredients": [
+            {
+                "ingredient": "Мука",
+                "quantity": 300,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Мед",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Сметана",
+                "quantity": 200,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Сахар",
+                "quantity": 100,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 59,
+        "dish_name": "Карри",
+        "description": "Индийское блюдо с рисом",
+        "recipe": "Обжарить курицу с луком, добавить карри, кокосовое молоко. Тушить 20 минут, подавать с рисом.",
+        "calories": 400,
+        "cooking_time": 30,
+        "difficulty": "Средне",
+        "category_id": 4,
+        "ingredients": [
+            {
+                "ingredient": "Курица",
+                "quantity": 200,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Лук",
+                "quantity": 50,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Рис",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Сливки",
+                "quantity": 100,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 70,
+        "dish_name": "Макаруны",
+        "description": "Французские миндальные пирожные",
+        "recipe": "Смешать миндальную муку, сахар, взбитые белки. Выпечь, начинить кремом.",
+        "calories": 300,
+        "cooking_time": 40,
+        "difficulty": "Сложно",
+        "category_id": 4,
+        "ingredients": [
+            {
+                "ingredient": "Мука",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Сахар",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Яйца",
+                "quantity": 2,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Сливки",
+                "quantity": 50,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 80,
+        "dish_name": "Торт Прага",
+        "description": "Шоколадный торт с кремом",
+        "recipe": "Выпечь шоколадные коржи, смазать кремом, покрыть глазурью. Охладить 4 часа.",
+        "calories": 500,
+        "cooking_time": 90,
+        "difficulty": "Сложно",
+        "category_id": 4,
+        "ingredients": [
+            {
+                "ingredient": "Мука",
+                "quantity": 200,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Сахар",
+                "quantity": 150,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Шоколад",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Сливки",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Яйца",
+                "quantity": 3,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 93,
+        "dish_name": "Тирамису с ягодами",
+        "description": "Десерт с маскарпоне и ягодами",
+        "recipe": "Смешать маскарпоне с сахаром, выложить слоями с печеньем и ягодами. Охладить 4 часа.",
+        "calories": 400,
+        "cooking_time": 30,
+        "difficulty": "Средне",
+        "category_id": 4,
+        "ingredients": [
+            {
+                "ingredient": "Маскарпоне",
+                "quantity": 200,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Печенье савоярди",
+                "quantity": 150,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Сахар",
+                "quantity": 50,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 99,
+        "dish_name": "Торт с кремом",
+        "description": "Бисквитный торт с кремом",
+        "recipe": "Выпечь бисквит, смазать кремом из сливок и сахара. Охладить 4 часа.",
+        "calories": 450,
+        "cooking_time": 90,
+        "difficulty": "Сложно",
+        "category_id": 4,
+        "ingredients": [
+            {
+                "ingredient": "Мука",
+                "quantity": 200,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Сахар",
+                "quantity": 150,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Яйца",
+                "quantity": 3,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Сливки",
+                "quantity": 200,
+                "unit": "грамм"
+            }
+        ]
+    }
+]

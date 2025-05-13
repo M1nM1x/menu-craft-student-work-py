@@ -1,0 +1,596 @@
+[
+    {
+        "dish_id": 2,
+        "dish_name": "Салат Цезарь",
+        "description": "Классический салат с курицей и крутонами",
+        "recipe": "Обжарить курицу, нарезать листья салата, добавить крутоны, пармезан. Смешать соус из майонеза, чеснока, лимона, анчоусов. Заправить салат.",
+        "calories": 350,
+        "cooking_time": 20,
+        "difficulty": "Легко",
+        "category_id": 2,
+        "ingredients": [
+            {
+                "ingredient": "Листья салата",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Курица",
+                "quantity": 200,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Крутоны",
+                "quantity": 50,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Пармезан",
+                "quantity": 30,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Майонез",
+                "quantity": 30,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Чеснок",
+                "quantity": 5,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Лимон",
+                "quantity": 10,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 5,
+        "dish_name": "Оливье",
+        "description": "Русский салат с картофелем и майонезом",
+        "recipe": "Отварить картофель, морковь, яйца, нарезать кубиками. Добавить огурцы, горошек, колбасу, заправить майонезом.",
+        "calories": 300,
+        "cooking_time": 25,
+        "difficulty": "Легко",
+        "category_id": 2,
+        "ingredients": [
+            {
+                "ingredient": "Картофель",
+                "quantity": 300,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Морковь",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Яйца",
+                "quantity": 3,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Огурцы",
+                "quantity": 150,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Майонез",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Свинина",
+                "quantity": 150,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 9,
+        "dish_name": "Греческий салат",
+        "description": "Салат с огурцами, помидорами и фетой",
+        "recipe": "Нарезать огурцы, помидоры, лук, добавить оливки, фету. Заправить оливковым маслом, лимоном, орегано.",
+        "calories": 200,
+        "cooking_time": 15,
+        "difficulty": "Легко",
+        "category_id": 2,
+        "ingredients": [
+            {
+                "ingredient": "Огурцы",
+                "quantity": 150,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Помидоры",
+                "quantity": 150,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Сыр",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Лук",
+                "quantity": 50,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Масло растительное",
+                "quantity": 30,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Лимон",
+                "quantity": 10,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Орегано",
+                "quantity": 5,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 23,
+        "dish_name": "Салат с тунцом",
+        "description": "Салат с консервированным тунцом",
+        "recipe": "Смешать тунец, листья салата, огурцы, помидоры. Заправить оливковым маслом и лимоном.",
+        "calories": 200,
+        "cooking_time": 10,
+        "difficulty": "Легко",
+        "category_id": 2,
+        "ingredients": [
+            {
+                "ingredient": "Рыба",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Листья салата",
+                "quantity": 50,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Огурцы",
+                "quantity": 50,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Помидоры",
+                "quantity": 50,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Масло растительное",
+                "quantity": 20,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Лимон",
+                "quantity": 10,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 32,
+        "dish_name": "Салат с авокадо",
+        "description": "Салат с креветками и авокадо",
+        "recipe": "Нарезать авокадо, креветки, листья салата. Заправить лимоном, оливковым маслом.",
+        "calories": 250,
+        "cooking_time": 15,
+        "difficulty": "Легко",
+        "category_id": 2,
+        "ingredients": [
+            {
+                "ingredient": "Авокадо",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Креветки",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Листья салата",
+                "quantity": 50,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Лимон",
+                "quantity": 10,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Масло растительное",
+                "quantity": 20,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 48,
+        "dish_name": "Салат с кальмарами",
+        "description": "Морской салат",
+        "recipe": "Отварить кальмары, нарезать с огурцами, яйцами. Заправить майонезом.",
+        "calories": 200,
+        "cooking_time": 15,
+        "difficulty": "Легко",
+        "category_id": 2,
+        "ingredients": [
+            {
+                "ingredient": "Креветки",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Огурцы",
+                "quantity": 50,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Яйца",
+                "quantity": 2,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Майонез",
+                "quantity": 50,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 55,
+        "dish_name": "Салат с курицей",
+        "description": "Салат с жареной курицей",
+        "recipe": "Обжарить курицу, смешать с листьями салата, помидорами, заправить майонезом.",
+        "calories": 250,
+        "cooking_time": 20,
+        "difficulty": "Легко",
+        "category_id": 2,
+        "ingredients": [
+            {
+                "ingredient": "Курица",
+                "quantity": 200,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Листья салата",
+                "quantity": 50,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Помидоры",
+                "quantity": 50,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Майонез",
+                "quantity": 50,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 63,
+        "dish_name": "Салат с сыром",
+        "description": "Салат с фетой и овощами",
+        "recipe": "Нарезать огурцы, помидоры, фету, добавить оливковое масло, орегано.",
+        "calories": 200,
+        "cooking_time": 10,
+        "difficulty": "Легко",
+        "category_id": 2,
+        "ingredients": [
+            {
+                "ingredient": "Огурцы",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Помидоры",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Сыр",
+                "quantity": 50,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Масло растительное",
+                "quantity": 20,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Орегано",
+                "quantity": 5,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 69,
+        "dish_name": "Салат с грушей",
+        "description": "Салат с сыром и грушей",
+        "recipe": "Нарезать грушу, листья салата, сыр, добавить орехи. Заправить медово-горчичным соусом.",
+        "calories": 250,
+        "cooking_time": 10,
+        "difficulty": "Легко",
+        "category_id": 2,
+        "ingredients": [
+            {
+                "ingredient": "Листья салата",
+                "quantity": 50,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Сыр",
+                "quantity": 50,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Мед",
+                "quantity": 10,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Масло растительное",
+                "quantity": 20,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 73,
+        "dish_name": "Салат с беконом",
+        "description": "Салат с жареным беконом",
+        "recipe": "Обжарить бекон, смешать с листьями салата, помидорами, заправить оливковым маслом.",
+        "calories": 300,
+        "cooking_time": 15,
+        "difficulty": "Легко",
+        "category_id": 2,
+        "ingredients": [
+            {
+                "ingredient": "Бекон",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Листья салата",
+                "quantity": 50,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Помидоры",
+                "quantity": 50,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Масло растительное",
+                "quantity": 20,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 77,
+        "dish_name": "Салат с яйцом",
+        "description": "Салат с вареными яйцами",
+        "recipe": "Нарезать яйца, огурцы, зелень, заправить сметаной.",
+        "calories": 150,
+        "cooking_time": 10,
+        "difficulty": "Легко",
+        "category_id": 2,
+        "ingredients": [
+            {
+                "ingredient": "Яйца",
+                "quantity": 3,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Огурцы",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Зелень",
+                "quantity": 20,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Сметана",
+                "quantity": 50,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 82,
+        "dish_name": "Салат с рыбой",
+        "description": "Салат с копченой рыбой",
+        "recipe": "Нарезать рыбу, картофель, яйца, заправить майонезом.",
+        "calories": 250,
+        "cooking_time": 15,
+        "difficulty": "Легко",
+        "category_id": 2,
+        "ingredients": [
+            {
+                "ingredient": "Рыба",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Картофель",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Яйца",
+                "quantity": 2,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Майонез",
+                "quantity": 50,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 85,
+        "dish_name": "Салат с морепродуктами",
+        "description": "Салат с креветками и кальмарами",
+        "recipe": "Отварить креветки, кальмары, смешать с листьями салата, заправить лимоном.",
+        "calories": 200,
+        "cooking_time": 15,
+        "difficulty": "Легко",
+        "category_id": 2,
+        "ingredients": [
+            {
+                "ingredient": "Креветки",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Листья салата",
+                "quantity": 50,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Лимон",
+                "quantity": 10,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 90,
+        "dish_name": "Салат с грибами",
+        "description": "Салат с жареными грибами",
+        "recipe": "Обжарить грибы с луком, смешать с листьями салата, заправить сметаной.",
+        "calories": 200,
+        "cooking_time": 15,
+        "difficulty": "Легко",
+        "category_id": 2,
+        "ingredients": [
+            {
+                "ingredient": "Грибы",
+                "quantity": 150,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Лук",
+                "quantity": 50,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Листья салата",
+                "quantity": 50,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Сметана",
+                "quantity": 50,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 94,
+        "dish_name": "Салат с орехами",
+        "description": "Салат с грецкими орехами",
+        "recipe": "Смешать листья салата, сыр, орехи, заправить медом и оливковым маслом.",
+        "calories": 250,
+        "cooking_time": 10,
+        "difficulty": "Легко",
+        "category_id": 2,
+        "ingredients": [
+            {
+                "ingredient": "Листья салата",
+                "quantity": 50,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Сыр",
+                "quantity": 50,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Мед",
+                "quantity": 10,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Масло растительное",
+                "quantity": 20,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 97,
+        "dish_name": "Салат с ананасом",
+        "description": "Салат с курицей и ананасом",
+        "recipe": "Нарезать курицу, ананас, сыр, заправить майонезом.",
+        "calories": 300,
+        "cooking_time": 15,
+        "difficulty": "Легко",
+        "category_id": 2,
+        "ingredients": [
+            {
+                "ingredient": "Курица",
+                "quantity": 200,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Сыр",
+                "quantity": 50,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Майонез",
+                "quantity": 50,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 100,
+        "dish_name": "Салат с ветчиной",
+        "description": "Салат с ветчиной и сыром",
+        "recipe": "Нарезать ветчину, сыр, огурцы, заправить майонезом.",
+        "calories": 300,
+        "cooking_time": 10,
+        "difficulty": "Легко",
+        "category_id": 2,
+        "ingredients": [
+            {
+                "ingredient": "Свинина",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Сыр",
+                "quantity": 50,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Огурцы",
+                "quantity": 50,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Майонез",
+                "quantity": 50,
+                "unit": "грамм"
+            }
+        ]
+    }
+]

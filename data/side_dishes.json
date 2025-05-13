@@ -1,0 +1,152 @@
+[
+    {
+        "dish_id": 19,
+        "dish_name": "Пицца Маргарита",
+        "description": "Классическая пицца с томатами и базиликом",
+        "recipe": "Замесить тесто, раскатать. Смазать томатным соусом, добавить моцареллу, базилик. Выпекать 15 минут.",
+        "calories": 400,
+        "cooking_time": 30,
+        "difficulty": "Средне",
+        "category_id": 8,
+        "ingredients": [
+            {
+                "ingredient": "Тесто",
+                "quantity": 200,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Томаты",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Сыр",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Базилик",
+                "quantity": 20,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 20,
+        "dish_name": "Картошка фри",
+        "description": "Жареный картофель",
+        "recipe": "Нарезать картофель брусками, обжарить во фритюре 5 минут. Посолить, подавать с соусом.",
+        "calories": 300,
+        "cooking_time": 15,
+        "difficulty": "Легко",
+        "category_id": 8,
+        "ingredients": [
+            {
+                "ingredient": "Картофель",
+                "quantity": 300,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Масло растительное",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Соль",
+                "quantity": 5,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 28,
+        "dish_name": "Тартар",
+        "description": "Сырое мясо с приправами",
+        "recipe": "Измельчить говядину, смешать с луком, каперсами, горчицей, яйцом. Подавать с тостами.",
+        "calories": 250,
+        "cooking_time": 15,
+        "difficulty": "Сложно",
+        "category_id": 8,
+        "ingredients": [
+            {
+                "ingredient": "Говядина",
+                "quantity": 200,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Лук",
+                "quantity": 30,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Яйца",
+                "quantity": 1,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Масло растительное",
+                "quantity": 20,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 34,
+        "dish_name": "Сырники",
+        "description": "Творожные оладьи",
+        "recipe": "Смешать творог, яйца, муку, сахар. Сформировать сырники, обжарить по 3 минуты с каждой стороны.",
+        "calories": 300,
+        "cooking_time": 20,
+        "difficulty": "Легко",
+        "category_id": 8,
+        "ingredients": [
+            {
+                "ingredient": "Сыр",
+                "quantity": 200,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Яйца",
+                "quantity": 2,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Мука",
+                "quantity": 50,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Сахар",
+                "quantity": 30,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 62,
+        "dish_name": "Профитроли",
+        "description": "Пирожные с кремом",
+        "recipe": "Выпечь заварное тесто, наполнить кремом из сливок. Полить шоколадом.",
+        "calories": 350,
+        "cooking_time": 60,
+        "difficulty": "Сложно",
+        "category_id": 8,
+        "ingredients": [
+            {
+                "ingredient": "Тесто",
+                "quantity": 200,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Сливки",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Шоколад",
+                "quantity": 50,
+                "unit": "грамм"
+            }
+        ]
+    }
+]

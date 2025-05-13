@@ -1,0 +1,88 @@
+[
+    {
+        "dish_id": 37,
+        "dish_name": "Фалафель",
+        "description": "Жареные шарики из нута",
+        "recipe": "Измельчить нут, лук, зелень, специи. Сформировать шарики, обжарить во фритюре 5 минут.",
+        "calories": 300,
+        "cooking_time": 20,
+        "difficulty": "Средне",
+        "category_id": 9,
+        "ingredients": [
+            {
+                "ingredient": "Лук",
+                "quantity": 50,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Зелень",
+                "quantity": 20,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Масло растительное",
+                "quantity": 50,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 45,
+        "dish_name": "Рагу",
+        "description": "Овощное блюдо с мясом",
+        "recipe": "Обжарить говядину, добавить картофель, морковь, томаты. Тушить 1 час.",
+        "calories": 400,
+        "cooking_time": 70,
+        "difficulty": "Средне",
+        "category_id": 9,
+        "ingredients": [
+            {
+                "ingredient": "Говядина",
+                "quantity": 300,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Картофель",
+                "quantity": 200,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Морковь",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Томаты",
+                "quantity": 100,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 54,
+        "dish_name": "Крокеты",
+        "description": "Жареные шарики с начинкой",
+        "recipe": "Смешать картофельное пюре, сыр, обвалять в панировке, обжарить 5 минут.",
+        "calories": 350,
+        "cooking_time": 20,
+        "difficulty": "Средне",
+        "category_id": 9,
+        "ingredients": [
+            {
+                "ingredient": "Картофель",
+                "quantity": 200,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Сыр",
+                "quantity": 50,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Масло растительное",
+                "quantity": 50,
+                "unit": "грамм"
+            }
+        ]
+    }
+]

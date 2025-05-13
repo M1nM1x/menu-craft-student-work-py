@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <title>Десерты</title>
+</head>
+<body>
+    <header>
+        <a href="{{ url_for('main_page') }}">
+            <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Логотип" class="logo">
+        </a>
+        
+        <nav>
+            <a href="{{ url_for('main_page') }}">Главная</a>
+            <a href="{{ url_for('statistics') }}">Статистика</a>
+            <a href="{{ url_for('settings') }}">Настройки</a>
+            <a href="{{ url_for('profile') }}">Профиль</a>
+        </nav>
+
+        <form action="{{ url_for('search') }}" method="get" class="pretty-input">
+            <input type="text" name="query" placeholder="Поиск...">
+        </form>
+    </header>
+    <main>
+        <div class="container">
+            <div class="dishes">
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Тирамису.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 400</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 30</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Средне</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Тирамису</h1>
+                            <p class="description">Итальянский десерт с маскарпоне и кофе</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Маскарпоне 250 грамм</li>
+                <li>Кофе 100 грамм</li>
+                <li>Печенье савоярди 200 грамм</li>
+                <li>Какао 20 грамм</li>
+                <li>Сахар 50 грамм</li>
+                <li>Сливки 100 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Смешать маскарпоне с сахаром и сливками. Обмакнуть печенье савоярди в кофе, выложить слоями с кремом. Посыпать какао, охладить 4 часа.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Чизкейк.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 500</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 60</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Средне</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Чизкейк</h1>
+                            <p class="description">Десерт с сырным кремом и печеньем</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Маскарпоне 200 грамм</li>
+                <li>Масло сливочное 100 грамм</li>
+                <li>Сахар 100 грамм</li>
+                <li>Яйца 2 грамм</li>
+                <li>Печенье савоярди 150 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Измельчить печенье, смешать с маслом для основы. Смешать маскарпоне, сахар, яйца, вылить на основу. Выпекать 50 минут, охладить.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Эклеры.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 350</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 60</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Сложно</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Эклеры</h1>
+                            <p class="description">Французские пирожные с кремом</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Тесто 200 грамм</li>
+                <li>Сливки 100 грамм</li>
+                <li>Шоколад 50 грамм</li>
+                <li>Ваниль 5 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Сварить заварное тесто, выпечь эклеры. Наполнить кремом из сливок и ванили, покрыть шоколадом.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Крем-брюле.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 300</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 50</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Сложно</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Крем-брюле</h1>
+                            <p class="description">Французский десерт с карамельной корочкой</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Сливки 200 грамм</li>
+                <li>Сахар 50 грамм</li>
+                <li>Ваниль 5 грамм</li>
+                <li>Яйца 2 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Смешать сливки, сахар, ваниль, яйца. Запечь, посыпать сахаром, карамелизировать горелкой.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Мусс шоколадный.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 300</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 20</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Средне</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Мусс шоколадный</h1>
+                            <p class="description">Воздушный шоколадный десерт</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Шоколад 100 грамм</li>
+                <li>Сливки 150 грамм</li>
+                <li>Сахар 30 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Растопить шоколад, смешать со взбитыми сливками. Охладить 2 часа, подавать с ягодами.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Брауни.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 400</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 40</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Брауни</h1>
+                            <p class="description">Шоколадный пирог</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Мука 100 грамм</li>
+                <li>Сахар 100 грамм</li>
+                <li>Яйца 2 грамм</li>
+                <li>Шоколад 100 грамм</li>
+                <li>Масло сливочное 50 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Смешать муку, сахар, яйца, шоколад, масло. Выпекать 25 минут, нарезать квадратами.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Торт Наполеон.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 500</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 90</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Сложно</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Торт Наполеон</h1>
+                            <p class="description">Слоеный торт с кремом</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Тесто 300 грамм</li>
+                <li>Сливки 200 грамм</li>
+                <li>Сахар 100 грамм</li>
+                <li>Масло сливочное 100 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Выпечь слоеные коржи, смазать заварным кремом. Охладить 4 часа, нарезать.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Пудинг.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 250</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 20</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Легко</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Пудинг</h1>
+                            <p class="description">Молочный десерт</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Молоко 200 грамм</li>
+                <li>Сахар 50 грамм</li>
+                <li>Ваниль 5 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Смешать молоко, сахар, крахмал, ваниль. Варить до загустения, охладить.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Медовик.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 450</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 90</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Сложно</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Медовик</h1>
+                            <p class="description">Торт с медовыми коржами</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Мука 300 грамм</li>
+                <li>Мед 100 грамм</li>
+                <li>Сметана 200 грамм</li>
+                <li>Сахар 100 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Выпечь медовые коржи, смазать сметанным кремом. Охладить 4 часа.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Карри.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 400</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 30</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Средне</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Карри</h1>
+                            <p class="description">Индийское блюдо с рисом</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Курица 200 грамм</li>
+                <li>Лук 50 грамм</li>
+                <li>Рис 100 грамм</li>
+                <li>Сливки 100 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Обжарить курицу с луком, добавить карри, кокосовое молоко. Тушить 20 минут, подавать с рисом.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Макаруны.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 300</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 40</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Сложно</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Макаруны</h1>
+                            <p class="description">Французские миндальные пирожные</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Мука 100 грамм</li>
+                <li>Сахар 100 грамм</li>
+                <li>Яйца 2 грамм</li>
+                <li>Сливки 50 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Смешать миндальную муку, сахар, взбитые белки. Выпечь, начинить кремом.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Торт Прага.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 500</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 90</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Сложно</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Торт Прага</h1>
+                            <p class="description">Шоколадный торт с кремом</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Мука 200 грамм</li>
+                <li>Сахар 150 грамм</li>
+                <li>Шоколад 100 грамм</li>
+                <li>Сливки 100 грамм</li>
+                <li>Яйца 3 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Выпечь шоколадные коржи, смазать кремом, покрыть глазурью. Охладить 4 часа.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Тирамису с ягодами.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 400</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 30</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Средне</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Тирамису с ягодами</h1>
+                            <p class="description">Десерт с маскарпоне и ягодами</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Маскарпоне 200 грамм</li>
+                <li>Печенье савоярди 150 грамм</li>
+                <li>Сахар 50 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Смешать маскарпоне с сахаром, выложить слоями с печеньем и ягодами. Охладить 4 часа.</p>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="dish_card">
+                    <div class="left_part">
+                        <img src="{{ url_for('static', filename='images/Блюда/Торт с кремом.jpg') }}" class="dish_img">
+                        <div class="characteristic">
+                            <div class="char_el">
+                                <p>Калории: 450</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Время приготовления: 90</p>
+                            </div>
+                            <div class="char_el">
+                                <p>Сложность: Сложно</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right_part">
+                        <div class="dish_info">
+                            <h1 class="dish_title">Торт с кремом</h1>
+                            <p class="description">Бисквитный торт с кремом</p>
+                            <hr class="trait"/>
+                            <p class="info_title">Ингредиенты</p>
+                            <ul class="ingredients_list">
+                                <li>Мука 200 грамм</li>
+                <li>Сахар 150 грамм</li>
+                <li>Яйца 3 грамм</li>
+                <li>Сливки 200 грамм</li>
+                            </ul>
+                            <p class="info_title">Метод приготовления</p>
+                            <p class="cooking_method_text">Выпечь бисквит, смазать кремом из сливок и сахара. Охладить 4 часа.</p>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h1>Контактная информация</h1>
+        <p>Телефон: +7 (928) 123-45-67</p>
+        <p>Почта: menucraft@gmail.com</p>
+    </footer>
+</body>
+</html>

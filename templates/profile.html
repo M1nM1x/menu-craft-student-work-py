@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <title>Завтраки</title>
+    <style>
+        main {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: var(--not-pink);
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        main h1 {
+            font-size: 36px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        main form {
+            width: 100%;
+            max-width: 400px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #FFFDF7;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        main form label {
+            font-size: 18px;
+            margin-bottom: 10px;
+            color: #555;
+        }
+
+        main form input {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 2px solid #F6C4A7;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            outline: none;
+            transition: border-color 0.3s ease;
+        }
+
+        main form input:focus {
+            border-color: #fa975d;
+        }
+
+        main form button {
+            background-color: #F6C4A7;
+            color: #FFF;
+            border: none;
+            border-radius: 8px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, box-shadow 0.2s ease;
+        }
+
+        main form button:hover {
+            background-color: #fa975d;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        main a {
+            margin-top: 10px;
+            font-size: 16px;
+            color: #F6C4A7;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        main a:hover {
+            color: #fa975d;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="{{ url_for('main_page') }}">
+            <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Логотип" class="logo">
+        </a>
+        
+        <nav>
+            <a href="{{ url_for('main_page') }}">Главная</a>
+            <a href="{{ url_for('statistics') }}">Статистика</a>
+            <a href="{{ url_for('settings') }}">Настройки</a>
+            <a href="{{ url_for('profile') }}">Профиль</a>
+        </nav>
+
+        <form action="{{ url_for('search') }}" method="get" class="pretty-input">
+            <input type="text" name="query" placeholder="Поиск...">
+        </form>
+    </header>
+    <main>
+
+        <div class="today_menu">
+            <h1 class="meal_title">Завтрак</h1>
+            <div class="dish_card">
+                <div class="left_part">
+                    <img src="{{ url_for('static', filename='images/Блюда/' + daily_menu['breakfast']['dish_name'] + '.jpg') }}" class="dish_img">
+                    <div class="characteristic">
+                        <div class="char_el">
+                            <p>Калории: {{ daily_menu['breakfast']['calories'] }}</p>
+                        </div>
+                        <div class="char_el">
+                            <p>Время приготовления: {{ daily_menu['breakfast']['cooking_time'] }} мин</p>
+                        </div>
+                        <div class="char_el">
+                            <p>Сложность: {{ daily_menu['breakfast']['difficulty'] }}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="right_part">
+                    <div class="dish_info">
+                        <h1 class="dish_title">{{ daily_menu['breakfast']['dish_name'] }}</h1>
+                        <p class="description">{{ daily_menu['breakfast']['description'] }}</p>
+                        <hr class="trait"/>
+                        <p class="info_title">Ингредиенты</p>
+                        <ul class="ingredients_list">
+                            {% for ingredient in daily_menu['breakfast']['ingredients'] %}
+                            <li>{{ ingredient['ingredient'] }} {{ ingredient['quantity'] }} {{ ingredient['unit'] }}</li>
+                            {% endfor %}
+                        </ul>
+                        <p class="info_title">Метод приготовления</p>
+                        <p class="cooking_method_text">{{ daily_menu['breakfast']['recipe'] }}</p>
+                    </div>
+                </div>
+            </div>
+        
+            <h1 class="meal_title">Обед</h1>
+            <!-- Повторите аналогичную структуру для обеда -->
+            <div class="dish_card">
+                <div class="left_part">
+                    <img src="{{ url_for('static', filename='images/Блюда/' + daily_menu['lunch']['dish_name'] + '.jpg') }}" class="dish_img">
+                    <div class="characteristic">
+                        <div class="char_el">
+                            <p>Калории: {{ daily_menu['lunch']['calories'] }}</p>
+                        </div>
+                        <div class="char_el">
+                            <p>Время приготовления: {{ daily_menu['lunch']['cooking_time'] }} мин</p>
+                        </div>
+                        <div class="char_el">
+                            <p>Сложность: {{ daily_menu['lunch']['difficulty'] }}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="right_part">
+                    <div class="dish_info">
+                        <h1 class="dish_title">{{ daily_menu['lunch']['dish_name'] }}</h1>
+                        <p class="description">{{ daily_menu['lunch']['description'] }}</p>
+                        <hr class="trait"/>
+                        <p class="info_title">Ингредиенты</p>
+                        <ul class="ingredients_list">
+                            {% for ingredient in daily_menu['lunch']['ingredients'] %}
+                            <li>{{ ingredient['ingredient'] }} {{ ingredient['quantity'] }} {{ ingredient['unit'] }}</li>
+                            {% endfor %}
+                        </ul>
+                        <p class="info_title">Метод приготовления</p>
+                        <p class="cooking_method_text">{{ daily_menu['lunch']['recipe'] }}</p>
+                    </div>
+                </div>
+            </div>
+            <h1 class="meal_title">Ужин</h1>
+            <!-- Повторите аналогичную структуру для ужина -->
+            <div class="dish_card">
+                <div class="left_part">
+                    <img src="{{ url_for('static', filename='images/Блюда/' + daily_menu['dinner']['dish_name'] + '.jpg') }}" class="dish_img">
+                    <div class="characteristic">
+                        <div class="char_el">
+                            <p>Калории: {{ daily_menu['dinner']['calories'] }}</p>
+                        </div>
+                        <div class="char_el">
+                            <p>Время приготовления: {{ daily_menu['dinner']['cooking_time'] }} мин</p>
+                        </div>
+                        <div class="char_el">
+                            <p>Сложность: {{ daily_menu['dinner']['difficulty'] }}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="right_part">
+                    <div class="dish_info">
+                        <h1 class="dish_title">{{ daily_menu['dinner']['dish_name'] }}</h1>
+                        <p class="description">{{ daily_menu['dinner']['description'] }}</p>
+                        <hr class="trait"/>
+                        <p class="info_title">Ингредиенты</p>
+                        <ul class="ingredients_list">
+                            {% for ingredient in daily_menu['dinner']['ingredients'] %}
+                            <li>{{ ingredient['ingredient'] }} {{ ingredient['quantity'] }} {{ ingredient['unit'] }}</li>
+                            {% endfor %}
+                        </ul>
+                        <p class="info_title">Метод приготовления</p>
+                        <p class="cooking_method_text">{{ daily_menu['dinner']['recipe'] }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h1>Профиль пользователя</h1>
+        <form method="POST">
+            <label for="username">Имя пользователя:</label>
+            <input type="text" id="username" name="username" value="{{ user['username'] }}" required>
+            <button type="submit">Сохранить изменения</button>
+        </form>
+        
+        <form method="POST">
+            <button type="submit" name="regenerate_menu">Пересоздать меню</button>
+        </form>
+        <a href="{{ url_for('logout') }}">Выход</a>
+        <a href="{{ url_for('main_page') }}">На главную</a>
+    </main>
+    <footer>
+        <h1>Контактная информация</h1>
+        <p>Телефон: +7 (928) 123-45-67</p>
+        <p>Почта: menucraft@gmail.com</p>
+    </footer>
+</body>
+</html>

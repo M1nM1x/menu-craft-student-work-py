@@ -1,0 +1,1788 @@
+{
+  "Categories": [
+    { "category_id": 1, "category_name": "Супы" },
+    { "category_id": 2, "category_name": "Салаты" },
+    { "category_id": 3, "category_name": "Основные блюда" },
+    { "category_id": 4, "category_name": "Десерты" },
+    { "category_id": 5, "category_name": "Закуски" },
+    { "category_id": 6, "category_name": "Выпечка" },
+    { "category_id": 7, "category_name": "Напитки" },
+    { "category_id": 8, "category_name": "Гарниры" },
+    { "category_id": 9, "category_name": "Соусы" },
+    { "category_id": 10, "category_name": "Завтраки" }
+  ],
+  "Units": [
+    { "unit_id": 1, "unit_name": "грамм" },
+    { "unit_id": 2, "unit_name": "стакан" },
+    { "unit_id": 3, "unit_name": "ложка" },
+    { "unit_id": 4, "unit_name": "килограмм" },
+    { "unit_id": 5, "unit_name": "литр" }
+  ],
+  "Ingredients": [
+    { "ingredient_id": 1, "ingredient_name": "Мука" },
+    { "ingredient_id": 2, "ingredient_name": "Сахар" },
+    { "ingredient_id": 3, "ingredient_name": "Соль" },
+    { "ingredient_id": 4, "ingredient_name": "Масло сливочное" },
+    { "ingredient_id": 5, "ingredient_name": "Масло растительное" },
+    { "ingredient_id": 6, "ingredient_name": "Яйца" },
+    { "ingredient_id": 7, "ingredient_name": "Молоко" },
+    { "ingredient_id": 8, "ingredient_name": "Свекла" },
+    { "ingredient_id": 9, "ingredient_name": "Капуста" },
+    { "ingredient_id": 10, "ingredient_name": "Картофель" },
+    { "ingredient_id": 11, "ingredient_name": "Морковь" },
+    { "ingredient_id": 12, "ingredient_name": "Лук" },
+    { "ingredient_id": 13, "ingredient_name": "Чеснок" },
+    { "ingredient_id": 14, "ingredient_name": "Томаты" },
+    { "ingredient_id": 15, "ingredient_name": "Говядина" },
+    { "ingredient_id": 16, "ingredient_name": "Курица" },
+    { "ingredient_id": 17, "ingredient_name": "Рыба" },
+    { "ingredient_id": 18, "ingredient_name": "Свинина" },
+    { "ingredient_id": 19, "ingredient_name": "Рис" },
+    { "ingredient_id": 20, "ingredient_name": "Паста" },
+    { "ingredient_id": 21, "ingredient_name": "Сыр" },
+    { "ingredient_id": 22, "ingredient_name": "Сметана" },
+    { "ingredient_id": 23, "ingredient_name": "Майонез" },
+    { "ingredient_id": 24, "ingredient_name": "Уксус" },
+    { "ingredient_id": 25, "ingredient_name": "Мед" },
+    { "ingredient_id": 26, "ingredient_name": "Лимон" },
+    { "ingredient_id": 27, "ingredient_name": "Зелень" },
+    { "ingredient_id": 28, "ingredient_name": "Огурцы" },
+    { "ingredient_id": 29, "ingredient_name": "Помидоры" },
+    { "ingredient_id": 30, "ingredient_name": "Листья салата" },
+    { "ingredient_id": 31, "ingredient_name": "Креветки" },
+    { "ingredient_id": 32, "ingredient_name": "Авокадо" },
+    { "ingredient_id": 33, "ingredient_name": "Бекон" },
+    { "ingredient_id": 34, "ingredient_name": "Пармезан" },
+    { "ingredient_id": 35, "ingredient_name": "Крутоны" },
+    { "ingredient_id": 36, "ingredient_name": "Маскарпоне" },
+    { "ingredient_id": 37, "ingredient_name": "Кофе" },
+    { "ingredient_id": 38, "ingredient_name": "Печенье савоярди" },
+    { "ingredient_id": 39, "ingredient_name": "Какао" },
+    { "ingredient_id": 40, "ingredient_name": "Сливки" },
+    { "ingredient_id": 41, "ingredient_name": "Грибы" },
+    { "ingredient_id": 42, "ingredient_name": "Перец" },
+    { "ingredient_id": 43, "ingredient_name": "Базилик" },
+    { "ingredient_id": 44, "ingredient_name": "Орегано" },
+    { "ingredient_id": 45, "ingredient_name": "Тесто" },
+    { "ingredient_id": 46, "ingredient_name": "Дрожжи" },
+    { "ingredient_id": 47, "ingredient_name": "Яблоки" },
+    { "ingredient_id": 48, "ingredient_name": "Шоколад" },
+    { "ingredient_id": 49, "ingredient_name": "Ваниль" },
+    { "ingredient_id": 50, "ingredient_name": "Корица" }
+  ],
+  "Dishes": [
+    {
+      "dish_id": 1,
+      "dish_name": "Борщ",
+      "description": "Традиционный украинский суп с говядиной и свеклой",
+      "recipe": "Сварить бульон из говядины, добавить нарезанные свеклу, капусту, картофель, морковь, лук. Тушить томаты с чесноком, добавить в суп. Варить 40 минут, подавать со сметаной.",
+      "calories": 250,
+      "cooking_time": 60,
+      "difficulty": "Средне",
+      "category_id": 1,
+      "ingredients": [
+        { "ingredient": "Свекла", "quantity": 300, "unit": "грамм" },
+        { "ingredient": "Капуста", "quantity": 200, "unit": "грамм" },
+        { "ingredient": "Картофель", "quantity": 400, "unit": "грамм" },
+        { "ingredient": "Говядина", "quantity": 200, "unit": "грамм" },
+        { "ingredient": "Морковь", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Лук", "quantity": 50, "unit": "грамм" },
+        { "ingredient": "Томаты", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Чеснок", "quantity": 10, "unit": "грамм" },
+        { "ingredient": "Сметана", "quantity": 50, "unit": "грамм" }
+      ],
+      "criteria": ["суп", "обед", "ужин", "говядина", "овощи", "традиционное"]
+    },
+    {
+      "dish_id": 2,
+      "dish_name": "Салат Цезарь",
+      "description": "Классический салат с курицей и крутонами",
+      "recipe": "Обжарить курицу, нарезать листья салата, добавить крутоны, пармезан. Смешать соус из майонеза, чеснока, лимона, анчоусов. Заправить салат.",
+      "calories": 350,
+      "cooking_time": 20,
+      "difficulty": "Легко",
+      "category_id": 2,
+      "ingredients": [
+        { "ingredient": "Листья салата", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Курица", "quantity": 200, "unit": "грамм" },
+        { "ingredient": "Крутоны", "quantity": 50, "unit": "грамм" },
+        { "ingredient": "Пармезан", "quantity": 30, "unit": "грамм" },
+        { "ingredient": "Майонез", "quantity": 30, "unit": "грамм" },
+        { "ingredient": "Чеснок", "quantity": 5, "unit": "грамм" },
+        { "ingredient": "Лимон", "quantity": 10, "unit": "грамм" }
+      ],
+      "criteria": ["салат", "обед", "ужин", "курица", "овощи", "итальянское"]
+    },
+    {
+      "dish_id": 3,
+      "dish_name": "Спагетти карбонара",
+      "description": "Итальянская паста с беконом и сыром",
+      "recipe": "Сварить спагетти. Обжарить бекон, смешать с яйцами и пармезаном. Добавить пасту, перемешать, подавать сразу.",
+      "calories": 600,
+      "cooking_time": 15,
+      "difficulty": "Средне",
+      "category_id": 3,
+      "ingredients": [
+        { "ingredient": "Паста", "quantity": 200, "unit": "грамм" },
+        { "ingredient": "Бекон", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Пармезан", "quantity": 50, "unit": "грамм" },
+        { "ingredient": "Яйца", "quantity": 2, "unit": "грамм" },
+        { "ingredient": "Соль", "quantity": 5, "unit": "грамм" }
+      ],
+      "criteria": ["паста", "обед", "ужин", "бекон", "сыр", "итальянское"]
+    },
+    {
+      "dish_id": 4,
+      "dish_name": "Тирамису",
+      "description": "Итальянский десерт с маскарпоне и кофе",
+      "recipe": "Смешать маскарпоне с сахаром и сливками. Обмакнуть печенье савоярди в кофе, выложить слоями с кремом. Посыпать какао, охладить 4 часа.",
+      "calories": 400,
+      "cooking_time": 30,
+      "difficulty": "Средне",
+      "category_id": 4,
+      "ingredients": [
+        { "ingredient": "Маскарпоне", "quantity": 250, "unit": "грамм" },
+        { "ingredient": "Кофе", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Печенье савоярди", "quantity": 200, "unit": "грамм" },
+        { "ingredient": "Какао", "quantity": 20, "unit": "грамм" },
+        { "ingredient": "Сахар", "quantity": 50, "unit": "грамм" },
+        { "ingredient": "Сливки", "quantity": 100, "unit": "грамм" }
+      ],
+      "criteria": ["десерт", "сладкое", "маскарпоне", "кофе", "итальянское"]
+    },
+    {
+      "dish_id": 5,
+      "dish_name": "Оливье",
+      "description": "Русский салат с картофелем и майонезом",
+      "recipe": "Отварить картофель, морковь, яйца, нарезать кубиками. Добавить огурцы, горошек, колбасу, заправить майонезом.",
+      "calories": 300,
+      "cooking_time": 25,
+      "difficulty": "Легко",
+      "category_id": 2,
+      "ingredients": [
+        { "ingredient": "Картофель", "quantity": 300, "unit": "грамм" },
+        { "ingredient": "Морковь", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Яйца", "quantity": 3, "unit": "грамм" },
+        { "ingredient": "Огурцы", "quantity": 150, "unit": "грамм" },
+        { "ingredient": "Майонез", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Свинина", "quantity": 150, "unit": "грамм" }
+      ],
+      "criteria": ["салат", "обед", "ужин", "картофель", "овощи", "традиционное"]
+    },
+    {
+      "dish_id": 6,
+      "dish_name": "Грибной суп",
+      "description": "Суп с шампиньонами и сливками",
+      "recipe": "Обжарить грибы с луком, добавить картофель и воду, варить 20 минут. Влить сливки, посолить, подавать с зеленью.",
+      "calories": 200,
+      "cooking_time": 30,
+      "difficulty": "Легко",
+      "category_id": 1,
+      "ingredients": [
+        { "ingredient": "Грибы", "quantity": 200, "unit": "грамм" },
+        { "ingredient": "Сливки", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Лук", "quantity": 50, "unit": "грамм" },
+        { "ingredient": "Картофель", "quantity": 200, "unit": "грамм" },
+        { "ingredient": "Соль", "quantity": 5, "unit": "грамм" },
+        { "ingredient": "Зелень", "quantity": 20, "unit": "грамм" }
+      ],
+      "criteria": ["суп", "обед", "ужин", "грибы", "сливки", "традиционное"]
+    },
+    {
+      "dish_id": 7,
+      "dish_name": "Пельмени",
+      "description": "Сибирские пельмени с мясом",
+      "recipe": "Замесить тесто, приготовить фарш из говядины и лука. Сформировать пельмени, варить 7 минут. Подавать со сметаной.",
+      "calories": 450,
+      "cooking_time": 40,
+      "difficulty": "Средне",
+      "category_id": 3,
+      "ingredients": [
+        { "ingredient": "Тесто", "quantity": 300, "unit": "грамм" },
+        { "ingredient": "Говядина", "quantity": 200, "unit": "грамм" },
+        { "ingredient": "Лук", "quantity": 50, "unit": "грамм" },
+        { "ingredient": "Соль", "quantity": 5, "unit": "грамм" },
+        { "ingredient": "Сметана", "quantity": 50, "unit": "грамм" }
+      ],
+      "criteria": ["пельмени", "обед", "ужин", "говядина", "лук", "традиционное"]
+    },
+    {
+      "dish_id": 8,
+      "dish_name": "Чизкейк",
+      "description": "Десерт с сырным кремом и печеньем",
+      "recipe": "Измельчить печенье, смешать с маслом для основы. Смешать маскарпоне, сахар, яйца, вылить на основу. Выпекать 50 минут, охладить.",
+      "calories": 500,
+      "cooking_time": 60,
+      "difficulty": "Средне",
+      "category_id": 4,
+      "ingredients": [
+        { "ingredient": "Маскарпоне", "quantity": 200, "unit": "грамм" },
+        { "ingredient": "Масло сливочное", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Сахар", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Яйца", "quantity": 2, "unit": "грамм" },
+        { "ingredient": "Печенье савоярди", "quantity": 150, "unit": "грамм" }
+      ],
+      "criteria": ["десерт", "сладкое", "маскарпоне", "печенье", "итальянское"]
+    },
+    {
+      "dish_id": 9,
+      "dish_name": "Греческий салат",
+      "description": "Салат с огурцами, помидорами и фетой",
+      "recipe": "Нарезать огурцы, помидоры, лук, добавить оливки, фету. Заправить оливковым маслом, лимоном, орегано.",
+      "calories": 200,
+      "cooking_time": 15,
+      "difficulty": "Легко",
+      "category_id": 2,
+      "ingredients": [
+        { "ingredient": "Огурцы", "quantity": 150, "unit": "грамм" },
+        { "ingredient": "Помидоры", "quantity": 150, "unit": "грамм" },
+        { "ingredient": "Сыр", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Лук", "quantity": 50, "unit": "грамм" },
+        { "ingredient": "Масло растительное", "quantity": 30, "unit": "грамм" },
+        { "ingredient": "Лимон", "quantity": 10, "unit": "грамм" },
+        { "ingredient": "Орегано", "quantity": 5, "unit": "грамм" }
+      ],
+      "criteria": ["салат", "обед", "ужин", "огурцы", "помидоры", "греческое"]
+    },
+    {
+      "dish_id": 10,
+      "dish_name": "Лазанья",
+      "description": "Итальянское блюдо с мясом и сыром",
+      "recipe": "Приготовить мясной соус из говядины, томатов, лука. Собрать слои из листов лазаньи, соуса, сыра. Выпекать 40 минут.",
+      "calories": 550,
+      "cooking_time": 60,
+      "difficulty": "Сложно",
+      "category_id": 3,
+      "ingredients": [
+        { "ingredient": "Тесто", "quantity": 200, "unit": "грамм" },
+        { "ingredient": "Говядина", "quantity": 200, "unit": "грамм" },
+        { "ingredient": "Сыр", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Томаты", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Лук", "quantity": 50, "unit": "грамм" }
+      ],
+      "criteria": ["паста", "обед", "ужин", "говядина", "сыр", "итальянское"]
+    },
+    {
+      "dish_id": 11,
+      "dish_name": "Щи",
+      "description": "Русский капустный суп",
+      "recipe": "Сварить бульон, добавить капусту, картофель, морковь, лук. Варить 30 минут, подавать со сметаной.",
+      "calories": 180,
+      "cooking_time": 40,
+      "difficulty": "Легко",
+      "category_id": 1,
+      "ingredients": [
+        { "ingredient": "Капуста", "quantity": 300, "unit": "грамм" },
+        { "ingredient": "Картофель", "quantity": 200, "unit": "грамм" },
+        { "ingredient": "Морковь", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Лук", "quantity": 50, "unit": "грамм" },
+        { "ingredient": "Сметана", "quantity": 50, "unit": "грамм" }
+      ],
+      "criteria": ["суп", "обед", "ужин", "капуста", "картофель", "традиционное"]
+    },
+    {
+      "dish_id": 12,
+      "dish_name": "Котлеты",
+      "description": "Жареные мясные котлеты",
+      "recipe": "Смешать фарш, лук, яйцо, хлебные крошки. Сформировать котлеты, обжарить на масле 10 минут.",
+      "calories": 400,
+      "cooking_time": 20,
+      "difficulty": "Средне",
+      "category_id": 3,
+      "ingredients": [
+        { "ingredient": "Говядина", "quantity": 300, "unit": "грамм" },
+        { "ingredient": "Лук", "quantity": 50, "unit": "грамм" },
+        { "ingredient": "Яйца", "quantity": 1, "unit": "грамм" },
+        { "ingredient": "Масло растительное", "quantity": 30, "unit": "грамм" },
+        { "ingredient": "Соль", "quantity": 5, "unit": "грамм" }
+      ],
+      "criteria": ["котлеты", "обед", "ужин", "говядина", "лук", "традиционное"]
+    },
+    {
+      "dish_id": 13,
+      "dish_name": "Панкейки",
+      "description": "Американские блинчики с сиропом",
+      "recipe": "Смешать муку, молоко, яйца, сахар. Жарить на сковороде по 2 минуты с каждой стороны. Подавать с сиропом.",
+      "calories": 300,
+      "cooking_time": 15,
+      "difficulty": "Легко",
+      "category_id": 6,
+      "ingredients": [
+        { "ingredient": "Мука", "quantity": 150, "unit": "грамм" },
+        { "ingredient": "Молоко", "quantity": 200, "unit": "грамм" },
+        { "ingredient": "Яйца", "quantity": 2, "unit": "грамм" },
+        { "ingredient": "Сахар", "quantity": 30, "unit": "грамм" },
+        { "ingredient": "Масло растительное", "quantity": 20, "unit": "грамм" }
+      ],
+      "criteria": ["блинчики", "завтрак", "сладкое", "мука", "молоко", "американское"]
+    },
+    {
+      "dish_id": 14,
+      "dish_name": "Шарлотка",
+      "description": "Яблочный пирог",
+      "recipe": "Смешать муку, сахар, яйца. Нарезать яблоки, выложить в форму, залить тестом. Выпекать 40 минут.",
+      "calories": 250,
+      "cooking_time": 50,
+      "difficulty": "Легко",
+      "category_id": 6,
+      "ingredients": [
+        { "ingredient": "Мука", "quantity": 150, "unit": "грамм" },
+        { "ingredient": "Сахар", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Яйца", "quantity": 3, "unit": "грамм" },
+        { "ingredient": "Яблоки", "quantity": 300, "unit": "грамм" }
+      ],
+      "criteria": ["пирог", "десерт", "яблоки", "мука", "традиционное"]
+    },
+    {
+      "dish_id": 15,
+      "dish_name": "Рататуй",
+      "description": "Овощное рагу из Франции",
+      "recipe": "Нарезать баклажаны, кабачки, томаты. Выложить в форму, полить соусом из томатов и перца. Запекать 40 минут.",
+      "calories": 150,
+      "cooking_time": 50,
+      "difficulty": "Средне",
+      "category_id": 3,
+      "ingredients": [
+        { "ingredient": "Томаты", "quantity": 200, "unit": "грамм" },
+        { "ingredient": "Перец", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Лук", "quantity": 50, "unit": "грамм" },
+        { "ingredient": "Чеснок", "quantity": 10, "unit": "грамм" },
+        { "ingredient": "Масло растительное", "quantity": 30, "unit": "грамм" }
+      ],
+      "criteria": ["рагу", "обед", "ужин", "овощи", "томаты", "французское"]
+    },
+    {
+      "dish_id": 16,
+      "dish_name": "Суши",
+      "description": "Японские роллы с рыбой",
+      "recipe": "Сварить рис, смешать с уксусом. Завернуть рис, рыбу, огурец в нори. Нарезать роллы, подавать с соевым соусом.",
+      "calories": 200,
+      "cooking_time": 30,
+      "difficulty": "Сложно",
+      "category_id": 3,
+      "ingredients": [
+        { "ingredient": "Рис", "quantity": 200, "unit": "грамм" },
+        { "ingredient": "Рыба", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Огурцы", "quantity": 50, "unit": "грамм" },
+        { "ingredient": "Уксус", "quantity": 20, "unit": "грамм" }
+      ],
+      "criteria": ["суши", "обед", "ужин", "рыба", "рис", "японское"]
+    },
+    {
+      "dish_id": 17,
+      "dish_name": "Том Ям",
+      "description": "Тайский острый суп с креветками",
+      "recipe": "Сварить бульон, добавить пасту чили, лемонграсс, креветки, грибы. Варить 10 минут, добавить кокосовое молоко.",
+      "calories": 250,
+      "cooking_time": 20,
+      "difficulty": "Средне",
+      "category_id": 1,
+      "ingredients": [
+        { "ingredient": "Креветки", "quantity": 150, "unit": "грамм" },
+        { "ingredient": "Грибы", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Сливки", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Лимон", "quantity": 20, "unit": "грамм" },
+        { "ingredient": "Чеснок", "quantity": 10, "unit": "грамм" }
+      ],
+      "criteria": ["суп", "обед", "ужин", "креветки", "грибы", "тайское"]
+    },
+    {
+      "dish_id": 18,
+      "dish_name": "Блины",
+      "description": "Тонкие русские блинчики",
+      "recipe": "Смешать муку, молоко, яйца, сахар. Жарить тонкие блины на сковороде. Подавать с медом или вареньем.",
+      "calories": 200,
+      "cooking_time": 20,
+      "difficulty": "Легко",
+      "category_id": 6,
+      "ingredients": [
+        { "ingredient": "Мука", "quantity": 150, "unit": "грамм" },
+        { "ingredient": "Молоко", "quantity": 300, "unit": "грамм" },
+        { "ingredient": "Яйца", "quantity": 2, "unit": "грамм" },
+        { "ingredient": "Сахар", "quantity": 30, "unit": "грамм" },
+        { "ingredient": "Мед", "quantity": 50, "unit": "грамм" }
+      ],
+      "criteria": ["блинчики", "завтрак", "сладкое", "мука", "молоко", "традиционное"]
+    },
+    {
+      "dish_id": 19,
+      "dish_name": "Пицца Маргарита",
+      "description": "Классическая пицца с томатами и базиликом",
+      "recipe": "Замесить тесто, раскатать. Смазать томатным соусом, добавить моцареллу, базилик. Выпекать 15 минут.",
+      "calories": 400,
+      "cooking_time": 30,
+      "difficulty": "Средне",
+      "category_id": 8,
+      "ingredients": [
+        { "ingredient": "Тесто", "quantity": 200, "unit": "грамм" },
+        { "ingredient": "Томаты", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Сыр", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Базилик", "quantity": 20, "unit": "грамм" }
+      ],
+      "criteria": ["пицца", "обед", "ужин", "томаты", "сыр", "итальянское"]
+    },
+    {
+      "dish_id": 20,
+      "dish_name": "Картошка фри",
+      "description": "Жареный картофель",
+      "recipe": "Нарезать картофель брусками, обжарить во фритюре 5 минут. Посолить, подавать с соусом.",
+      "calories": 300,
+      "cooking_time": 15,
+      "difficulty": "Легко",
+      "category_id": 8,
+      "ingredients": [
+        { "ingredient": "Картофель", "quantity": 300, "unit": "грамм" },
+        { "ingredient": "Масло растительное", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Соль", "quantity": 5, "unit": "грамм" }
+      ],
+      "criteria": ["гарнир", "обед", "ужин", "картофель", "масло", "традиционное"]
+    },
+    {
+      "dish_id": 21,
+      "dish_name": "Бефстроганов",
+      "description": "Говядина в сливочном соусе",
+      "recipe": "Нарезать говядину, обжарить с луком. Добавить сметану, горчицу, тушить 20 минут. Подавать с рисом.",
+      "calories": 450,
+      "cooking_time": 30,
+      "difficulty": "Средне",
+      "category_id": 3,
+      "ingredients": [
+        { "ingredient": "Говядина", "quantity": 300, "unit": "грамм" },
+        { "ingredient": "Лук", "quantity": 50, "unit": "грамм" },
+        { "ingredient": "Сметана", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Рис", "quantity": 100, "unit": "грамм" }
+      ],
+      "criteria": ["мясо", "обед", "ужин", "говядина", "сметана", "традиционное"]
+    },
+    {
+      "dish_id": 22,
+      "dish_name": "Эклеры",
+      "description": "Французские пирожные с кремом",
+      "recipe": "Сварить заварное тесто, выпечь эклеры. Наполнить кремом из сливок и ванили, покрыть шоколадом.",
+      "calories": 350,
+      "cooking_time": 60,
+      "difficulty": "Сложно",
+      "category_id": 4,
+      "ingredients": [
+        { "ingredient": "Тесто", "quantity": 200, "unit": "грамм" },
+        { "ingredient": "Сливки", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Шоколад", "quantity": 50, "unit": "грамм" },
+        { "ingredient": "Ваниль", "quantity": 5, "unit": "грамм" }
+      ],
+      "criteria": ["десерт", "сладкое", "тесто", "сливки", "французское"]
+    },
+    {
+      "dish_id": 23,
+      "dish_name": "Салат с тунцом",
+      "description": "Салат с консервированным тунцом",
+      "recipe": "Смешать тунец, листья салата, огурцы, помидоры. Заправить оливковым маслом и лимоном.",
+      "calories": 200,
+      "cooking_time": 10,
+      "difficulty": "Легко",
+      "category_id": 2,
+      "ingredients": [
+        { "ingredient": "Рыба", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Листья салата", "quantity": 50, "unit": "грамм" },
+        { "ingredient": "Огурцы", "quantity": 50, "unit": "грамм" },
+        { "ingredient": "Помидоры", "quantity": 50, "unit": "грамм" },
+        { "ingredient": "Масло растительное", "quantity": 20, "unit": "грамм" },
+        { "ingredient": "Лимон", "quantity": 10, "unit": "грамм" }
+      ],
+      "criteria": ["салат", "обед", "ужин", "рыба", "овощи", "традиционное"]
+    },
+    {
+      "dish_id": 24,
+      "dish_name": "Гуляш",
+      "description": "Венгерское мясное рагу",
+      "recipe": "Обжарить говядину с луком, добавить паприку, томаты, тушить 1 час. Подавать с картофелем.",
+      "calories": 400,
+      "cooking_time": 70,
+      "difficulty": "Средне",
+      "category_id": 3,
+      "ingredients": [
+        { "ingredient": "Говядина", "quantity": 300, "unit": "грамм" },
+        { "ingredient": "Лук", "quantity": 50, "unit": "грамм" },
+        { "ingredient": "Томаты", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Картофель", "quantity": 200, "unit": "грамм" }
+      ],
+      "criteria": ["рагу", "обед", "ужин", "говядина", "томаты", "венгерское"]
+    },
+    {
+      "dish_id": 25,
+      "dish_name": "Крем-брюле",
+      "description": "Французский десерт с карамельной корочкой",
+      "recipe": "Смешать сливки, сахар, ваниль, яйца. Запечь, посыпать сахаром, карамелизировать горелкой.",
+      "calories": 300,
+      "cooking_time": 50,
+      "difficulty": "Сложно",
+      "category_id": 4,
+      "ingredients": [
+        { "ingredient": "Сливки", "quantity": 200, "unit": "грамм" },
+        { "ingredient": "Сахар", "quantity": 50, "unit": "грамм" },
+        { "ingredient": "Ваниль", "quantity": 5, "unit": "грамм" },
+        { "ingredient": "Яйца", "quantity": 2, "unit": "грамм" }
+      ],
+      "criteria": ["десерт", "сладкое", "сливки", "ваниль", "французское"]
+    },
+    {
+      "dish_id": 26,
+      "dish_name": "Окрошка",
+      "description": "Холодный суп на квасе",
+      "recipe": "Нарезать картофель, яйца, огурцы, колбасу. Смешать с квасом, сметаной, зеленью.",
+      "calories": 150,
+      "cooking_time": 20,
+      "difficulty": "Легко",
+      "category_id": 1,
+      "ingredients": [
+        { "ingredient": "Картофель", "quantity": 200, "unit": "грамм" },
+        { "ingredient": "Яйца", "quantity": 2, "unit": "грамм" },
+        { "ingredient": "Огурцы", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Свинина", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Сметана", "quantity": 50, "unit": "грамм" },
+        { "ingredient": "Зелень", "quantity": 20, "unit": "грамм" }
+      ],
+      "criteria": ["суп", "обед", "ужин", "картофель", "овощи", "традиционное"]
+    },
+    {
+      "dish_id": 27,
+      "dish_name": "Ризотто",
+      "description": "Итальянское блюдо с рисом и грибами",
+      "recipe": "Обжарить рис с луком, постепенно добавлять бульон. Добавить грибы, пармезан, перемешать.",
+      "calories": 350,
+      "cooking_time": 30,
+      "difficulty": "Средне",
+      "category_id": 3,
+      "ingredients": [
+        { "ingredient": "Рис", "quantity": 200, "unit": "грамм" },
+        { "ingredient": "Грибы", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Лук", "quantity": 50, "unit": "грамм" },
+        { "ingredient": "Пармезан", "quantity": 50, "unit": "грамм" }
+      ],
+      "criteria": ["ризотто", "обед", "ужин", "рис", "грибы", "итальянское"]
+    },
+    {
+      "dish_id": 28,
+      "dish_name": "Тартар",
+      "description": "Сырое мясо с приправами",
+      "recipe": "Измельчить говядину, смешать с луком, каперсами, горчицей, яйцом. Подавать с тостами.",
+      "calories": 250,
+      "cooking_time": 15,
+      "difficulty": "Сложно",
+      "category_id": 8,
+      "ingredients": [
+        { "ingredient": "Говядина", "quantity": 200, "unit": "грамм" },
+        { "ingredient": "Лук", "quantity": 30, "unit": "грамм" },
+        { "ingredient": "Яйца", "quantity": 1, "unit": "грамм" },
+        { "ingredient": "Масло растительное", "quantity": 20, "unit": "грамм" }
+      ],
+      "criteria": ["мясо", "обед", "ужин", "говядина", "лук", "французское"]
+    },
+    {
+      "dish_id": 29,
+      "dish_name": "Мусс шоколадный",
+      "description": "Воздушный шоколадный десерт",
+      "recipe": "Растопить шоколад, смешать со взбитыми сливками. Охладить 2 часа, подавать с ягодами.",
+      "calories": 300,
+      "cooking_time": 20,
+      "difficulty": "Средне",
+      "category_id": 4,
+      "ingredients": [
+        { "ingredient": "Шоколад", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Сливки", "quantity": 150, "unit": "грамм" },
+        { "ingredient": "Сахар", "quantity": 30, "unit": "грамм" }
+      ],
+      "criteria": ["десерт", "сладкое", "шоколад", "сливки", "традиционное"]
+    },
+    {
+      "dish_id": 30,
+      "dish_name": "Куриный суп",
+      "description": "Легкий суп с лапшой",
+      "recipe": "Сварить бульон из курицы, добавить лапшу, морковь, лук. Варить 20 минут, посыпать зеленью.",
+      "calories": 150,
+      "cooking_time": 30,
+      "difficulty": "Легко",
+      "category_id": 1,
+      "ingredients": [
+        { "ingredient": "Курица", "quantity": 200, "unit": "грамм" },
+        { "ingredient": "Паста", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Морковь", "quantity": 50, "unit": "грамм" },
+        { "ingredient": "Лук", "quantity": 50, "unit": "грамм" },
+        { "ingredient": "Зелень", "quantity": 20, "unit": "грамм" }
+      ],
+      "criteria": ["суп", "обед", "ужин", "курица", "лапша", "традиционное"]
+    },
+    {
+      "dish_id": 31,
+      "dish_name": "Брауни",
+      "description": "Шоколадный пирог",
+      "recipe": "Смешать муку, сахар, яйца, шоколад, масло. Выпекать 25 минут, нарезать квадратами.",
+      "calories": 400,
+      "cooking_time": 40,
+      "difficulty": "Легко",
+      "category_id": 4,
+      "ingredients": [
+        { "ingredient": "Мука", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Сахар", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Яйца", "quantity": 2, "unit": "грамм" },
+        { "ingredient": "Шоколад", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Масло сливочное", "quantity": 50, "unit": "грамм" }
+      ],
+      "criteria": ["десерт", "сладкое", "шоколад", "мука", "американское"]
+    },
+    {
+      "dish_id": 32,
+      "dish_name": "Салат с авокадо",
+      "description": "Салат с креветками и авокадо",
+      "recipe": "Нарезать авокадо, креветки, листья салата. Заправить лимоном, оливковым маслом.",
+      "calories": 250,
+      "cooking_time": 15,
+      "difficulty": "Легко",
+      "category_id": 2,
+      "ingredients": [
+        { "ingredient": "Авокадо", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Креветки", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Листья салата", "quantity": 50, "unit": "грамм" },
+        { "ingredient": "Лимон", "quantity": 10, "unit": "грамм" },
+        { "ingredient": "Масло растительное", "quantity": 20, "unit": "грамм" }
+      ],
+      "criteria": ["салат", "обед", "ужин", "авокадо", "креветки", "традиционное"]
+    },
+    {
+      "dish_id": 33,
+      "dish_name": "Паэлья",
+      "description": "Испанское блюдо с рисом и морепродуктами",
+      "recipe": "Обжарить рис, креветки, мидии, курицу с перцем. Добавить шафран, бульон, тушить 20 минут.",
+      "calories": 450,
+      "cooking_time": 40,
+      "difficulty": "Сложно",
+      "category_id": 3,
+      "ingredients": [
+        { "ingredient": "Рис", "quantity": 200, "unit": "грамм" },
+        { "ingredient": "Креветки", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Курица", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Перец", "quantity": 50, "unit": "грамм" }
+      ],
+      "criteria": ["паэлья", "обед", "ужин", "рис", "креветки", "испанское"]
+    },
+    {
+      "dish_id": 34,
+      "dish_name": "Сырники",
+      "description": "Творожные оладьи",
+      "recipe": "Смешать творог, яйца, муку, сахар. Сформировать сырники, обжарить по 3 минуты с каждой стороны.",
+      "calories": 300,
+      "cooking_time": 20,
+      "difficulty": "Легко",
+      "category_id": 8,
+      "ingredients": [
+        { "ingredient": "Сыр", "quantity": 200, "unit": "грамм" },
+        { "ingredient": "Яйца", "quantity": 2, "unit": "грамм" },
+        { "ingredient": "Мука", "quantity": 50, "unit": "грамм" },
+        { "ingredient": "Сахар", "quantity": 30, "unit": "грамм" }
+      ],
+      "criteria": ["оладьи", "завтрак", "сладкое", "сыр", "традиционное"]
+    },
+    {
+      "dish_id": 35,
+      "dish_name": "Гаспачо",
+      "description": "Холодный томатный суп",
+      "recipe": "Измельчить томаты, огурцы, перец, лук, чеснок. Смешать с оливковым маслом, уксусом, охладить.",
+      "calories": 100,
+      "cooking_time": 15,
+      "difficulty": "Легко",
+      "category_id": 1,
+      "ingredients": [
+        { "ingredient": "Томаты", "quantity": 300, "unit": "грамм" },
+        { "ingredient": "Огурцы", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Перец", "quantity": 50, "unit": "грамм" },
+        { "ingredient": "Лук", "quantity": 30, "unit": "грамм" },
+        { "ingredient": "Чеснок", "quantity": 5, "unit": "грамм" },
+        { "ingredient": "Масло растительное", "quantity": 20, "unit": "грамм" },
+        { "ingredient": "Уксус", "quantity": 10, "unit": "грамм" }
+      ],
+      "criteria": ["суп", "обед", "ужин", "томаты", "огурцы", "испанское"]
+    },
+    {
+      "dish_id": 36,
+      "dish_name": "Киш",
+      "description": "Французский пирог с начинкой",
+      "recipe": "Замесить тесто, выложить в форму. Смешать яйца, сливки, бекон, сыр, запечь 40 минут.",
+      "calories": 400,
+      "cooking_time": 50,
+      "difficulty": "Средне",
+      "category_id": 6,
+      "ingredients": [
+        { "ingredient": "Тесто", "quantity": 200, "unit": "грамм" },
+        { "ingredient": "Яйца", "quantity": 3, "unit": "грамм" },
+        { "ingredient": "Сливки", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Бекон", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Сыр", "quantity": 50, "unit": "грамм" }
+      ],
+      "criteria": ["пирог", "обед", "ужин", "бекон", "сыр", "французское"]
+    },
+    {
+      "dish_id": 37,
+      "dish_name": "Фалафель",
+      "description": "Жареные шарики из нута",
+      "recipe": "Измельчить нут, лук, зелень, специи. Сформировать шарики, обжарить во фритюре 5 минут.",
+      "calories": 300,
+      "cooking_time": 20,
+      "difficulty": "Средне",
+      "category_id": 9,
+      "ingredients": [
+        { "ingredient": "Лук", "quantity": 50, "unit": "грамм" },
+        { "ingredient": "Зелень", "quantity": 20, "unit": "грамм" },
+        { "ingredient": "Масло растительное", "quantity": 50, "unit": "грамм" }
+      ],
+      "criteria": ["закуска", "обед", "ужин", "нут", "лук", "традиционное"]
+    },
+    {
+      "dish_id": 38,
+      "dish_name": "Торт Наполеон",
+      "description": "Слоеный торт с кремом",
+      "recipe": "Выпечь слоеные коржи, смазать заварным кремом. Охладить 4 часа, нарезать.",
+      "calories": 500,
+      "cooking_time": 90,
+      "difficulty": "Сложно",
+      "category_id": 4,
+      "ingredients": [
+        { "ingredient": "Тесто", "quantity": 300, "unit": "грамм" },
+        { "ingredient": "Сливки", "quantity": 200, "unit": "грамм" },
+        { "ingredient": "Сахар", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Масло сливочное", "quantity": 100, "unit": "грамм" }
+      ],
+      "criteria": ["десерт", "сладкое", "тесто", "сливки", "традиционное"]
+    },
+    {
+      "dish_id": 39,
+      "dish_name": "Жульен",
+      "description": "Грибная закуска с сыром",
+      "recipe": "Обжарить грибы с луком, добавить сливки, сыр. Запечь в кокотницах 10 минут.",
+      "calories": 350,
+      "cooking_time": 20,
+      "difficulty": "Средне",
+      "category_id": 5,
+      "ingredients": [
+        { "ingredient": "Грибы", "quantity": 200, "unit": "грамм" },
+        { "ingredient": "Лук", "quantity": 50, "unit": "грамм" },
+        { "ingredient": "Сливки", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Сыр", "quantity": 50, "unit": "грамм" }
+      ],
+      "criteria": ["закуска", "обед", "ужин", "грибы", "сыр", "традиционное"]
+    },
+    {
+      "dish_id": 40,
+      "dish_name": "Капрезе",
+      "description": "Итальянский салат с томатами и моцареллой",
+      "recipe": "Нарезать томаты, моцареллу, базилик. Полить оливковым маслом, бальзамиком.",
+      "calories": 200,
+      "cooking_time": 10,
+      "difficulty": "Легко",
+      "category_id": 5,
+      "ingredients": [
+        { "ingredient": "Томаты", "quantity": 150, "unit": "грамм" },
+        { "ingredient": "Сыр", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Базилик", "quantity": 20, "unit": "грамм" },
+        { "ingredient": "Масло растительное", "quantity": 20, "unit": "грамм" }
+      ],
+      "criteria": ["салат", "обед", "ужин", "томаты", "сыр", "итальянское"]
+    },
+    {
+      "dish_id": 41,
+      "dish_name": "Хумус",
+      "description": "Паста из нута с тахини",
+      "recipe": "Измельчить нут, тахини, чеснок, лимон, оливковое масло. Подавать с питой.",
+      "calories": 250,
+      "cooking_time": 15,
+      "difficulty": "Легко",
+      "category_id": 5,
+      "ingredients": [
+        { "ingredient": "Чеснок", "quantity": 10, "unit": "грамм" },
+        { "ingredient": "Лимон", "quantity": 10, "unit": "грамм" },
+        { "ingredient": "Масло растительное", "quantity": 20, "unit": "грамм" }
+      ],
+      "criteria": ["закуска", "обед", "ужин", "нут", "чеснок", "традиционное"]
+    },
+    {
+      "dish_id": 42,
+      "dish_name": "Борщ зеленый",
+      "description": "Суп со щавелем",
+      "recipe": "Сварить бульон, добавить щавель, картофель, яйца. Варить 20 минут, подавать со сметаной.",
+      "calories": 150,
+      "cooking_time": 30,
+      "difficulty": "Легко",
+      "category_id": 1,
+      "ingredients": [
+        { "ingredient": "Картофель", "quantity": 200, "unit": "грамм" },
+        { "ingredient": "Яйца", "quantity": 2, "unit": "грамм" },
+        { "ingredient": "Сметана", "quantity": 50, "unit": "грамм" },
+        { "ingredient": "Зелень", "quantity": 20, "unit": "грамм" }
+      ],
+      "criteria": ["суп", "обед", "ужин", "картофель", "зелень", "традиционное"]
+    },
+    {
+      "dish_id": 43,
+      "dish_name": "Омлет",
+      "description": "Яичное блюдо с начинкой",
+      "recipe": "Взбить яйца, добавить сыр, помидоры. Жарить на сковороде 5 минут.",
+      "calories": 200,
+      "cooking_time": 10,
+      "difficulty": "Легко",
+      "category_id": 10,
+      "ingredients": [
+        { "ingredient": "Яйца", "quantity": 3, "unit": "грамм" },
+        { "ingredient": "Сыр", "quantity": 50, "unit": "грамм" },
+        { "ingredient": "Помидоры", "quantity": 50, "unit": "грамм" }
+      ],
+      "criteria": ["омлет", "завтрак", "яйца", "сыр", "традиционное"]
+    },
+    {
+      "dish_id": 44,
+      "dish_name": "Кекс",
+      "description": "Простой ванильный кекс",
+      "recipe": "Смешать муку, сахар, яйца, масло, ваниль. Выпекать 40 минут.",
+      "calories": 350,
+      "cooking_time": 50,
+      "difficulty": "Легко",
+      "category_id": 6,
+      "ingredients": [
+        { "ingredient": "Мука", "quantity": 150, "unit": "грамм" },
+        { "ingredient": "Сахар", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Яйца", "quantity": 2, "unit": "грамм" },
+        { "ingredient": "Масло сливочное", "quantity": 50, "unit": "грамм" },
+        { "ingredient": "Ваниль", "quantity": 5, "unit": "грамм" }
+      ],
+      "criteria": ["кекс", "десерт", "ваниль", "мука", "традиционное"]
+    },
+    {
+      "dish_id": 45,
+      "dish_name": "Рагу",
+      "description": "Овощное блюдо с мясом",
+      "recipe": "Обжарить говядину, добавить картофель, морковь, томаты. Тушить 1 час.",
+      "calories": 400,
+      "cooking_time": 70,
+      "difficulty": "Средне",
+      "category_id": 9,
+      "ingredients": [
+        { "ingredient": "Говядина", "quantity": 300, "unit": "грамм" },
+        { "ingredient": "Картофель", "quantity": 200, "unit": "грамм" },
+        { "ingredient": "Морковь", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Томаты", "quantity": 100, "unit": "грамм" }
+      ],
+      "criteria": ["рагу", "обед", "ужин", "говядина", "овощи", "традиционное"]
+    },
+    {
+      "dish_id": 46,
+      "dish_name": "Макароны по-флотски",
+      "description": "Паста с мясом",
+      "recipe": "Сварить макароны, обжарить фарш с луком. Смешать, подавать с сыром.",
+      "calories": 450,
+      "cooking_time": 20,
+      "difficulty": "Легко",
+      "category_id": 3,
+      "ingredients": [
+        { "ingredient": "Паста", "quantity": 200, "unit": "грамм" },
+        { "ingredient": "Говядина", "quantity": 150, "unit": "грамм" },
+        { "ingredient": "Лук", "quantity": 50, "unit": "грамм" },
+        { "ingredient": "Сыр", "quantity": 50, "unit": "грамм" }
+      ],
+      "criteria": ["паста", "обед", "ужин", "говядина", "лук", "традиционное"]
+    },
+    {
+      "dish_id": 47,
+      "dish_name": "Пудинг",
+      "description": "Молочный десерт",
+      "recipe": "Смешать молоко, сахар, крахмал, ваниль. Варить до загустения, охладить.",
+      "calories": 250,
+      "cooking_time": 20,
+      "difficulty": "Легко",
+      "category_id": 4,
+      "ingredients": [
+        { "ingredient": "Молоко", "quantity": 200, "unit": "грамм" },
+        { "ingredient": "Сахар", "quantity": 50, "unit": "грамм" },
+        { "ingredient": "Ваниль", "quantity": 5, "unit": "грамм" }
+      ],
+      "criteria": ["десерт", "сладкое", "молоко", "ваниль", "традиционное"]
+    },
+    {
+      "dish_id": 48,
+      "dish_name": "Салат с кальмарами",
+      "description": "Морской салат",
+      "recipe": "Отварить кальмары, нарезать с огурцами, яйцами. Заправить майонезом.",
+      "calories": 200,
+      "cooking_time": 15,
+      "difficulty": "Легко",
+      "category_id": 2,
+      "ingredients": [
+        { "ingredient": "Креветки", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Огурцы", "quantity": 50, "unit": "грамм" },
+        { "ingredient": "Яйца", "quantity": 2, "unit": "грамм" },
+        { "ingredient": "Майонез", "quantity": 50, "unit": "грамм" }
+      ],
+      "criteria": ["салат", "обед", "ужин", "креветки", "огурцы", "традиционное"]
+    },
+    {
+      "dish_id": 49,
+      "dish_name": "Голубцы",
+      "description": "Капуста с мясной начинкой",
+      "recipe": "Завернуть фарш с рисом в капустные листья. Тушить в томатном соусе 40 минут.",
+      "calories": 350,
+      "cooking_time": 60,
+      "difficulty": "Средне",
+      "category_id": 10,
+      "ingredients": [
+        { "ingredient": "Капуста", "quantity": 300, "unit": "грамм" },
+        { "ingredient": "Говядина", "quantity": 200, "unit": "грамм" },
+        { "ingredient": "Рис", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Томаты", "quantity": 100, "unit": "грамм" }
+      ],
+      "criteria": ["голубцы", "обед", "ужин", "говядина", "капуста", "традиционное"]
+    },
+    {
+      "dish_id": 50,
+      "dish_name": "Пирожки",
+      "description": "Печеные пирожки с начинкой",
+      "recipe": "Замесить тесто, начинить мясом или капустой. Выпекать 20 минут.",
+      "calories": 300,
+      "cooking_time": 40,
+      "difficulty": "Средне",
+      "category_id": 6,
+      "ingredients": [
+        { "ingredient": "Тесто", "quantity": 300, "unit": "грамм" },
+        { "ingredient": "Говядина", "quantity": 150, "unit": "грамм" },
+        { "ingredient": "Капуста", "quantity": 100, "unit": "грамм" }
+      ],
+      "criteria": ["пирожки", "обед", "ужин", "говядина", "капуста", "традиционное"]
+    },
+    {
+      "dish_id": 51,
+      "dish_name": "Смузи",
+      "description": "Фруктовый напиток",
+      "recipe": "Измельчить банан, ягоды, йогурт в блендере. Подавать охлажденным.",
+      "calories": 150,
+      "cooking_time": 5,
+      "difficulty": "Легко",
+      "category_id": 7,
+      "ingredients": [
+        { "ingredient": "Молоко", "quantity": 200, "unit": "грамм" },
+        { "ingredient": "Яблоки", "quantity": 100, "unit": "грамм" }
+      ],
+      "criteria": ["напиток", "завтрак", "фрукты", "молоко", "традиционное"]
+    },
+    {
+      "dish_id": 52,
+      "dish_name": "Тефтели",
+      "description": "Мясные шарики в соусе",
+      "recipe": "Смешать фарш, рис, яйцо. Сформировать тефтели, тушить в томатном соусе 30 минут.",
+      "calories": 400,
+      "cooking_time": 40,
+      "difficulty": "Средне",
+      "category_id": 7,
+      "ingredients": [
+        { "ingredient": "Говядина", "quantity": 300, "unit": "грамм" },
+        { "ingredient": "Рис", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Яйца", "quantity": 1, "unit": "грамм" },
+        { "ingredient": "Томаты", "quantity": 100, "unit": "грамм" }
+      ],
+      "criteria": ["мясо", "обед", "ужин", "говядина", "рис", "традиционное"]
+    },
+    {
+      "dish_id": 53,
+      "dish_name": "Минтай жареный",
+      "description": "Рыба в панировке",
+      "recipe": "Обвалять минтай в муке, обжарить на масле 10 минут. Подавать с лимоном.",
+      "calories": 300,
+      "cooking_time": 15,
+      "difficulty": "Легко",
+      "category_id": 3,
+      "ingredients": [
+        { "ingredient": "Рыба", "quantity": 200, "unit": "грамм" },
+        { "ingredient": "Мука", "quantity": 50, "unit": "грамм" },
+        { "ingredient": "Масло растительное", "quantity": 30, "unit": "грамм" },
+        { "ingredient": "Лимон", "quantity": 10, "unit": "грамм" }
+      ],
+      "criteria": ["рыба", "обед", "ужин", "минтай", "мука", "традиционное"]
+    },
+    {
+      "dish_id": 54,
+      "dish_name": "Крокеты",
+      "description": "Жареные шарики с начинкой",
+      "recipe": "Смешать картофельное пюре, сыр, обвалять в панировке, обжарить 5 минут.",
+      "calories": 350,
+      "cooking_time": 20,
+      "difficulty": "Средне",
+      "category_id": 9,
+      "ingredients": [
+        { "ingredient": "Картофель", "quantity": 200, "unit": "грамм" },
+        { "ingredient": "Сыр", "quantity": 50, "unit": "грамм" },
+        { "ingredient": "Масло растительное", "quantity": 50, "unit": "грамм" }
+      ],
+      "criteria": ["закуска", "обед", "ужин", "картофель", "сыр", "традиционное"]
+    },
+    {
+      "dish_id": 55,
+      "dish_name": "Салат с курицей",
+      "description": "Салат с жареной курицей",
+      "recipe": "Обжарить курицу, смешать с листьями салата, помидорами, заправить майонезом.",
+      "calories": 250,
+      "cooking_time": 20,
+      "difficulty": "Легко",
+      "category_id": 2,
+      "ingredients": [
+        { "ingredient": "Курица", "quantity": 200, "unit": "грамм" },
+        { "ingredient": "Листья салата", "quantity": 50, "unit": "грамм" },
+        { "ingredient": "Помидоры", "quantity": 50, "unit": "грамм" },
+        { "ingredient": "Майонез", "quantity": 50, "unit": "грамм" }
+      ],
+      "criteria": ["салат", "обед", "ужин", "курица", "овощи", "традиционное"]
+    },
+    {
+      "dish_id": 56,
+      "dish_name": "Медовик",
+      "description": "Торт с медовыми коржами",
+      "recipe": "Выпечь медовые коржи, смазать сметанным кремом. Охладить 4 часа.",
+      "calories": 450,
+      "cooking_time": 90,
+      "difficulty": "Сложно",
+      "category_id": 4,
+      "ingredients": [
+        { "ingredient": "Мука", "quantity": 300, "unit": "грамм" },
+        { "ingredient": "Мед", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Сметана", "quantity": 200, "unit": "грамм" },
+        { "ingredient": "Сахар", "quantity": 100, "unit": "грамм" }
+      ],
+      "criteria": ["десерт", "сладкое", "мед", "мука", "традиционное"]
+    },
+    {
+      "dish_id": 57,
+      "dish_name": "Уха",
+      "description": "Рыбный суп",
+      "recipe": "Сварить бульон из рыбы, добавить картофель, морковь, лук. Варить 20 минут.",
+      "calories": 150,
+      "cooking_time": 30,
+      "difficulty": "Легко",
+      "category_id": 1,
+      "ingredients": [
+        { "ingredient": "Рыба", "quantity": 200, "unit": "грамм" },
+        { "ingredient": "Картофель", "quantity": 200, "unit": "грамм" },
+        { "ingredient": "Морковь", "quantity": 50, "unit": "грамм" },
+        { "ingredient": "Лук", "quantity": 50, "unit": "грамм" }
+      ],
+      "criteria": ["суп", "обед", "ужин", "рыба", "картофель", "традиционное"]
+    },
+    {
+      "dish_id": 58,
+      "dish_name": "Клубничный тарт",
+      "description": "Десерт с ягодами",
+      "recipe": "Выпечь песочное тесто, наполнить заварным кремом, украсить клубникой.",
+      "calories": 350,
+      "cooking_time": 60,
+      "difficulty": "Средне",
+      "category_id": 6,
+      "ingredients": [
+        { "ingredient": "Тесто", "quantity": 200, "unit": "грамм" },
+        { "ingredient": "Сливки", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Сахар", "quantity": 50, "unit": "грамм" }
+      ],
+      "criteria": ["десерт", "сладкое", "тесто", "сливки", "традиционное"]
+    },
+    {
+      "dish_id": 59,
+      "dish_name": "Карри",
+      "description": "Индийское блюдо с рисом",
+      "recipe": "Обжарить курицу с луком, добавить карри, кокосовое молоко. Тушить 20 минут, подавать с рисом.",
+      "calories": 400,
+      "cooking_time": 30,
+      "difficulty": "Средне",
+      "category_id": 4,
+      "ingredients": [
+        { "ingredient": "Курица", "quantity": 200, "unit": "грамм" },
+        { "ingredient": "Лук", "quantity": 50, "unit": "грамм" },
+        { "ingredient": "Рис", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Сливки", "quantity": 100, "unit": "грамм" }
+      ],
+      "criteria": ["карри", "обед", "ужин", "курица", "рис", "индийское"]
+    },
+    {
+      "dish_id": 60,
+      "dish_name": "Бутерброды",
+      "description": "Закуски с сыром и колбасой",
+      "recipe": "Намазать хлеб маслом, выложить сыр, колбасу, помидоры. Подавать сразу.",
+      "calories": 300,
+      "cooking_time": 10,
+      "difficulty": "Легко",
+      "category_id": 5,
+      "ingredients": [
+        { "ingredient": "Тесто", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Сыр", "quantity": 50, "unit": "грамм" },
+        { "ingredient": "Свинина", "quantity": 50, "unit": "грамм" },
+        { "ingredient": "Помидоры", "quantity": 50, "unit": "грамм" },
+        { "ingredient": "Масло сливочное", "quantity": 20, "unit": "грамм" }
+      ],
+      "criteria": ["закуска", "обед", "ужин", "сыр", "помидоры", "традиционное"]
+    },
+    {
+      "dish_id": 61,
+      "dish_name": "Плов",
+      "description": "Узбекское блюдо с рисом",
+      "recipe": "Обжарить мясо с морковью, луком, добавить рис, специи, тушить 40 минут.",
+      "calories": 450,
+      "cooking_time": 50,
+      "difficulty": "Средне",
+      "category_id": 3,
+      "ingredients": [
+        { "ingredient": "Говядина", "quantity": 300, "unit": "грамм" },
+        { "ingredient": "Рис", "quantity": 200, "unit": "грамм" },
+        { "ingredient": "Морковь", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Лук", "quantity": 50, "unit": "грамм" }
+      ],
+      "criteria": ["плов", "обед", "ужин", "говядина", "рис", "узбекское"]
+    },
+    {
+      "dish_id": 62,
+      "dish_name": "Профитроли",
+      "description": "Пирожные с кремом",
+      "recipe": "Выпечь заварное тесто, наполнить кремом из сливок. Полить шоколадом.",
+      "calories": 350,
+      "cooking_time": 60,
+      "difficulty": "Сложно",
+      "category_id": 8,
+      "ingredients": [
+        { "ingredient": "Тесто", "quantity": 200, "unit": "грамм" },
+        { "ingredient": "Сливки", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Шоколад", "quantity": 50, "unit": "грамм" }
+      ],
+      "criteria": ["десерт", "сладкое", "тесто", "сливки", "традиционное"]
+    },
+    {
+      "dish_id": 63,
+      "dish_name": "Салат с сыром",
+      "description": "Салат с фетой и овощами",
+      "recipe": "Нарезать огурцы, помидоры, фету, добавить оливковое масло, орегано.",
+      "calories": 200,
+      "cooking_time": 10,
+      "difficulty": "Легко",
+      "category_id": 2,
+      "ingredients": [
+        { "ingredient": "Огурцы", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Помидоры", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Сыр", "quantity": 50, "unit": "грамм" },
+        { "ingredient": "Масло растительное", "quantity": 20, "unit": "грамм" },
+        { "ingredient": "Орегано", "quantity": 5, "unit": "грамм" }
+      ],
+      "criteria": ["салат", "обед", "ужин", "сыр", "овощи", "традиционное"]
+    },
+    {
+      "dish_id": 64,
+      "dish_name": "Луковый суп",
+      "description": "Французский суп с сыром",
+      "recipe": "Карамелизировать лук, добавить бульон, варить 20 минут. Запечь с сыром.",
+      "calories": 250,
+      "cooking_time": 40,
+      "difficulty": "Средне",
+      "category_id": 1,
+      "ingredients": [
+        { "ingredient": "Лук", "quantity": 200, "unit": "грамм" },
+        { "ingredient": "Сыр", "quantity": 50, "unit": "грамм" },
+        { "ingredient": "Масло сливочное", "quantity": 30, "unit": "грамм" }
+      ],
+      "criteria": ["суп", "обед", "ужин", "лук", "сыр", "французское"]
+    },
+    {
+      "dish_id": 65,
+      "dish_name": "Запеканка",
+      "description": "Творожное блюдо",
+      "recipe": "Смешать творог, яйца, сахар, манку. Запечь 40 минут.",
+      "calories": 300,
+      "cooking_time": 50,
+      "difficulty": "Легко",
+      "category_id": 10,
+      "ingredients": [
+        { "ingredient": "Сыр", "quantity": 200, "unit": "грамм" },
+        { "ingredient": "Яйца", "quantity": 2, "unit": "грамм" },
+        { "ingredient": "Сахар", "quantity": 50, "unit": "грамм" }
+      ],
+      "criteria": ["запеканка", "завтрак", "сладкое", "сыр", "традиционное"]
+    },
+    {
+      "dish_id": 66,
+      "dish_name": "Кебаб",
+      "description": "Жареное мясо на шампуре",
+      "recipe": "Мариновать мясо с луком и специями, нанизать на шампуры, жарить на гриле 15 минут. Подавать с соусом.",
+      "calories": 400,
+      "cooking_time": 20,
+      "difficulty": "Средне",
+      "category_id": 3,
+      "ingredients": [
+        { "ingredient": "Говядина", "quantity": 300, "unit": "грамм" },
+        { "ingredient": "Лук", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Перец", "quantity": 5, "unit": "грамм" },
+        { "ingredient": "Соль", "quantity": 5, "unit": "грамм" }
+      ],
+      "criteria": ["мясо", "обед", "ужин", "говядина", "лук", "традиционное"]
+    },
+    {
+      "dish_id": 67,
+      "dish_name": "Морс",
+      "description": "Ягодный напиток",
+      "recipe": "Измельчить ягоды, залить водой, добавить сахар, варить 10 минут. Процедить и охладить.",
+      "calories": 100,
+      "cooking_time": 15,
+      "difficulty": "Легко",
+      "category_id": 7,
+      "ingredients": [
+        { "ingredient": "Сахар", "quantity": 50, "unit": "грамм" },
+        { "ingredient": "Вода", "quantity": 1, "unit": "литр" }
+      ],
+      "criteria": ["напиток", "завтрак", "ягоды", "вода", "традиционное"]
+    },
+    {
+      "dish_id": 68,
+      "dish_name": "Фрикасе",
+      "description": "Курица в сливочном соусе",
+      "recipe": "Обжарить курицу с луком, добавить сливки, грибы, тушить 20 минут. Подавать с рисом.",
+      "calories": 450,
+      "cooking_time": 30,
+      "difficulty": "Средне",
+      "category_id": 3,
+      "ingredients": [
+        { "ingredient": "Курица", "quantity": 300, "unit": "грамм" },
+        { "ingredient": "Сливки", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Грибы", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Лук", "quantity": 50, "unit": "грамм" },
+        { "ingredient": "Рис", "quantity": 100, "unit": "грамм" }
+      ],
+      "criteria": ["мясо", "обед", "ужин", "курица", "сливки", "традиционное"]
+    },
+    {
+      "dish_id": 69,
+      "dish_name": "Салат с грушей",
+      "description": "Салат с сыром и грушей",
+      "recipe": "Нарезать грушу, листья салата, сыр, добавить орехи. Заправить медово-горчичным соусом.",
+      "calories": 250,
+      "cooking_time": 10,
+      "difficulty": "Легко",
+      "category_id": 2,
+      "ingredients": [
+        { "ingredient": "Листья салата", "quantity": 50, "unit": "грамм" },
+        { "ingredient": "Сыр", "quantity": 50, "unit": "грамм" },
+        { "ingredient": "Мед", "quantity": 10, "unit": "грамм" },
+        { "ingredient": "Масло растительное", "quantity": 20, "unit": "грамм" }
+      ],
+      "criteria": ["салат", "обед", "ужин", "груша", "сыр", "традиционное"]
+    },
+    {
+      "dish_id": 70,
+      "dish_name": "Макаруны",
+      "description": "Французские миндальные пирожные",
+      "recipe": "Смешать миндальную муку, сахар, взбитые белки. Выпечь, начинить кремом.",
+      "calories": 300,
+      "cooking_time": 40,
+      "difficulty": "Сложно",
+      "category_id": 4,
+      "ingredients": [
+        { "ingredient": "Мука", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Сахар", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Яйца", "quantity": 2, "unit": "грамм" },
+        { "ingredient": "Сливки", "quantity": 50, "unit": "грамм" }
+      ],
+      "criteria": ["десерт", "сладкое", "миндаль", "мука", "французское"]
+    },
+    {
+      "dish_id": 71,
+      "dish_name": "Суп-пюре",
+      "description": "Суп-пюре из тыквы",
+      "recipe": "Сварить тыкву с луком, морковью, измельчить блендером. Добавить сливки, подавать с крутонами.",
+      "calories": 200,
+      "cooking_time": 30,
+      "difficulty": "Легко",
+      "category_id": 1,
+      "ingredients": [
+        { "ingredient": "Морковь", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Лук", "quantity": 50, "unit": "грамм" },
+        { "ingredient": "Сливки", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Крутоны", "quantity": 30, "unit": "грамм" }
+      ],
+      "criteria": ["суп", "обед", "ужин", "тыква", "сливки", "традиционное"]
+    },
+    {
+      "dish_id": 72,
+      "dish_name": "Куриные крылышки",
+      "description": "Жареные крылышки в соусе",
+      "recipe": "Мариновать крылышки в соусе, жарить 20 минут. Подавать с соусом барбекю.",
+      "calories": 400,
+      "cooking_time": 30,
+      "difficulty": "Средне",
+      "category_id": 3,
+      "ingredients": [
+        { "ingredient": "Курица", "quantity": 300, "unit": "грамм" },
+        { "ingredient": "Масло растительное", "quantity": 50, "unit": "грамм" },
+        { "ingredient": "Соль", "quantity": 5, "unit": "грамм" }
+      ],
+      "criteria": ["мясо", "обед", "ужин", "курица", "традиционное"]
+    },
+    {
+      "dish_id": 73,
+      "dish_name": "Салат с беконом",
+      "description": "Салат с жареным беконом",
+      "recipe": "Обжарить бекон, смешать с листьями салата, помидорами, заправить оливковым маслом.",
+      "calories": 300,
+      "cooking_time": 15,
+      "difficulty": "Легко",
+      "category_id": 2,
+      "ingredients": [
+        { "ingredient": "Бекон", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Листья салата", "quantity": 50, "unit": "грамм" },
+        { "ingredient": "Помидоры", "quantity": 50, "unit": "грамм" },
+        { "ingredient": "Масло растительное", "quantity": 20, "unit": "грамм" }
+      ],
+      "criteria": ["салат", "обед", "ужин", "бекон", "овощи", "традиционное"]
+    },
+    {
+      "dish_id": 74,
+      "dish_name": "Лимонад",
+      "description": "Освежающий напиток",
+      "recipe": "Выжать сок из лимонов, смешать с водой и сахаром. Охладить, подавать со льдом.",
+      "calories": 100,
+      "cooking_time": 10,
+      "difficulty": "Легко",
+      "category_id": 7,
+      "ingredients": [
+        { "ingredient": "Лимон", "quantity": 50, "unit": "грамм" },
+        { "ingredient": "Сахар", "quantity": 50, "unit": "грамм" },
+        { "ingredient": "Вода", "quantity": 1, "unit": "литр" }
+      ],
+      "criteria": ["напиток", "завтрак", "лимон", "вода", "традиционное"]
+    },
+    {
+      "dish_id": 75,
+      "dish_name": "Печенье",
+      "description": "Шоколадное печенье",
+      "recipe": "Смешать муку, сахар, масло, шоколад. Сформировать печенье, выпекать 15 минут.",
+      "calories": 300,
+      "cooking_time": 25,
+      "difficulty": "Легко",
+      "category_id": 6,
+      "ingredients": [
+        { "ingredient": "Мука", "quantity": 150, "unit": "грамм" },
+        { "ingredient": "Сахар", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Масло сливочное", "quantity": 50, "unit": "грамм" },
+        { "ingredient": "Шоколад", "quantity": 50, "unit": "грамм" }
+      ],
+      "criteria": ["печенье", "десерт", "шоколад", "мука", "традиционное"]
+    },
+    {
+      "dish_id": 76,
+      "dish_name": "Шашлык",
+      "description": "Мясо на гриле",
+      "recipe": "Мариновать свинину с луком, жарить на углях 20 минут. Подавать с соусом.",
+      "calories": 450,
+      "cooking_time": 30,
+      "difficulty": "Средне",
+      "category_id": 3,
+      "ingredients": [
+        { "ingredient": "Свинина", "quantity": 300, "unit": "грамм" },
+        { "ingredient": "Лук", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Соль", "quantity": 5, "unit": "грамм" }
+      ],
+      "criteria": ["мясо", "обед", "ужин", "свинина", "лук", "традиционное"]
+    },
+    {
+      "dish_id": 77,
+      "dish_name": "Салат с яйцом",
+      "description": "Салат с вареными яйцами",
+      "recipe": "Нарезать яйца, огурцы, зелень, заправить сметаной.",
+      "calories": 150,
+      "cooking_time": 10,
+      "difficulty": "Легко",
+      "category_id": 2,
+      "ingredients": [
+        { "ingredient": "Яйца", "quantity": 3, "unit": "грамм" },
+        { "ingredient": "Огурцы", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Зелень", "quantity": 20, "unit": "грамм" },
+        { "ingredient": "Сметана", "quantity": 50, "unit": "грамм" }
+      ],
+      "criteria": ["салат", "обед", "ужин", "яйца", "огурцы", "традиционное"]
+    },
+    {
+      "dish_id": 78,
+      "dish_name": "Томагавк",
+      "description": "Стейк на кости",
+      "recipe": "Обжарить стейк на гриле по 5 минут с каждой стороны, дать отдохнуть 5 минут.",
+      "calories": 600,
+      "cooking_time": 15,
+      "difficulty": "Средне",
+      "category_id": 3,
+      "ingredients": [
+        { "ingredient": "Говядина", "quantity": 400, "unit": "грамм" },
+        { "ingredient": "Соль", "quantity": 5, "unit": "грамм" },
+        { "ingredient": "Перец", "quantity": 5, "unit": "грамм" }
+      ],
+      "criteria": ["мясо", "обед", "ужин", "говядина", "традиционное"]
+    },
+    {
+      "dish_id": 79,
+      "dish_name": "Суп с фрикадельками",
+      "description": "Суп с мясными шариками",
+      "recipe": "Сварить бульон, добавить картофель, фрикадельки из фарша, варить 20 минут.",
+      "calories": 200,
+      "cooking_time": 30,
+      "difficulty": "Легко",
+      "category_id": 1,
+      "ingredients": [
+        { "ingredient": "Говядина", "quantity": 200, "unit": "грамм" },
+        { "ingredient": "Картофель", "quantity": 200, "unit": "грамм" },
+        { "ingredient": "Лук", "quantity": 50, "unit": "грамм" },
+        { "ingredient": "Морковь", "quantity": 50, "unit": "грамм" }
+      ],
+      "criteria": ["суп", "обед", "ужин", "говядина", "картофель", "традиционное"]
+    },
+    {
+      "dish_id": 80,
+      "dish_name": "Торт Прага",
+      "description": "Шоколадный торт с кремом",
+      "recipe": "Выпечь шоколадные коржи, смазать кремом, покрыть глазурью. Охладить 4 часа.",
+      "calories": 500,
+      "cooking_time": 90,
+      "difficulty": "Сложно",
+      "category_id": 4,
+      "ingredients": [
+        { "ingredient": "Мука", "quantity": 200, "unit": "грамм" },
+        { "ingredient": "Сахар", "quantity": 150, "unit": "грамм" },
+        { "ingredient": "Шоколад", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Сливки", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Яйца", "quantity": 3, "unit": "грамм" }
+      ],
+      "criteria": ["десерт", "сладкое", "шоколад", "мука", "традиционное"]
+    },
+    {
+      "dish_id": 81,
+      "dish_name": "Крем-суп",
+      "description": "Суп-пюре с брокколи",
+      "recipe": "Сварить брокколи с картофелем, измельчить блендером, добавить сливки.",
+      "calories": 200,
+      "cooking_time": 25,
+      "difficulty": "Легко",
+      "category_id": 1,
+      "ingredients": [
+        { "ingredient": "Картофель", "quantity": 200, "unit": "грамм" },
+        { "ingredient": "Сливки", "quantity": 100, "unit": "грамм" }
+      ],
+      "criteria": ["суп", "обед", "ужин", "брокколи", "сливки", "традиционное"]
+    },
+    {
+      "dish_id": 82,
+      "dish_name": "Салат с рыбой",
+      "description": "Салат с копченой рыбой",
+      "recipe": "Нарезать рыбу, картофель, яйца, заправить майонезом.",
+      "calories": 250,
+      "cooking_time": 15,
+      "difficulty": "Легко",
+      "category_id": 2,
+      "ingredients": [
+        { "ingredient": "Рыба", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Картофель", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Яйца", "quantity": 2, "unit": "грамм" },
+        { "ingredient": "Майонез", "quantity": 50, "unit": "грамм" }
+      ],
+      "criteria": ["салат", "обед", "ужин", "рыба", "картофель", "традиционное"]
+    },
+    {
+      "dish_id": 83,
+      "dish_name": "Курица терияки",
+      "description": "Курица в сладком соусе",
+      "recipe": "Обжарить курицу, добавить соус терияки, тушить 10 минут. Подавать с рисом.",
+      "calories": 400,
+      "cooking_time": 20,
+      "difficulty": "Средне",
+      "category_id": 3,
+      "ingredients": [
+        { "ingredient": "Курица", "quantity": 300, "unit": "грамм" },
+        { "ingredient": "Рис", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Мед", "quantity": 20, "unit": "грамм" },
+        { "ingredient": "Соль", "quantity": 5, "unit": "грамм" }
+      ],
+      "criteria": ["мясо", "обед", "ужин", "курица", "рис", "японское"]
+    },
+    {
+      "dish_id": 84,
+      "dish_name": "Пирог с рыбой",
+      "description": "Пирог с начинкой из рыбы",
+      "recipe": "Замесить тесто, начинить рыбой, луком, рисом. Выпекать 40 минут.",
+      "calories": 400,
+      "cooking_time": 60,
+      "difficulty": "Средне",
+      "category_id": 6,
+      "ingredients": [
+        { "ingredient": "Тесто", "quantity": 300, "unit": "грамм" },
+        { "ingredient": "Рыба", "quantity": 200, "unit": "грамм" },
+        { "ingredient": "Рис", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Лук", "quantity": 50, "unit": "грамм" }
+      ],
+      "criteria": ["пирог", "обед", "ужин", "рыба", "рис", "традиционное"]
+    },
+    {
+      "dish_id": 85,
+      "dish_name": "Салат с морепродуктами",
+      "description": "Салат с креветками и кальмарами",
+      "recipe": "Отварить креветки, кальмары, смешать с листьями салата, заправить лимоном.",
+      "calories": 200,
+      "cooking_time": 15,
+      "difficulty": "Легко",
+      "category_id": 2,
+      "ingredients": [
+        { "ingredient": "Креветки", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Листья салата", "quantity": 50, "unit": "грамм" },
+        { "ingredient": "Лимон", "quantity": 10, "unit": "грамм" }
+      ],
+      "criteria": ["салат", "обед", "ужин", "креветки", "традиционное"]
+    },
+    {
+      "dish_id": 86,
+      "dish_name": "Тыквенный суп",
+      "description": "Суп-пюре с тыквой",
+      "recipe": "Сварить тыкву с луком, измельчить блендером, добавить сливки, корицу.",
+      "calories": 200,
+      "cooking_time": 30,
+      "difficulty": "Легко",
+      "category_id": 1,
+      "ingredients": [
+        { "ingredient": "Лук", "quantity": 50, "unit": "грамм" },
+        { "ingredient": "Сливки", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Корица", "quantity": 5, "unit": "грамм" }
+      ],
+      "criteria": ["суп", "обед", "ужин", "тыква", "сливки", "традиционное"]
+    },
+    {
+      "dish_id": 87,
+      "dish_name": "Фаршированный перец",
+      "description": "Перец с мясной начинкой",
+      "recipe": "Начинить перец фаршем с рисом, тушить в томатном соусе 40 минут.",
+      "calories": 350,
+      "cooking_time": 50,
+      "difficulty": "Средне",
+      "category_id": 3,
+      "ingredients": [
+        { "ingredient": "Перец", "quantity": 200, "unit": "грамм" },
+        { "ingredient": "Говядина", "quantity": 200, "unit": "грамм" },
+        { "ingredient": "Рис", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Томаты", "quantity": 100, "unit": "грамм" }
+      ],
+      "criteria": ["перец", "обед", "ужин", "говядина", "рис", "традиционное"]
+    },
+    {
+      "dish_id": 88,
+      "dish_name": "Кофе латте",
+      "description": "Кофе с молоком",
+      "recipe": "Сварить эспрессо, добавить горячее молоко, взбить пену.",
+      "calories": 150,
+      "cooking_time": 5,
+      "difficulty": "Легко",
+      "category_id": 7,
+      "ingredients": [
+        { "ingredient": "Кофе", "quantity": 50, "unit": "грамм" },
+        { "ingredient": "Молоко", "quantity": 150, "unit": "грамм" }
+      ],
+      "criteria": ["напиток", "завтрак", "кофе", "молоко", "традиционное"]
+    },
+    {
+      "dish_id": 89,
+      "dish_name": "Пирог с яблоками",
+      "description": "Яблочный пирог с корицей",
+      "recipe": "Замесить тесто, начинить яблоками с сахаром и корицей. Выпекать 40 минут.",
+      "calories": 300,
+      "cooking_time": 50,
+      "difficulty": "Легко",
+      "category_id": 6,
+      "ingredients": [
+        { "ingredient": "Тесто", "quantity": 200, "unit": "грамм" },
+        { "ingredient": "Яблоки", "quantity": 300, "unit": "грамм" },
+        { "ingredient": "Сахар", "quantity": 50, "unit": "грамм" },
+        { "ingredient": "Корица", "quantity": 5, "unit": "грамм" }
+      ],
+      "criteria": ["пирог", "десерт", "яблоки", "корица", "традиционное"]
+    },
+    {
+      "dish_id": 90,
+      "dish_name": "Салат с грибами",
+      "description": "Салат с жареными грибами",
+      "recipe": "Обжарить грибы с луком, смешать с листьями салата, заправить сметаной.",
+      "calories": 200,
+      "cooking_time": 15,
+      "difficulty": "Легко",
+      "category_id": 2,
+      "ingredients": [
+        { "ingredient": "Грибы", "quantity": 150, "unit": "грамм" },
+        { "ingredient": "Лук", "quantity": 50, "unit": "грамм" },
+        { "ingredient": "Листья салата", "quantity": 50, "unit": "грамм" },
+        { "ingredient": "Сметана", "quantity": 50, "unit": "грамм" }
+      ],
+      "criteria": ["салат", "обед", "ужин", "грибы", "лук", "традиционное"]
+    },
+    {
+      "dish_id": 91,
+      "dish_name": "Суп с клецками",
+      "description": "Суп с мучными клецками",
+      "recipe": "Сварить бульон, добавить клецки из муки и яиц, варить 10 минут.",
+      "calories": 200,
+      "cooking_time": 25,
+      "difficulty": "Легко",
+      "category_id": 1,
+      "ingredients": [
+        { "ingredient": "Мука", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Яйца", "quantity": 2, "unit": "грамм" },
+        { "ingredient": "Курица", "quantity": 200, "unit": "грамм" },
+        { "ingredient": "Морковь", "quantity": 50, "unit": "грамм" }
+      ],
+      "criteria": ["суп", "обед", "ужин", "курица", "мука", "традиционное"]
+    },
+    {
+      "dish_id": 92,
+      "dish_name": "Курица в духовке",
+      "description": "Запеченная курица с травами",
+      "recipe": "Натереть курицу специями, запекать 1 час при 180°C. Подавать с картофелем.",
+      "calories": 450,
+      "cooking_time": 70,
+      "difficulty": "Средне",
+      "category_id": 3,
+      "ingredients": [
+        { "ingredient": "Курица", "quantity": 500, "unit": "грамм" },
+        { "ingredient": "Картофель", "quantity": 200, "unit": "грамм" },
+        { "ingredient": "Чеснок", "quantity": 10, "unit": "грамм" },
+        { "ingredient": "Соль", "quantity": 5, "unit": "грамм" }
+      ],
+      "criteria": ["мясо", "обед", "ужин", "курица", "картофель", "традиционное"]
+    },
+    {
+      "dish_id": 93,
+      "dish_name": "Тирамису с ягодами",
+      "description": "Десерт с маскарпоне и ягодами",
+      "recipe": "Смешать маскарпоне с сахаром, выложить слоями с печеньем и ягодами. Охладить 4 часа.",
+      "calories": 400,
+      "cooking_time": 30,
+      "difficulty": "Средне",
+      "category_id": 4,
+      "ingredients": [
+        { "ingredient": "Маскарпоне", "quantity": 200, "unit": "грамм" },
+        { "ingredient": "Печенье савоярди", "quantity": 150, "unit": "грамм" },
+        { "ingredient": "Сахар", "quantity": 50, "unit": "грамм" }
+      ],
+      "criteria": ["десерт", "сладкое", "маскарпоне", "ягоды", "итальянское"]
+    },
+    {
+      "dish_id": 94,
+      "dish_name": "Салат с орехами",
+      "description": "Салат с грецкими орехами",
+      "recipe": "Смешать листья салата, сыр, орехи, заправить медом и оливковым маслом.",
+      "calories": 250,
+      "cooking_time": 10,
+      "difficulty": "Легко",
+      "category_id": 2,
+      "ingredients": [
+        { "ingredient": "Листья салата", "quantity": 50, "unit": "грамм" },
+        { "ingredient": "Сыр", "quantity": 50, "unit": "грамм" },
+        { "ingredient": "Мед", "quantity": 10, "unit": "грамм" },
+        { "ingredient": "Масло растительное", "quantity": 20, "unit": "грамм" }
+      ],
+      "criteria": ["салат", "обед", "ужин", "орехи", "сыр", "традиционное"]
+    },
+    {
+      "dish_id": 95,
+      "dish_name": "Рыба в кляре",
+      "description": "Жареная рыба в тесте",
+      "recipe": "Приготовить кляр из муки и яиц, обмакнуть рыбу, обжарить 10 минут.",
+      "calories": 350,
+      "cooking_time": 20,
+      "difficulty": "Легко",
+      "category_id": 3,
+      "ingredients": [
+        { "ingredient": "Рыба", "quantity": 200, "unit": "грамм" },
+        { "ingredient": "Мука", "quantity": 50, "unit": "грамм" },
+        { "ingredient": "Яйца", "quantity": 2, "unit": "грамм" },
+        { "ingredient": "Масло растительное", "quantity": 50, "unit": "грамм" }
+      ],
+      "criteria": ["рыба", "обед", "ужин", "мука", "традиционное"]
+    },
+    {
+      "dish_id": 96,
+      "dish_name": "Пирог с мясом",
+      "description": "Пирог с мясной начинкой",
+      "recipe": "Замесить тесто, начинить фаршем с луком, выпекать 40 минут.",
+      "calories": 400,
+      "cooking_time": 50,
+      "difficulty": "Средне",
+      "category_id": 6,
+      "ingredients": [
+        { "ingredient": "Тесто", "quantity": 300, "unit": "грамм" },
+        { "ingredient": "Говядина", "quantity": 200, "unit": "грамм" },
+        { "ingredient": "Лук", "quantity": 50, "unit": "грамм" }
+      ],
+      "criteria": ["пирог", "обед", "ужин", "говядина", "лук", "традиционное"]
+    },
+    {
+      "dish_id": 97,
+      "dish_name": "Салат с ананасом",
+      "description": "Салат с курицей и ананасом",
+      "recipe": "Нарезать курицу, ананас, сыр, заправить майонезом.",
+      "calories": 300,
+      "cooking_time": 15,
+      "difficulty": "Легко",
+      "category_id": 2,
+      "ingredients": [
+        { "ingredient": "Курица", "quantity": 200, "unit": "грамм" },
+        { "ingredient": "Сыр", "quantity": 50, "unit": "грамм" },
+        { "ingredient": "Майонез", "quantity": 50, "unit": "грамм" }
+      ],
+      "criteria": ["салат", "обед", "ужин", "курица", "ананас", "традиционное"]
+    },
+    {
+      "dish_id": 98,
+      "dish_name": "Суп с чечевицей",
+      "description": "Суп с красной чечевицей",
+      "recipe": "Сварить чечевицу с морковью, луком, томатами, варить 20 минут.",
+      "calories": 200,
+      "cooking_time": 30,
+      "difficulty": "Легко",
+      "category_id": 1,
+      "ingredients": [
+        { "ingredient": "Морковь", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Лук", "quantity": 50, "unit": "грамм" },
+        { "ingredient": "Томаты", "quantity": 100, "unit": "грамм" }
+      ],
+      "criteria": ["суп", "обед", "ужин", "чечевица", "морковь", "традиционное"]
+    },
+    {
+      "dish_id": 99,
+      "dish_name": "Торт с кремом",
+      "description": "Бисквитный торт с кремом",
+      "recipe": "Выпечь бисквит, смазать кремом из сливок и сахара. Охладить 4 часа.",
+      "calories": 450,
+      "cooking_time": 90,
+      "difficulty": "Сложно",
+      "category_id": 4,
+      "ingredients": [
+        { "ingredient": "Мука", "quantity": 200, "unit": "грамм" },
+        { "ingredient": "Сахар", "quantity": 150, "unit": "грамм" },
+        { "ingredient": "Яйца", "quantity": 3, "unit": "грамм" },
+        { "ingredient": "Сливки", "quantity": 200, "unit": "грамм" }
+      ],
+      "criteria": ["десерт", "сладкое", "бисквит", "сливки", "традиционное"]
+    },
+    {
+      "dish_id": 100,
+      "dish_name": "Салат с ветчиной",
+      "description": "Салат с ветчиной и сыром",
+      "recipe": "Нарезать ветчину, сыр, огурцы, заправить майонезом.",
+      "calories": 300,
+      "cooking_time": 10,
+      "difficulty": "Легко",
+      "category_id": 2,
+      "ingredients": [
+        { "ingredient": "Свинина", "quantity": 100, "unit": "грамм" },
+        { "ingredient": "Сыр", "quantity": 50, "unit": "грамм" },
+        { "ingredient": "Огурцы", "quantity": 50, "unit": "грамм" },
+        { "ingredient": "Майонез", "quantity": 50, "unit": "грамм" }
+      ],
+      "criteria": ["салат", "обед", "ужин", "ветчина", "сыр", "традиционное"]
+    }
+  ]
+}

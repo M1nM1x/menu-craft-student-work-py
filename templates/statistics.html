@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/statistics_and_search.css') }}">
+    <title>Статистика</title>
+</head>
+<body>
+    <header>
+        <a href="{{ url_for('main_page') }}">
+            <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Логотип" class="logo">
+        </a>
+        <nav>
+            <a href="{{ url_for('main_page') }}">Главная</a>
+            <a href="{{ url_for('statistics') }}">Статистика</a>
+            <a href="{{ url_for('settings') }}">Настройки</a>
+            <a href="{{ url_for('profile') }}">Профиль</a>
+        </nav>
+
+        <form action="{{ url_for('search') }}" method="get" class="pretty-input">
+            <input type="text" name="query" placeholder="Поиск...">
+        </form>
+    </header>
+    <main>
+        <h1>Меню на сегодня</h1>
+        <div class="today_menu">
+            {% for meal, dish in daily_menu.items() %}
+            <h1 class="meal_title">{{ meal | capitalize }}</h1>
+            <div class="dish_card">
+                <div class="left_part">
+                    <img src="{{ url_for('static', filename='images/Блюда/' + dish['dish_name'] + '.jpg') }}" class="dish_img">
+                </div>
+                <div class="right_part">
+                    <h1 class="dish_title">{{ dish['dish_name'] }}</h1>
+                    <p class="description">{{ dish['description'] }}</p>
+                    <div class="characteristic">
+                        <div class="char_el">
+                            <p>Калории: {{ dish['calories'] }}</p>
+                        </div>
+                        <div class="char_el">
+                            <p>Время приготовления: {{ dish['cooking_time'] }} мин</p>
+                        </div>
+                        <div class="char_el">
+                            <p>Сложность: {{ dish['difficulty'] }}</p>
+                        </div>
+                    </div>
+                    <p class="info_title">Ингредиенты</p>
+                    <ul class="ingredients_list">
+                        {% for ingredient in dish['ingredients'] %}
+                        <li>{{ ingredient['ingredient'] }} {{ ingredient['quantity'] }} {{ ingredient['unit'] }}</li>
+                        {% endfor %}
+                    </ul>
+                    <p class="info_title">Метод приготовления</p>
+                    <p class="cooking_method_text">{{ dish['recipe'] }}</p>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,127 @@
+[
+    {
+        "dish_id": 51,
+        "dish_name": "Смузи",
+        "description": "Фруктовый напиток",
+        "recipe": "Измельчить банан, ягоды, йогурт в блендере. Подавать охлажденным.",
+        "calories": 150,
+        "cooking_time": 5,
+        "difficulty": "Легко",
+        "category_id": 7,
+        "ingredients": [
+            {
+                "ingredient": "Молоко",
+                "quantity": 200,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Яблоки",
+                "quantity": 100,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 52,
+        "dish_name": "Тефтели",
+        "description": "Мясные шарики в соусе",
+        "recipe": "Смешать фарш, рис, яйцо. Сформировать тефтели, тушить в томатном соусе 30 минут.",
+        "calories": 400,
+        "cooking_time": 40,
+        "difficulty": "Средне",
+        "category_id": 7,
+        "ingredients": [
+            {
+                "ingredient": "Говядина",
+                "quantity": 300,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Рис",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Яйца",
+                "quantity": 1,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Томаты",
+                "quantity": 100,
+                "unit": "грамм"
+            }
+        ]
+    },
+    {
+        "dish_id": 67,
+        "dish_name": "Морс",
+        "description": "Ягодный напиток",
+        "recipe": "Измельчить ягоды, залить водой, добавить сахар, варить 10 минут. Процедить и охладить.",
+        "calories": 100,
+        "cooking_time": 15,
+        "difficulty": "Легко",
+        "category_id": 7,
+        "ingredients": [
+            {
+                "ingredient": "Сахар",
+                "quantity": 50,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Вода",
+                "quantity": 1,
+                "unit": "литр"
+            }
+        ]
+    },
+    {
+        "dish_id": 74,
+        "dish_name": "Лимонад",
+        "description": "Освежающий напиток",
+        "recipe": "Выжать сок из лимонов, смешать с водой и сахаром. Охладить, подавать со льдом.",
+        "calories": 100,
+        "cooking_time": 10,
+        "difficulty": "Легко",
+        "category_id": 7,
+        "ingredients": [
+            {
+                "ingredient": "Лимон",
+                "quantity": 50,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Сахар",
+                "quantity": 50,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Вода",
+                "quantity": 1,
+                "unit": "литр"
+            }
+        ]
+    },
+    {
+        "dish_id": 88,
+        "dish_name": "Кофе латте",
+        "description": "Кофе с молоком",
+        "recipe": "Сварить эспрессо, добавить горячее молоко, взбить пену.",
+        "calories": 150,
+        "cooking_time": 5,
+        "difficulty": "Легко",
+        "category_id": 7,
+        "ingredients": [
+            {
+                "ingredient": "Кофе",
+                "quantity": 50,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Молоко",
+                "quantity": 150,
+                "unit": "грамм"
+            }
+        ]
+    }
+]
