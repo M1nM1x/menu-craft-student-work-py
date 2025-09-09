@@ -10,7 +10,7 @@ app.secret_key = 'supersecretkey'  # Нужен для сессий
 # Путь к файлу с пользователями
 USERS_FILE = 'data/users.json'
 
-# Функция для загрузки пользователей из JSON
+# Функция для загрузки пользователей из  JSON
 def load_users():
     if os.path.exists(USERS_FILE):
         with open(USERS_FILE, 'r') as f:
