@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, redirect, url_for, session
 import json
 import os
 
-from gen_menu import generate_menu, load_daily_menu
+from gen_menu import generate_menu, load_daily_menu, save_daily_menu
 
 app = Flask(__name__)
 app.secret_key = 'supersecretkey'  # Нужен для сессий
