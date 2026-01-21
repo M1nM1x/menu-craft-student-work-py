@@ -1,79 +1,39 @@
 {
     "breakfast": {
-        "dish_id": 34,
-        "dish_name": "Сырники",
-        "description": "Творожные оладьи",
-        "recipe": "Смешать творог, яйца, муку, сахар. Сформировать сырники, обжарить по 3 минуты с каждой стороны.",
-        "calories": 300,
-        "cooking_time": 20,
+        "dish_id": 74,
+        "dish_name": "Лимонад",
+        "description": "Освежающий напиток",
+        "recipe": "Выжать сок из лимонов, смешать с водой и сахаром. Охладить, подавать со льдом.",
+        "calories": 100,
+        "cooking_time": 10,
         "difficulty": "Легко",
-        "category_id": 8,
+        "category_id": 7,
         "ingredients": [
             {
-                "ingredient": "Сыр",
-                "quantity": 200,
-                "unit": "грамм"
-            },
-            {
-                "ingredient": "Яйца",
-                "quantity": 2,
-                "unit": "грамм"
-            },
-            {
-                "ingredient": "Мука",
+                "ingredient": "Лимон",
                 "quantity": 50,
                 "unit": "грамм"
             },
             {
                 "ingredient": "Сахар",
-                "quantity": 30,
+                "quantity": 50,
                 "unit": "грамм"
+            },
+            {
+                "ingredient": "Вода",
+                "quantity": 1,
+                "unit": "литр"
             }
         ],
         "criteria": [
-            "оладьи",
+            "напиток",
             "завтрак",
-            "сладкое",
-            "сыр",
+            "лимон",
+            "вода",
             "традиционное"
         ]
     },
     "lunch": {
-        "dish_id": 96,
-        "dish_name": "Пирог с мясом",
-        "description": "Пирог с мясной начинкой",
-        "recipe": "Замесить тесто, начинить фаршем с луком, выпекать 40 минут.",
-        "calories": 400,
-        "cooking_time": 50,
-        "difficulty": "Средне",
-        "category_id": 6,
-        "ingredients": [
-            {
-                "ingredient": "Тесто",
-                "quantity": 300,
-                "unit": "грамм"
-            },
-            {
-                "ingredient": "Говядина",
-                "quantity": 200,
-                "unit": "грамм"
-            },
-            {
-                "ingredient": "Лук",
-                "quantity": 50,
-                "unit": "грамм"
-            }
-        ],
-        "criteria": [
-            "пирог",
-            "обед",
-            "ужин",
-            "говядина",
-            "лук",
-            "традиционное"
-        ]
-    },
-    "dinner": {
         "dish_id": 73,
         "dish_name": "Салат с беконом",
         "description": "Салат с жареным беконом",
@@ -109,6 +69,46 @@
             "обед",
             "ужин",
             "бекон",
+            "овощи",
+            "традиционное"
+        ]
+    },
+    "dinner": {
+        "dish_id": 45,
+        "dish_name": "Рагу",
+        "description": "Овощное блюдо с мясом",
+        "recipe": "Обжарить говядину, добавить картофель, морковь, томаты. Тушить 1 час.",
+        "calories": 400,
+        "cooking_time": 70,
+        "difficulty": "Средне",
+        "category_id": 9,
+        "ingredients": [
+            {
+                "ingredient": "Говядина",
+                "quantity": 300,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Картофель",
+                "quantity": 200,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Морковь",
+                "quantity": 100,
+                "unit": "грамм"
+            },
+            {
+                "ingredient": "Томаты",
+                "quantity": 100,
+                "unit": "грамм"
+            }
+        ],
+        "criteria": [
+            "рагу",
+            "обед",
+            "ужин",
+            "говядина",
             "овощи",
             "традиционное"
         ]

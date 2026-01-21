@@ -114,5 +114,121 @@
                 "традиционное"
             ]
         }
+    },
+    "2026-01-21": {
+        "breakfast": {
+            "dish_id": 74,
+            "dish_name": "Лимонад",
+            "description": "Освежающий напиток",
+            "recipe": "Выжать сок из лимонов, смешать с водой и сахаром. Охладить, подавать со льдом.",
+            "calories": 100,
+            "cooking_time": 10,
+            "difficulty": "Легко",
+            "category_id": 7,
+            "ingredients": [
+                {
+                    "ingredient": "Лимон",
+                    "quantity": 50,
+                    "unit": "грамм"
+                },
+                {
+                    "ingredient": "Сахар",
+                    "quantity": 50,
+                    "unit": "грамм"
+                },
+                {
+                    "ingredient": "Вода",
+                    "quantity": 1,
+                    "unit": "литр"
+                }
+            ],
+            "criteria": [
+                "напиток",
+                "завтрак",
+                "лимон",
+                "вода",
+                "традиционное"
+            ]
+        },
+        "lunch": {
+            "dish_id": 73,
+            "dish_name": "Салат с беконом",
+            "description": "Салат с жареным беконом",
+            "recipe": "Обжарить бекон, смешать с листьями салата, помидорами, заправить оливковым маслом.",
+            "calories": 300,
+            "cooking_time": 15,
+            "difficulty": "Легко",
+            "category_id": 2,
+            "ingredients": [
+                {
+                    "ingredient": "Бекон",
+                    "quantity": 100,
+                    "unit": "грамм"
+                },
+                {
+                    "ingredient": "Листья салата",
+                    "quantity": 50,
+                    "unit": "грамм"
+                },
+                {
+                    "ingredient": "Помидоры",
+                    "quantity": 50,
+                    "unit": "грамм"
+                },
+                {
+                    "ingredient": "Масло растительное",
+                    "quantity": 20,
+                    "unit": "грамм"
+                }
+            ],
+            "criteria": [
+                "салат",
+                "обед",
+                "ужин",
+                "бекон",
+                "овощи",
+                "традиционное"
+            ]
+        },
+        "dinner": {
+            "dish_id": 45,
+            "dish_name": "Рагу",
+            "description": "Овощное блюдо с мясом",
+            "recipe": "Обжарить говядину, добавить картофель, морковь, томаты. Тушить 1 час.",
+            "calories": 400,
+            "cooking_time": 70,
+            "difficulty": "Средне",
+            "category_id": 9,
+            "ingredients": [
+                {
+                    "ingredient": "Говядина",
+                    "quantity": 300,
+                    "unit": "грамм"
+                },
+                {
+                    "ingredient": "Картофель",
+                    "quantity": 200,
+                    "unit": "грамм"
+                },
+                {
+                    "ingredient": "Морковь",
+                    "quantity": 100,
+                    "unit": "грамм"
+                },
+                {
+                    "ingredient": "Томаты",
+                    "quantity": 100,
+                    "unit": "грамм"
+                }
+            ],
+            "criteria": [
+                "рагу",
+                "обед",
+                "ужин",
+                "говядина",
+                "овощи",
+                "традиционное"
+            ]
+        }
     }
 }

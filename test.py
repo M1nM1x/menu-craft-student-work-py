@@ -121,7 +121,7 @@ def profile():
 @app.route('/settings', methods=['GET', 'POST'])
 def settings():
     if request.method == 'POST':
-        # Сохраняем предпочтения в сессии
+        # Сохранение предпочтения в сессии
         session['preferences'] = {
             'cuisine': request.form['cuisine'],
             'difficulty': request.form['difficulty'],
